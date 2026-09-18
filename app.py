@@ -16,20 +16,21 @@ Apesar de consultar a base de conhecimento (PPCs, normas e regulamentos), possuo
 # Conectar a chave
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função para enviar os PDFs diretamente para a nuvem da Google
+# Função para enviar os PDFs e Excel diretamente para a nuvem da Google
 @st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
 def preparar_documentos():
-    pdfs = glob.glob("*.pdf")
+    # Agora o código procura ficheiros PDF e também ficheiros XLSX
+    arquivos_locais = glob.glob("*.pdf") + glob.glob("*.xlsx")
     arquivos_prontos = []
     
     # Verifica o que já foi enviado para a nuvem para não duplicar
     arquivos_na_nuvem = {f.display_name: f for f in genai.list_files()}
     
-    for pdf in pdfs:
-        if pdf in arquivos_na_nuvem:
-            arquivos_prontos.append(arquivos_na_nuvem[pdf])
+    for caminho in arquivos_locais:
+        if caminho in arquivos_na_nuvem:
+            arquivos_prontos.append(arquivos_na_nuvem[caminho])
         else:
-            arquivo = genai.upload_file(path=pdf, display_name=pdf)
+            arquivo = genai.upload_file(path=caminho, display_name=caminho)
             arquivos_prontos.append(arquivo)
     return arquivos_prontos
 
