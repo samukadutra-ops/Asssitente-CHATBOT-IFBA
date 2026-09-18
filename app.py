@@ -19,7 +19,12 @@ except:
 def carregar_conhecimento():
     texto = ""
     # Procura todos os ficheiros PDF na pasta
-    documentos = glob.glob("*.pdf")
+    documentos = [
+        "PPC Edificações - forma INTEGRADA.pdf",
+        "PPC Informática - forma INTEGRADA.pdf",
+        "REGULAMENTO DISCENTE.pdf",
+        "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.pdf"
+    ]
     for doc in documentos:
         texto += f"\n\n--- DOCUMENTO: {doc} ---\n\n"
         try:
