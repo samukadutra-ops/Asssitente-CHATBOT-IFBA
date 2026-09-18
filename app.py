@@ -5,8 +5,14 @@ import glob
 # Configuração visual
 st.set_page_config(page_title="Assistente IFBA", page_icon="🎓")
 st.title("Assistente Virtual - IFBA 🎓")
+
 st.write("Olá! Sou o assistente virtual do IFBA (Campus Brumado). Faça a sua pergunta!")
 
+st.warning("""
+**Aviso Importante:** Sou uma ferramenta de inteligência artificial em fase de teste. 
+Apesar de consultar a base de conhecimento (PPCs, normas e regulamentos), possuo limitações e posso cometer erros de interpretação. 
+**As minhas respostas não substituem a leitura dos documentos oficiais nem as orientações dos servidores e setores do IFBA-Campus Brumado.**
+""")
 # Conectar a chave
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
