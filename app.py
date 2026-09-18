@@ -1,46 +1,39 @@
 import streamlit as st
 import google.generativeai as genai
-import PyPDF2
 import glob
 
-# Configuração visual da página
+# Configuração visual
 st.set_page_config(page_title="Assistente IFBA", page_icon="🎓")
 st.title("Assistente Virtual - IFBA 🎓")
-st.write("Olá! Sou o assistente virtual do IFBA (Campus Brumado). Faça a sua pergunta e consultarei os nossos regulamentos e PPCs para lhe responder.")
+st.write("Olá! Sou o assistente virtual do IFBA (Campus Brumado). Faça a sua pergunta!")
 
-# Conectar a chave da API
-try:
-    genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-except:
-    st.error("Erro: Chave da API não encontrada nos Secrets do Streamlit.")
+# Conectar a chave
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função rápida para ler todos os PDFs da pasta
-@st.cache_data(show_spinner="A ler regulamentos do IFBA, por favor aguarde...")
-def carregar_conhecimento():
-    texto = ""
-    # Procura todos os ficheiros PDF na pasta
-    documentos = [
-        "REGULAMENTO DISCENTE.pdf",
-        "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.pdf"
-    ]
-    for doc in documentos:
-        texto += f"\n\n--- DOCUMENTO: {doc} ---\n\n"
-        try:
-            leitor = PyPDF2.PdfReader(doc)
-            for pagina in leitor.pages:
-                if pagina.extract_text():
-                    texto += pagina.extract_text() + "\n"
-        except Exception as e:
-            pass
-    return texto
+# Função para enviar os PDFs diretamente para a nuvem da Google
+@st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
+def preparar_documentos():
+    pdfs = glob.glob("*.pdf")
+    arquivos_prontos = []
+    
+    # Verifica o que já foi enviado para a nuvem para não duplicar
+    arquivos_na_nuvem = {f.display_name: f for f in genai.list_files()}
+    
+    for pdf in pdfs:
+        if pdf in arquivos_na_nuvem:
+            arquivos_prontos.append(arquivos_na_nuvem[pdf])
+        else:
+            arquivo = genai.upload_file(path=pdf, display_name=pdf)
+            arquivos_prontos.append(arquivo)
+    return arquivos_prontos
 
-# Iniciar a extração dos documentos para a base de dados do bot
-base_de_dados = carregar_conhecimento()
+# Iniciar o processamento dos ficheiros
+documentos_base = preparar_documentos()
 
-# Configurar o modelo do Google
+# Configurar o modelo 
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
-# Memória da conversa
+# Memória do chat
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -48,31 +41,18 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Caixa de texto para o estudante
 if prompt := st.chat_input("Ex: Qual é a carga horária de Informática?"):
-    # Mostra a pergunta do estudante
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Enviar a pergunta junto com os PDFs para o Gemini
     with st.chat_message("assistant"):
-        mensagem_escondida = f"""
-        És o Assistente Académico oficial do IFBA Campus Brumado. 
-        Responde APENAS com base nos documentos abaixo. 
-        Se a resposta não estiver nos documentos, informa educadamente que não tens essa informação e orienta o estudante a procurar a secretaria ou a coordenação.
-        Sê claro, objetivo e utiliza um tom institucional.
-
-        DOCUMENTOS INSTITUCIONAIS:
-        {base_de_dados}
-
-        PERGUNTA DO ESTUDANTE:
-        {prompt}
-        """
+        instrucao = "És o Assistente Académico oficial do IFBA Campus Brumado. Responde APENAS com base nos documentos em anexo. Se não souberes a resposta, orienta o aluno a contactar a coordenação."
         
-        # Gera e mostra a resposta baseada nos PDFs
-        resposta = model.generate_content(mensagem_escondida)
+        # Junta a instrução, TODOS os ficheiros PDF em anexo e a pergunta do utilizador
+        conteudo_completo = [instrucao] + documentos_base + [prompt]
+        
+        resposta = model.generate_content(conteudo_completo)
         st.markdown(resposta.text)
         
-    # Guarda a resposta na memória
     st.session_state.messages.append({"role": "assistant", "content": resposta.text})
