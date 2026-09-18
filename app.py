@@ -19,7 +19,6 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 # Função para enviar os PDFs e Textos (.txt) para a nuvem da Google
 @st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
 def preparar_documentos():
-    # A MUDANÇA ESTÁ AQUI: junta a busca de PDFs com a busca de TXTs
     arquivos_locais = glob.glob("*.pdf") + glob.glob("*.txt")
     arquivos_prontos = []
     
@@ -28,10 +27,22 @@ def preparar_documentos():
     
     for caminho in arquivos_locais:
         if caminho in arquivos_na_nuvem:
-            arquivos_prontos.append(arquivos_na_nuvem[caminho])
+            arquivo = arquivos_na_nuvem[caminho]
         else:
             arquivo = genai.upload_file(path=caminho, display_name=caminho)
+            
+        # O sistema espera até o arquivo estar totalmente processado
+        while arquivo.state.name == "PROCESSING":
+            time.sleep(2)
+            arquivo = genai.get_file(arquivo.name)
+            
+        # SÓ ADICIONA O DOCUMENTO SE A LEITURA FOI UM SUCESSO
+        if arquivo.state.name == "ACTIVE":
             arquivos_prontos.append(arquivo)
+        else:
+            # Se o PDF estiver corrompido, ele avisa na tela e ignora
+            st.error(f"Atenção: O ficheiro '{caminho}' está corrompido ou tem um formato ilegível e foi ignorado.")
+            
     return arquivos_prontos
 
 # Iniciar o processamento dos ficheiros
