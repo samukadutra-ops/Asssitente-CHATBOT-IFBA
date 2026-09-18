@@ -13,7 +13,7 @@ except:
     st.warning("A chave da API será configurada no próximo passo.")
 
 # Inicializar o cérebro do robô
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # Criar a memória da conversa
 if "messages" not in st.session_state:
