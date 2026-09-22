@@ -107,7 +107,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
         arquivos_alvo.append("Calendário Acadêmico técnico integrado ensino médio informática edificações.txt")
 
     # REGRA 3: Regulamento Discente (Comportamento, Convivência e Punições)
-    tags_comportamento = ["advert", "agred", "agress", "bebid", "bebeu", "alcool", "álcool", "arma", "faca", "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "maconha", "fum", "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", "namor", "beij", "sexo"]
+  tags_comportamento = ["advert", "agred", "agress", "bebid", "bebeu", "alcool", "álcool", "arma", "faca", "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "maconha", "fum", "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", "namor", "beij", "sexo", "mau uso", "cadeira", "carteira", "mesa", "patrimônio"]
     if any(tag in p_lower for tag in tags_comportamento):
         arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
 
