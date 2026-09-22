@@ -1,0 +1,1771 @@
+﻿INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA
+Av. Araújo Pinho, 39 - Bairro Canela - CEP 40110-150 - Salvador - BA - www.portal.ifba.edu.br
+RESOLUÇÃO CONSEPE/IFBA Nº 154, DE 12 DE DEZEMBRO DE 2024
+Aprova a atualização das Normas Acadêmicas da Educação Profissional
+Técnica de Nível Médio do Instituto Federal de Educação, Ciência e
+Tecnologia da Bahia - IFBA; Revoga a Resolução CONSEPE/IFBA Nº 58,
+de 10 de janeiro de 2023; e Revoga a Resolução CONSEPE/IFBA Nº 41,
+de 18 de agosto de 2022.
+O VICE-PRESIDENTE DO CONSELHO DE ENSINO, PESQUISA E EXTENSÃO DO INSTITUTO
+FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA – IFBA, no uso de suas
+atribuições legais,
+Considerando os processos SEI nº 23278.010035/2024-88, 23278.006509/2023-14, 23278.008193/2023-
+97 e 23278.002912/2024-47, bem como as deliberações da 1ª Reunião Extraordinária de 2024, realizada
+em 25 de outubro de 2024, e da 4ª Reunião Ordinária do Consepe de 2024, realizada em 13 de novembro
+de 2024, conforme Súmulas de Ata constantes no processo 23278.001300/2023-56, RESOLVE:
+Art. 1º Aprovar a atualização das Normas Acadêmicas da Educação Profissional Técnica de Nível Médio
+do Instituto Federal de Educação, Ciência e Tecnologia da Bahia - IFBA.
+Art. 2º Revogar a Resolução CONSEPE/IFBA Nº 58, de 10 de janeiro de 2023, que aprova, ad referendum
+do CONSEPE, alteração nas Normas Acadêmicas do Ensino Técnico do IFBA referente ao artigo 160.
+Art. 3º Revogar a Resolução CONSEPE/IFBA Nº 41, de 18 de agosto de 2022, que aprova as Normas
+Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA.
+Art. 4º Esta Resolução entra em vigor em 12 de dezembro de 2024, por se tratar de urgência justificada
+nos autos do expediente administrativo.
+Jancarlos Menezes Lapa
+Vice-Presidente do CONSEPE/IFBA
+PUBLIQUE-SE. REGISTRE-SE. CUMPRA-SE.
+Documento assinado eletronicamente por JANCARLOS MENEZES LAPA, Vice-Presidente do
+Conselho de Ensino, Pesquisa e Extensão, em 12/12/2024, às 11:54, conforme decreto nº
+8.539/2015.
+A autenticidade do documento pode ser conferida no site
+http://sei.ifba.edu.br/sei/controlador_externo.php?
+acao=documento_conferir&acao_origem=documento_conferir&id_orgao_acesso_externo=0
+informando o código verificador 3909003 e o código CRC 21B61728.
+30/04/2025, 16:45 SEI/IFBA - 3909003 - Resolução CONSEPE/IFBA
+https://sei.ifba.edu.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=procedimento_controlar&acao_retorno=procedimento_co… 1/2
+23278.006257/2021-53 3909003v4
+30/04/2025, 16:45 SEI/IFBA - 3909003 - Resolução CONSEPE/IFBA
+https://sei.ifba.edu.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=procedimento_controlar&acao_retorno=procedimento_co… 2/2
+Reitora
+Luzia Matos Mota
+Pró-Reitor de Administração
+Marcelo dos Santos Bispo
+Pró-Reitora de Desenvolvimento Institucional
+Elis Fábia Lopes Cabral
+Pró-Reitor de Ensino
+Jancarlos Menezes Lapa
+Pró-Reitora de Extensão
+Nivea de Santana Cerqueira
+Pró-Reitor de Pesquisa, Pós-graduação e Inovação
+Ivanildo Antônio dos Santos
+Diretora de Ações Afirmativas e Assuntos Educacionais
+Marcilene Garcia de Souza
+Diretora de Gestão da Comunicação Institucional
+Laís Andrade Souza
+Diretor de Gestão de Pessoas
+Raul Aleixandre Fernandes de Queiroz
+Diretor de Gestão de Tecnologia da Informação
+Márcio Melo de Oliveira
+Auditoria Interna
+Sheila Simone Kosminsky Weber
+Titular da Unidade de Auditoria Interna
+Correição
+Ionara Almeida Peixoto
+Coordenadora de Correição
+Ouvidoria
+Paula de Jesus Marques
+Ouvidora
+Comissão de Ética
+Membros Titulares
+Andréia Santos Ribeiro Silva – Presidente
+Paula Roberta Sá do Nascimento
+Samir Perez Mortada
+Membros Suplentes
+Luciana Argôlo Correia Alves
+Diretores (as) de Campus
+Diretor-geral do Campus Barreiras
+Gustavo da Silva Quirino
+Diretor-geral do Campus Brumado
+Rui Pereira Santana
+Diretor-geral do Campus Camaçari
+Eduardo Oliveira Teles
+Diretora-geral do Campus Euclides da Cunha
+Silvana Cristina Costa Correia
+Diretor-geral do Campus Eunápolis
+Fabíolo Moraes Amaral
+Diretora-geral do Campus Feira de Santana
+Luis Gomes Forte Neto
+Diretor-geral do Campus Ilhéus
+Thiago Nascimento Barbosa
+Diretor-geral do Campus Irecê
+Jeime Nunes Andrade
+Diretor-geral do Campus Jacobina
+Ricardo Alcântara Mesquita
+Diretor-geral do Campus Jequié
+Luciano Pestana Santos
+Diretor-geral do Campus Juazeiro
+Selma Maria Rodrigues de Andrade Alves
+Diretora-geral do Campus Lauro de Freitas
+Raimar Barbosa Santos
+Diretor-geral do Campus Paulo Afonso
+Sílvio Maurício Magalhães Lima
+Diretor pró tempore do Polo de Inovação
+Juliano da Silva Lopes
+Diretor-geral do Campus Porto Seguro
+Vinícius de Matos Rodrigues
+Diretor-geral do Campus Salvador
+Ives Lima de Jesus
+Diretora-geral Campus Santo Antônio de Jesus
+Lúcio Mauro Souza Borges
+Diretora-geral Campus Santo Amaro
+Andrea Maria Mano Amazonas
+Diretor-geral Campus Seabra
+Nelson de Souza Costa Júnior
+Diretor-geral Campus Simões Filho
+Esly César Marinho da Silva
+Diretora-geral Campus Avançado Ubaitaba
+Cleber Pereira dos Santos
+Diretora-geral Campus Valença
+Genny Magna de Jesus Mota Ayres
+Diretor-geral Campus Vitória da Conquista
+Felizardo Adenilson Rocha
+CONSELHO DE ENSINO, PESQUISA
+E EXTENSÃO DO IFBA – CONSEPE
+Conselheiros(as) Titulares do Segmento Docente
+Liz Rodrigues Cerqueira
+Helcimar Moura de Jesus
+Cinthia Batista Nunes
+Conselheiros(as) Titulares do Segmento Técnico-Administrativo
+Jacineide Arão dos Santos Profeta
+Delma Brandão Boaventura da Conceição
+Conselheiros(as) Titulares do Segmento Discente
+Saulo Alves de Souza
+Marivaldo dos Santos Sales
+Ítalo Dias dos Santos
+Conselheiros(as) Titulares do Segmento Conselho de Campus
+Allison Gonçalves Silva
+Bruna Carmo Rehem
+Bruno dos Santos Silva
+Carina Machado de Farias
+Carlos Alberto Gonzaga de Sá
+Eliana Evangelista Batista
+Elisandra Dantas dos Reis
+Lúcio André Andrade da Conceição
+Luís Lira Leal
+Maiusa Ferraz Pereira Santos
+Palloma Rios da Silva
+Ricardo Bahia Rios
+Roberto Guanabara Calasans
+Sara Regina da Luz Brito
+Silvando Vieira dos Santos
+Sueli dos Prazeres Santos
+Viviane Nascimento Silva
+Wesley Matos Cidreira
+Secretária do CONSEPE
+Marina Andari Hatty
+Projeto Gráfico e Diagramação
+Diretoria de Gestão da Comunicação Institucional 
+Simone de Paula Lopes
+Salvador - 2025
+SUMÁRIO
+TÍTULO I - DAS DIRETRIZES GERAIS...........................................................................................................................5
+CAPÍTULO I - DA NATUREZA JURÍDICA....................................................................................................................................... 5
+CAPÍTULO II - DO PERFIL INSTITUCIONAL................................................................................................................................ 5
+CAPÍTULO III - DO ENSINO, DA PESQUISA E DA EXTENSÃO........................................................................................ 7
+CAPÍTULO IV - DO CURRÍCULO......................................................................................................................................................... 7
+TÍTULO II - DA ORGANIZAÇÃO CURRICULAR E ACADÊMICA........................................................................ 9
+CAPÍTULO I - DO REGIME ACADÊMICO ......................................................................................................................................9
+CAPÍTULO II - DA JORNADA ACADÊMICA E DAS TURMAS...........................................................................................10
+CAPÍTULO III - DA ESTRUTURA CURRICULAR ......................................................................................................................10
+TÍTULO III - DO DESENVOLVIMENTO DO ENSINO ............................................................................................. 24
+CAPÍTULO I - DO ACOMPANHAMENTO ACADÊMICO DOS(AS) DISCENTES....................................................24
+CAPÍTULO II - DOS REGISTROS ACADÊMICOS......................................................................................................................24
+CAPÍTULO III - DO INTERCÂMBIO DE ESTUDANTES DE OUTRAS INSTITUIÇÕES NACIONAIS E ES￾TRANGEIRAS .................................................................................................................................................................................................26
+CAPÍTULO IV - DA ADMISSÃO E DO INGRESSO...................................................................................................................27
+CAPÍTULO V - DA MATRÍCULA..........................................................................................................................................................28
+CAPÍTULO VI - DO APROVEITAMENTO DE ESTUDOS E DA CERTIFICAÇÃO DE CONHECIMENTOS .
+.................................................................................................................................................................................................................................39
+CAPÍTULO VII - DO ATENDIMENTO DOMICILIAR ...............................................................................................................40
+CAPÍTULO VIII - DA AVALIAÇÃO DA APRENDIZAGEM.....................................................................................................42
+CAPÍTULO IX - DO DESEMPENHO ACADÊMICO..................................................................................................................42 
+CAPÍTULO X - DO CONSELHO DE CLASSE...............................................................................................................................48
+CAPÍTULO XI - DA PRÁTICA PROFISSIONAL ...........................................................................................................................53
+CAPÍTULO XII - DA ATIVIDADE DE CONCLUSÃO DE CURSO ......................................................................................54
+TÍTULO IV - DAS DISPOSIÇÕES GERAIS.................................................................................................................. 56
+5
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+TÍTULO I
+DAS DIRETRIZES GERAIS
+CAPÍTULO I 
+DA NATUREZA JURÍDICA
+Art. 1 º O Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA) possui natureza 
+jurídica de autarquia, com autonomia administrativa, patrimonial, financeira, didático-pedagógica 
+e disciplinar, de acordo com a Lei nº 11.892, de 29 de dezembro de 2008, e a Lei 12.677, de 25 de junho 
+de 2012.
+Art. 2 º O IFBA é uma Instituição de educação básica, profissional e superior, pluricurriculare 
+multicampi, especializada na oferta de educação profissional e tecnológica nos diferentes níveis, 
+formas e modalidades de ensino.
+Paragráfo único. No âmbito de sua atuação, o IFBA exercerá o papel de Instituição acredita￾dora e certificadora de competências profissionais.
+CAPÍTULO II 
+DO PERFIL INSTITUCIONAL
+Art. 3 º O IFBA tem como missão: “Promover a formação do cidadão histórico-crítico, ofere￾cendo ensino, pesquisa e extensão com qualidade socialmente referenciada, objetivando o 
+desenvolvimento sustentável do país.”
+Art. 4 º O Instituto adota a visão de “transformar o IFBA numa Instituição de ampla referência
+e de qualidade de ensino no País, estimulando o desenvolvimento do sujeito crítico, ampliando o 
+número de vagas e cursos, modernizando as estruturas físicas e administrativas, bem como am￾pliando a sua atuação na pesquisa, extensão, pós-graduação e inovação tecnológica.”1
+Art. 5 º A atuação do IFBA pauta-se nos seguintes princípios:
+I - Indissociabilidade: será sempre observada a integração entre Ensino, Pesquisa e Ex￾tensão, assim como a Instituição buscará a articulação de diferentes áreas de conheci￾mento;
+II - Verticalização: verticalização entre os diversos níveis e modalidades de ensino;
+III - Continuidade: as áreas técnicas/tecnológicas promoverão oportunidades para uma 
+educação continuada;
+IV - Unificação: buscar-se-á a unificação entre cultura/conhecimento e trabalho para 
+desenvolver as funções do pensar e do fazer;
+V - Integração: a busca da integração interdisciplinar permitirá a geração, construção 
+e utilização do conhecimento produzido pelo Ensino e pela Pesquisa aplicada para so-
+1 Projeto Pedagógico Institucional do IFBA. Salvador, 2013, p.28. Disponível In <https://portal.ifba.edu.br/proen/
+PPIIFBA.pdf>. Acesso em 25/07/2022. 
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+lução de problemas socioeconômicos da região, bem como a vinculação estreita à tec￾nologia, destinada à construção da cidadania, da democracia e da vida ativa de criação 
+e produção solidárias em uma perspectiva histórico-crítica;
+VI - Inovação: a implementação da inovação científica, tecnológica, artística, cultural, 
+educacional e esportiva deverá orientar as ações da Instituição;
+VII - Democracia: a Instituição promoverá a vivência democrática, buscando a partici￾pação da comunidade acadêmica nos processos de planejamento e gestão;
+VIII - Qualificação: a Instituição buscará, de modo permanente, a qualificação e a capa￾citação de seu quadro pessoal, a melhoria de sua estrutura, de seus processos organi￾zacionais e de seus programas e ações;
+IX - Autonomia: o IFBA preservará a autonomia didático-científica, administrativa, dis￾ciplinar e de gestão financeira e patrimonial;
+X - Respeito: a Instituição deverá assegurar o respeito e a valorização da pessoa huma￾na em sua singularidade e diversidade; 
+XI - Responsabilidade: o Instituto terá compromisso com o bem público, sua adminis￾tração e sua função na sociedade, primando sempre pelo bem comum, pela ética e 
+priorizando a satisfação das necessidades coletivas à frente das pessoais;
+XII - Inserção: o IFBA deverá se integrar à sociedade em seu contexto socioeconômico e 
+cultural no âmbito regional, nacional e internacional; 
+XIII - Difusão: o IFBA disponibilizará todo conhecimento desenvolvido e oferecerá su￾porte aos arranjos produtivos locais na área sociocultural;
+XIV - Permanência: a Instituição deverá desenvolver uma política de assistência aos(às) 
+discentes em situação de vulnerabilidade social, possibilitando a acessibilidade e inclu￾são de pessoas com deficiências e necessidades educativas específicas;
+XV - Inclusão: Ações Afirmativas de inclusão e garantia de acesso para estudantes com 
+necessidades educacionais específicas, bem como para egressos de Escolas Públicas 
+e/ou em situações de vulnerabilidade social, levando em consideração as questões ét￾nico-raciais e de gênero;
+XVI - Qualidade: o IFBA buscará sempre a excelência no Ensino, na Pesquisa e na Extensão;
+XVII - Equidade: o Instituto promoverá, nas suas relações, ações de equidade;
+XVIII - Transparência: os(as) servidores(as), principalmente quando ocuparem um cargo 
+de direção ou função gratificada, têm a obrigação de divulgar seus atos administrativos 
+e pedagógicos de forma ampla, irrestrita, permanente, atendendo, assim, ao princípio 
+da publicidade da administração pública;
+XIX - Sustentabilidade: o IFBA comprometer-se-á com a preservação ambiental, de for￾ma a garantir a sustentabilidade nas suas ações;
+XX - Trabalho: o trabalho assumido como princípio educativo, tendo sua integração 
+com a ciência, a tecnologia e a cultura como base da proposta político-pedagógica e 
+do desenvolvimento curricular.
+6
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 6 º As finalidades do IFBA estão fundamentadas no artigo 6º da Lei nº 11.892, de 29 de 
+dezembro de 2008, e no documento “Instituto Federal – Concepções e Diretrizes” (BRASIL, 2008).
+Art. 7 º Os objetivos do IFBA são definidos pelo artigo 7º da Lei 11.892/2008.
+CAPÍTULO III 
+DO ENSINO, DA PESQUISA E DA EXTENSÃO
+Art. 8 º No âmbito do IFBA, Ensino, Pesquisa e Extensão serão articulados e indissociáveis, pro￾movendo a integração dessas esferas nas diversas áreas de conhecimento, níveis e modalidades de 
+ensino, da educação básica à pós-graduação.
+Art. 9 º Em conformidade com o PPI, o Ensino refere-se às ações docentes relacionadas de 
+forma direta aos cursos regulares ofertados pelo IFBA, abrangendo as aulas, as atividades de ma￾nutenção de ensino e as atividades complementares de ensino, da seguinte forma:
+I - As aulas podem ser presenciais, semipresenciais ou a distância, de acordo com os 
+Projetos Pedagógicos de Curso (PPC);
+II - As atividades de manutenção de ensino referem-se ao estudo, planejamento, de￾senvolvimento e avaliação do processo de ensino-aprendizagem;
+III - As atividades complementares de ensino referem-se às ações vinculadas às ma￾trizes curriculares e programas dos cursos regulares do IFBA e/ou que incidam direta￾mente na melhoria das condições de oferta de ensino, compreendendo supervisão e 
+orientação de trabalhos de conclusão de curso, monografia, estágio curricular super￾visionado, iniciação científica, projetos de pesquisa, extensão e assistência estudantil.
+Art. 10 A Extensão compreende toda a interação com o contexto social, a qual deve ser desen￾volvida a partir de atividade educacional, científica, cultural e/ou esportiva articulada com o Ensino 
+e a Pesquisa.
+Paragráfo único. A Extensão efetiva-se por meio do corpo docente, técnico e discente, com 
+a finalidade de difundir, socializar e democratizar o acesso ao conhecimento produzido dialogica￾mente entre as comunidades externa e interna, observando-se a Política de Extensão do IFBA.
+Art. 11 A Pesquisa no IFBA é conceituada pela sua vinculação ao desenvolvimento regional e 
+à inclusão social, por meio da produção de ciência, tecnologia e inovação comprometidas com a 
+ética, a cidadania, a democracia, a solidariedade, a defesa da vida e do meio ambiente, mediante a 
+construção de conhecimento, de produtos e de processos, em busca do bem-estar social e do de￾senvolvimento sustentável do país.
+CAPÍTULO IV
+DO CURRÍCULO
+Art. 12 A construção e o desenvolvimento do currículo devem ocorrer sob a perspectiva do 
+currículo Integrado com base na Pedagogia Histórico-Crítica, em conformidade com o PPI, inde￾pendentemente da forma, nível ou modalidade, articulando a formação geral com a formação pro-
+7
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+fissional, contemplando a indissociabilidade de Ensino, Pesquisa e Extensão, com vistas a promover 
+a formação sócio-histórica do sujeito omnilateral.
+§ 1º Os currículos devem estar comprometidos com a formação dos(as) discentes, por meio do 
+desenvolvimento de conhecimentos, habilidades e atitudes, buscando integrar as práticas de sua 
+formação profissional às realidades e necessidades da região onde o IFBA está inserido, a fim de 
+combater as desigualdades e impulsionar o desenvolvimento territorial e local sustentável.
+§ 2º Os Projetos Pedagógicos de Curso (PPC) devem, em toda a sua dimensão, ser elabora￾dos observando a diversidade étnica, de gênero, de raça e de classe, bem como a inclusão dos(as) 
+discentes com deficiência e/ou com outras necessidades educacionais específicas, com base nas 
+legislações vigentes.
+§ 3º Os Projetos Pedagógicos de Curso (PPC) deverão ser revistos, no máximo, a cada cinco 
+anos, com o objetivo de atualizá-los e de corrigir as possíveis distorções entre o planejamento e a 
+prática pedagógica cotidiana.
+8
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+TÍTULO II
+DA ORGANIZAÇÃO CURRICULAR E ACADÊMICA
+CAPÍTULO I
+DO REGIME ACADÊMICO
+Art. 13 Os cursos técnicos de nível médio do IFBA serão organizados em regime de matrícula 
+por série (regime seriado) e por semestre (regime semestral).
+Paragráfo único. Os regimes dos cursos para os diferentes níveis de ensino, formas de articu￾lação com o Ensino Médio e Modalidades serão definidos pela Instituição por meio de seus órgãos 
+competentes, de acordo com a legislação vigente e as características do curso e de seu público-al￾vo, podendo ser:
+I - Seriado anual, com progressão acadêmica ao final de cada ano letivo;
+II - Seriado semestral, com progressão acadêmica ao final de cada semestre letivo;
+III - Semestral.
+Art. 14 O regime seriado anual ou semestral é caracterizado pela organização das disciplinas 
+em séries.
+§ 1º A matriz curricular dos cursos em regime seriado, em vista da integralização curricular, 
+deverá ser organizada em séries obrigatoriamente percorridas de forma sequencial pelos(as) dis￾centes por ano (no caso do seriado anual) ou semestre (no caso de seriado semestral) letivo.
+§ 2º Em cada período letivo, o(a) discente será matriculado(a) sistematicamente nas discipli￾nas integrantes da matriz curricular referente ao período.
+§ 3º As disciplinas de uma mesma série deverão ser cursadas de forma concomitante no perí-
+odo letivo, como previsto no PPC.
+§ 4º Em casos excepcionais, a disciplina poderá ser ofertada em outro período mediante apro￾vação do Conselho do Campus.
+§ 5º O período letivo dos cursos técnicos de nível médio com regime seriado anual será com￾posto por 03 (três) unidades didáticas.
+§ 6º No regime seriado, não é permitido o cancelamento de disciplina.
+§ 7º No regime seriado, é permitido o trancamento de série.
+§ 8º O período letivo dos cursos técnicos de nível médio será composto por uma unidade didática.
+Art. 15 O regime semestral de que trata o inciso III do art. 13 é caracterizado por organização 
+das disciplinas em semestres.
+§ 1º A matriz curricular dos cursos em regime semestral estará organizada em disciplinas in￾tegralizadoras do currículo.
+9
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 2º O(a) discente será matriculado(a) semestralmente em disciplinas integrantes da matriz 
+curricular previstas para o período.
+§ 3º O período letivo dos cursos técnicos de nível médio na forma subsequente será composto 
+por 01 (uma) unidade didática.
+§ 4º Nos cursos semestrais e não seriados, o(a) discente reprovado(a) em componente curricu￾lar do semestre em que se encontra regularmente matriculado(a) poderá se matricular em discipli￾nas dos semestres posteriores a este, desde que não haja prérequisitos.
+§ 5º O regime acadêmico semestral é válido apenas para os cursos técnicos de nível médio na 
+forma subsequente, EJA integrado e concomitante.
+Art. 16 As aulas regulares dos cursos de Educação Profissional Técnica de Nível Médio (EPTNM) 
+poderão se desenvolver nos períodos:
+I - Matutino;
+II - Vespertino;
+III - Noturno;
+IV - Em tempo integral.
+CAPÍTULO II
+DA JORNADA ACADÊMICA E DAS TURMAS
+Art. 17 Cada semana letiva será organizada com uma jornada escolar, conforme previsto nos 
+Projetos Pedagógicos de cursos, com duração de 3 (três) a 9 (nove) horas por dia, de segunda-feira 
+a sexta-feira, compreendendo cursos desenvolvidos regularmente em um turno (matutino, vesper￾tino ou noturno) ou em tempo integral.
+§ 1º As aulas regulares terão o horário de início e término definido conforme as condições es￾pecíficas de cada campus.
+§ 2º Caso necessário, os sábados poderão ser incluídos na jornada escolar regular. 
+§ 3º Respeitada a carga horária mínima legalmente estabelecida para cada curso, a duração 
+da hora-aula será de 45, 50 ou 60 minutos.
+Art. 18 O(a) discente regularmente matriculado, a partir do segundo período do curso, poderá 
+solicitar, a qualquer tempo, alteração de seu turno de estudos.
+Paragráfo único. Para o atendimento da referida solicitação, serão exigidas a justificativa for￾mal e irrefutável da necessidade de alteração e a existência de vaga no turno pretendido.
+CAPÍTULO III
+DA ESTRUTURA CURRICULAR
+Art. 19 O currículo dos cursos oferecidos pelo IFBA será definido nos seus PPCs, contemplan￾do o perfil desejado para o egresso e abrangendo uma política cultural que envolva o conjunto 
+10
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+de conhecimentos comuns, específicos e eletivos, projetos, experiências e estágios relacionados à 
+formação do(a) discente.
+Art. 20 Uma estrutura curricular é a disposição ordenada de componentes curriculares orga￾nizados em uma matriz curricular integralizada por disciplinas e atividades acadêmicas que ex￾pressam a formação pretendida no PPC.
+Art. 21 O currículo dos cursos obedece ao disposto nas diretrizes curriculares emanadas do Mi￾nistério da Educação (MEC), do Conselho Nacional de Educação (CNE) e das demais normas em vigor.
+Art. 22 O currículo dos cursos deve se alinhar à missão institucional expressa no Projeto Peda￾gógico Institucional (PPI) do IFBA.
+Art. 23 As estruturas curriculares dos cursos podem conter:
+I - Disciplinas obrigatórias;
+II - Disciplinas optativas;
+III - Disciplinas facultativas;
+IV - Atividades complementares;
+V - Atividades de prática profissional;
+VI - Reconhecimento de saberes profissionais;
+VII - Outros componentes curriculares que integrem a respectiva estrutura curricular.
+§ 1º Entende-se por disciplina o conjunto de conhecimentos configurados em um programa 
+de ensino desenvolvido em um período letivo. A disciplina tem número de horas prefixado, sendo 
+ministrada por meio de aulas teóricas e/ou práticas, de seminários e de outras estratégias de ensino, 
+possibilitando ao(à) discente articular ensino, pesquisa e extensão.
+§ 2º As disciplinas optativas são aquelas de escolha do(a) discente, objetivando o complemen￾to da formação numa determinada área do conhecimento, permitindo ao(à) discente iniciar-se 
+numa diversificação de conteúdo. Tais disciplinas devem constar na matriz curricular no respectivo 
+ano/semestre em que serão cursadas.
+§ 3º Havendo disciplinas optativas previstas na matriz, o(a) discente terá que cursá-las obriga￾toriamente dentre as ofertadas pelo curso.
+§ 4º As disciplinas optativas estabelecidas na matriz curricular do curso terão as suas cargas 
+horárias inseridas no cômputo da carga horária total do curso.
+§ 5º O previsto no inciso VI se destina aos(às) discentes tanto dos cursos técnicos na forma ar￾ticulada, na modalidade EJA, quanto àqueles dos cursos técnicos subsequentes, sendo obrigatória 
+a previsão de tal possibilidade no PPC dos cursos.
+§ 6º A certificação de saberes profissionais é concebida como um conjunto de ações que vi￾sam a acolher o(a) trabalhador(a) e/ou discente, com vistas ao reconhecimento, validação e comple￾mentação de saberes, objetivando a elevação de escolaridade por meio de um itinerário formativo 
+que faculte ao(à) trabalhador(a) galgar todos os níveis de formação profissional e tecnológica.
+11
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 7º O reconhecimento de saberes profissionais dar-se-á por meio de ações avaliativas teóricas 
+ou teórico-práticas, conforme as características da disciplina e/ou componente curricular, a serem 
+desenvolvidas pelo IFBA e/ou por meio de programas interinstitucionais de que a instituição faça 
+parte.
+Art. 24 As atividades complementares constituem um conjunto de estratégias didático–pe￾dagógicas que permite, no âmbito do currículo, a articulação entre teoria e prática e a comple￾mentação dos saberes e habilidades que serão desenvolvidos durante o período de formação do(a) 
+discente.
+Art. 25 Nas matrizes curriculares de cada curso, será fixado o total de horas e horas-aula de 
+cada disciplina e/ou componente curricular por período letivo, além da carga horária destinada à 
+prática profissional e o tempo de duração do curso – em semestres ou anos, em função da periodi￾cidade e forma curricular de oferta do curso.
+Art. 26 O tempo máximo para integralização curricular pelo(a) discente será de duas vezes a 
+duração prevista na matriz curricular, para todos os cursos técnicos da Educação Profissional de 
+Nível Médio.
+§ 1º Ao findar o prazo concedido no caput do artigo, o(a) discente que não cursar todos os 
+componentes curriculares previstos para o curso perderá o vínculo institucional.
+§ 2º Ao findar o prazo de integralização, o(a) aluno(a) que perdeu o vínculo institucional poderá 
+requerer a reintegração de curso, apresentando as devidas justificativas, em conformidade com o 
+disposto na seção IV do capítulo V, título III destas Normas Acadêmicas, que trata da Reintegração.
+Art. 27 Não será computado, para efeito de integralização curricular:
+I - Semestre/ano letivo em que o(a) aluno(a) obtenha trancamento total de matrícula;
+II - Semestre/ano letivo não oferecido pelo IFBA;
+III - Semestre/ano letivo em que o(a) aluno(a) esteja inscrito somente no componente 
+estágio, quando este estiver previsto no PPC, mas que não tenha sido alocado pelo 
+IFBA para sua realização;
+IV - Semestre/ano letivo em que o(a) aluno(a) tenha processo de reintegração ou ação 
+judicial sob análise, com posterior deferimento.
+Art. 28 Os cursos poderão ser desenvolvidos nas modalidades presencial ou a distância, desde 
+que previstos no PPC do curso, conforme o limite estabelecido pelo CNCT, ou por outro instrumen￾to que venha a substituí-lo. A modalidade EAD deverá ser organizada em conformidade com os 
+dispositivos legais vigentes.
+§ 1º Em cursos presenciais, no máximo, 20% da carga horária poderá ser desenvolvida namo￾dalidade a distância.
+§ 2º Para os cursos ofertados em mais de uma modalidade, as matrizes curriculares resguar￾darão o mínimo de 70% (setenta por cento) de compatibilidade, possibilitando a transferência do(a) 
+discente, excetuando-se os casos restringidos por legislação específica.
+12
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 3º O PPC na modalidade a distância deverá prever momentos presenciais, conforme dispo￾sitivos legais vigentes, para:
+I - Avaliações de discentes;
+II - Estágios obrigatórios, quando previstos;
+III - Defesa de trabalhos de conclusão de curso, quando previstos;
+IV - Atividades relacionadas a laboratórios e aulas de campo, quando for o caso.
+§ 4º Os PPCs na modalidade à distância poderão prever encontros presenciais, em atendimen￾to às especificidades de caráter vivencial da formação profissional, podendo coincidir com outros 
+momentos previstos para essa modalidade de ensino.
+SEÇÃO I
+DOS CURSOS TÉCNICOS NA FORMA ARTICULADA
+Art. 29 Os cursos técnicos na forma articulada devem ser planejados com o objetivo da forma-
+ção integral e profissional, em uma perspectiva de educação cidadã, histórico-crítica, politécnica 
+e omnilateral, visando ao desenvolvimento de conhecimentos científicos, sociais, organizacionais, 
+econômicos, políticos, culturais, ambientais, estéticos e éticos que alicerçam as tecnologias e o sis￾tema de produção social para a obtenção de uma habilitação profissional técnica de nível médio.
+Art. 30 Os cursos técnicos na forma articulada de nível médio, destinados aos(às) portado￾res(as) de certificado de conclusão do ensino fundamental, prioritariamente em faixa etária regular 
+ao Ensino Médio, serão planejados de modo a conduzir o(a) discente a uma habilitação profissional 
+técnica de nível médio, favorecendo a sua inserção no mundo do trabalho e a continuidade de es￾tudos na educação superior.
+SUBSEÇÃO I
+DOS CURSOS TÉCNICOS NA FORMA ARTICULADA INTEGRADA
+Art. 31 A matriz curricular dos cursos técnicos de nível médio na forma articulada integrada, orga￾nizada em regime seriado (anual ou semestral), será constituída por disciplinas/componentes curricu￾lares e estruturada em núcleos básico, politécnico e tecnológico, segundo a seguinte organização:
+I - Núcleo Básico: relativo a conhecimentos do Ensino Médio (Linguagens, Ciências Hu￾manas, Ciências da Natureza e Matemática), contemplando conteúdos de base cientí-
+fica e cultural basilares para a formação humana integral;
+II - Núcleo Politécnico: relativo a conhecimentos do Ensino Médio e da educação profis￾sional, traduzidos em conteúdos de estreita articulação com o curso, por eixo tecnoló-
+gico, representando elementos expressivos para a integração curricular, a exemplo de: 
+tecnologias de informação e comunicação, cultura, sociedade e trabalho e sustentabi￾lidade, dentre outros;
+III - Núcleo Tecnológico: relativo a conhecimentos da formação técnica específica, de 
+cordo com o campo de conhecimentos do eixo tecnológico, a atuação profissional, as 
+13
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+regulamentações do exercício da profissão e o Catálogo Nacional de Cursos Técnicos 
+(CNCT).
+§ 1º Os cursos estarão estruturados com duração mínima de 3 (três) anos ou de 6 (seis) semes￾tres, desde que atendidas as normas vigentes.
+§ 2º As matrizes curriculares deverão observar o limite de até 15 (quinze) disciplinas por ano 
+letivo ou 8 (oito) por semestre letivo e a necessidade de introdução, desde o primeiro período do 
+curso, de disciplinas / componentes curriculares que compõem o núcleo tecnológico.
+§ 3º As disciplinas/componentes curriculares, que compõem a matriz curricular, devem ser arti￾culadas e fundamentadas na integração curricular na perspectiva interdisciplinar e transdisciplinar.
+§ 4º As disciplinas/componentes curriculares, orientadas pelos perfis profissionais de conclu￾são, ensejarão a formação de uma base de conhecimentos científicos e tecnológicos, bem como 
+a aplicação de conhecimentos teórico–práticos específicos de uma área profissional, contribuindo 
+para uma formação na perspectiva histórico-crítica.
+§ 5º A prática profissional será prevista na matriz curricular definida no PPC e desenvolverse-á 
+no decorrer do curso, de forma intrínseca ao currículo e/ou em situação real de trabalho.
+§ 6º Após a integralização de todos os componentes curriculares, o(a) discente receberá o Di￾ploma de Técnico de Nível Médio no respectivo curso.
+Art. 32 Os cursos técnicos nas formas articuladas ao nível médio estarão organizados com 
+uma base de conhecimentos científicos e tecnológicos.
+§ 1º A integralização dos estudos correspondentes aos conhecimentos científicos e tecnológi￾cos será obtida pela efetivação da carga horária total fixada para cada curso e do estágio profissio￾nal obrigatório, quando previsto no PPC do curso.
+§ 2º A distribuição da carga horária e a organização dos anos letivos dos cursos integrados 
+deverão estar em conformidade com a legislação federal vigente e com as normas institucionais.
+§ 3º Cada período letivo será dividido em 03 (três) unidades didáticas para cursos de regime 
+anual seriado e 1 (uma) unidade didática para cursos em regime semestral seriado.
+SUBSEÇÃO II
+DOS CURSOS TÉCNICOS NA FORMA ARTICULADA CONCOMITANTE
+Art. 33 Os cursos técnicos de nível médio na forma articulada concomitante são destinados 
+aos(às) estudantes que possuem certificado de conclusão do Ensino Fundamental e que estejam 
+cursando o Ensino Médio em outra instituição de ensino.
+Paragráfo único. Os cursos técnicos concomitantes poderão ser oferecidos na modalidade 
+de educação presencial ou de educação a distância.
+Art. 34 O(a) estudante só poderá ser matriculado(a) nos cursos concomitantes mediante com￾provação de que cursa o Ensino Médio em outra instituição de ensino e de que não há incompati￾bilidade de horário na oferta dos cursos.
+14
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 35 O(a) estudante deve estar matriculado(a) em outra instituição de ensino em qualquer 
+ano do Ensino Médio quando iniciar o curso concomitante no IFBA.
+Art. 36 A matriz curricular dos cursos técnicos de nível médio na forma concomitante será 
+organizada em regime anual ou semestral, estará constituída por disciplinas e estruturada nos nú-
+cleos politécnico e tecnológico, segundo a seguinte organização:
+I - Núcleo Politécnico: relativo a conhecimentos de nível médio, traduzidos em conteú-
+dos de estreita articulação com o curso, por eixo tecnológico, representando elementos 
+expressivos para a integração curricular, a exemplo de: tecnologias de informação e 
+comunicação, cultura e sociedade, trabalho e sustentabilidade, dentre outros;
+II - Núcleo Tecnológico: relativo aos conhecimentos específicos do eixo tecnológico da 
+atuação profissional e às regulamentações do exercício da profissão previstas no CNCT.
+§ 1º Os cursos deverão ser estruturados em anos ou semestres letivos, em função do curso e do 
+turno de oferta, não devendo exceder 03 (três) anos ou 06 (seis) semestres letivos para a integrali￾zação da matriz curricular.
+§ 2º As disciplinas constantes na matriz curricular dos cursos concomitantes deverão estar ar￾ticuladas numa perspectiva interdisciplinar, orientadas pelos perfis profissionais do egresso cons￾tantes nos PPCs, de forma a garantir a oferta de uma base de conhecimentos científicos e tecno￾lógicos, bem como de conhecimentos teórico-práticos específicos de uma área profissional, tendo 
+sempre como base uma sólida fundamentação histórico-crítica.
+§ 3º A prática profissional estará prevista na matriz curricular definida no PPC e será desenvol￾vida no decorrer do curso.
+§ 4º Após a integralização de todos os componentes curriculares, inclusive a prática profissio￾nal ou estágio, se este for obrigatório, o(a) discente receberá o Diploma de Técnico de Nível Médio 
+no respectivo curso, estando este condicionado à comprovação de conclusão do curso de Ensino 
+Médio em outra instituição de ensino.
+§ 5º As matrizes curriculares deverão observar o limite de 06 (seis) disciplinas por semestre 
+letivo e de 12 (doze) disciplinas por ano letivo.
+Art. 37 A carga horária mínima dos cursos técnicos de nível médio na forma concomitante 
+deve corresponder ao estabelecido pelo CNCT, de acordo com as singularidades de cada habilita-
+ção técnico-profissional.
+§ 1º A integralização dos estudos correspondentes aos conhecimentos científicos e tecnológi￾cos será obtida pela efetivação da carga horária total fixada para cada curso.
+§ 2º Os cursos concomitantes poderão ser oferecidos nos turnos diurno e noturno, consideran￾do-se as diferenças da carga horária diária de cada turno para distribuição da matriz curricular nos 
+anos letivos e semestres.
+Art. 38 Os(as) discentes que concluíram disciplinas em cursos equivalentes, transferidos(as) 
+ou reingressantes, poderão solicitar aproveitamento de estudos ao Conselho de Curso e, conse￾quentemente, dispensa de disciplinas no prazo fixado no calendário acadêmico.
+15
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 39 O acesso aos cursos técnicos na forma concomitante dar-se-á por meio de processo 
+seletivo.
+SEÇÃO II
+DOS CURSOS DE FORMAÇÃO PROFISSIONAL NA MODALIDADE DE EDUCAÇÃO DE JOVENS E 
+ADULTOS
+Art. 40 Os cursos de formação profissional ofertados na modalidade de Educação de Jovens 
+e Adultos (EJA) dar-se-ão das seguintes formas:
+I - Formação Inicial e Continuada (FIC) de trabalhadores;
+II - Educação Profissional Técnica de Nível Médio (EPTNM).
+§ 1º Os cursos de formação inicial e continuada na Modalidade EJA a que se refere o inciso I 
+objetivam a sua articulação com o Ensino Fundamental, visando à elevação da escolaridade.
+§ 2º Os Cursos de formação inicial e continuada na Modalidade EJA são destinados a discentes 
+e/ou trabalhadores maiores de 15 anos (em conformidade com as diretrizes nacionais para a EJA), 
+que tenham concluído os anos iniciais (1º ao 5º ano) do ensino fundamental ou demonstrem, por 
+meio de processo avaliativo, ter base de conhecimentos necessários para continuidade de estudos 
+no 6º ano.
+§ 3º O tempo mínimo de duração previsto para o curso é de 1.400 horas, sendo, no mínimo, 
+1.200 horas dedicadas à formação geral e, no mínimo, 200 horas para a formação profissional, con￾forme artigo 4º do Decreto nº 5.840/2006.
+§ 4º Os cursos serão estruturados para integrar os conhecimentos da Educação Básica, pró-
+prios dessa etapa de escolarização, com os específicos da formação inicial ou continuada de uma 
+determinada área profissional ou arcos ocupacionais, devendo reconhecer as atualidades do mun￾do do trabalho, mas não se restringindo a elas.
+§ 5º Os cursos de formação profissional em EJA (cf. inciso II) destinam-se aos(às) jovens e adul￾tos(as) com idade mínima de 18 anos que concluíram o Ensino Fundamental e não finalizaram o 
+Ensino Médio.
+§ 6º A carga horária dos cursos técnicos de nível médio na Modalidade EJA é de, no mínimo, 
+2000 horas, a depender do curso técnico escolhido, conforme o Catálogo Nacional de Cursos Técnicos.
+§ 7º Os cursos de formação profissional EJA serão planejados de modo a conduzir o(a) discente 
+a uma habilitação profissional técnica de nível médio que lhe possibilitará a inserção no mundo do 
+trabalho e a continuidade de estudos na educação superior de graduação ou em cursos de espe￾cialização técnica.
+Art. 41 Os cursos FIC e técnicos integrados na modalidade EJA serão ofertados somente na 
+modalidade presencial, com a possibilidade de contemplar até 20% da carga horária total com ati￾vidades em EaD.
+Paragráfo único. A oferta presencial não deve ser um limitador na organização dos tempos e 
+espaços nos cursos, ou seja, poderão ser respeitados os calendários sazonais, bem como exploradas 
+16
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+as possibilidades envolvidas com a pedagogia da alternância, conforme preveem orientações para 
+oferta de cursos na modalidade EJA.
+Art. 42 Os PPCs dos cursos FIC e técnicos de nível médio integrados na modalidade EJA veri￾ficarão adicionalmente os dispositivos legais vigentes.
+Paragráfo único. Os cursos de Formação Inicial Continuada – FIC serão desenvolvidos em 
+parceria com escolas da rede pública municipal e/ou estadual de ensino.
+Art. 43 A matriz curricular dos cursos técnicos de nível médio integrados na modalidade EJA 
+será organizada em regime seriado com período anual de 200 (duzentos) dias letivos mínimos ou 
+semestral de 100 (cem) dias letivos mínimos.
+§ 1º A matriz curricular dos cursos técnicos de nível médio na forma EJA será estruturada em 
+núcleos fundamental, básico, politécnico e tecnológico, com base na seguinte organização:
+I - Núcleo fundamental: relativo a conhecimentos de base científica, indispensáveis ao 
+bom desempenho acadêmico dos(as) ingressantes. Constitui-se de revisão de conheci￾mentos de Língua Portuguesa e Matemática do Ensino Fundamental;
+II - Núcleo Básico: relativo a conhecimentos do Ensino Médio (Linguagens, Ciências Hu￾manas, Ciências da Natureza e Matemática), contemplando conteúdos de base cientí-
+fica e cultural basilares para a formação humana integral;
+III - Núcleo Politécnico: relativo a conhecimentos do Ensino Médio e da Educação Pro￾fissional, traduzidos em conteúdos de estreita articulação com o curso, por eixo tecno￾lógico, representando elementos expressivos para a integração curricular.
+IV - Núcleo Tecnológico: relativo a conhecimentos da formação técnica específica, com 
+a atuação profissional e as regulamentações do exercício da profissão, de acordo com o 
+campo de conhecimentos do eixo tecnológico, conforme o CNCT.
+§ 2º Os cursos técnicos de nível médio integrados na modalidade EJA estarão estruturados 
+com duração mínima de 3 (três) anos letivos ou de, no mínimo, 6 (seis) semestres letivos.
+§ 3º Adicionalmente às disciplinas do núcleo fundamental, sempre que necessário, serão de￾senvolvidos, em qualquer período, estudos ou cursos complementares e estratégias diferenciadas 
+para a aprendizagem.
+§ 4º As matrizes curriculares observarão o limite de até 6 (seis) disciplinas e/ou componentes 
+curriculares por semestre letivo e a necessária introdução, desde o primeiro período do curso, de 
+disciplinas e/ou componentes curriculares que compõem o núcleo tecnológico. 
+§ 5º As disciplinas e/ou componentes curriculares formadores da matriz curricular serão arti￾culados e fundamentados na integração curricular numa perspectiva interdisciplinar e/ou transdis￾ciplinar, orientados pelos perfis profissionais de conclusão, ensejando ao(à) educando(a) uma base 
+de conhecimentos científicos e tecnológicos, bem como a aplicação de conhecimentos teórico-
+-práticos específicos de uma área profissional, contribuindo para a formação histórico-crítica.
+§ 6º A prática profissional estará prevista na matriz curricular definida no PPC e será desenvol￾vida no decorrer do curso.
+17
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 7º Após a integralização de todos os componentes curriculares, inclusive a prática profissio￾nal, o(a) discente receberá o Diploma de Técnico de Nível Médio no respectivo curso.
+Art. 44 As matrizes dos cursos de formação profissional na modalidade EJA estão estrutura￾das com três núcleos, sendo eles o estruturante, o articulador e o tecnológico.
+§ 1º Para os efeitos desta norma, considera-se:
+I - Núcleo Estruturante: absorve os conhecimentos do ensino fundamental, contem￾plando conteúdos da base científico-cultural basilares para a formação humana inte￾gral;
+II - Núcleo Articulador: integra conhecimentos do ensino fundamental e da educação 
+profissional, traduzidos em conteúdos de estreita articulação com o curso, por eixo tec￾nológico; pode contemplar bases científicas gerais que alicerçam suportes de uso geral, 
+tais como: tecnologia da informação e comunicação, higiene e segurança no trabalho, 
+natureza, cultura, sociedade e trabalho;
+III - Núcleo Tecnológico: engloba conhecimentos específicos do eixo tecnológico, atua-
+ção profissional e as regulamentações do exercício da profissão; outras disciplinas e/ou 
+componentes curriculares não elencados no núcleo articulador serão contemplados.
+§ 2º O núcleo estruturante organizado, desenvolvido e certificado pelas escolas parceiras às 
+quais os(as) discentes estejam vinculados(as), cumpre o prescrito para o currículo EJA – Ensino 
+Fundamental, contendo disciplinas obrigatórias correspondentes aos anos finais do ensino funda￾mental na modalidade EJA.
+§ 3º A matriz dos cursos, tratando-se da formação específica, está organizada em módulos que 
+serão desenvolvidos por disciplinas e/ou componentes curriculares em regime seriado semestral, 
+com uma carga horária total de 200h, com duração de 4 (quatro) períodos letivos (dois anos).
+Art. 45 A integralização dos estudos correspondentes aos conhecimentos científicos e tecno￾lógicos será obtida pela efetivação da carga horária total fixada para cada curso.
+Art. 46 O acesso aos cursos técnicos na modalidade EJA será definido em editais específicos, 
+atendendo às especificidades do público da EJA.
+SEÇÃO III
+DOS CURSOS TÉCNICOS NA FORMA SUBSEQUENTE
+Art. 47 Os cursos técnicos de nível médio na forma subsequente, destinados aos(às) portado￾res de certificado de conclusão do Ensino Médio, serão planejados com o objetivo de formar o(a) 
+discente, em uma perspectiva histórico-crítica, para obter uma habilitação profissional técnica de 
+nível médio.
+Paragráfo único. Os cursos técnicos na forma subsequente poderão ser ofertados na modali￾dade presencial ou a distância.
+Art. 48 A matriz curricular dos cursos técnicos de nível médio na forma subsequente será or￾ganizada em regime semestral de 100 (cem) dias letivos mínimos.
+18
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 1º As disciplinas dos cursos técnicos na forma subsequente serão constituídas e estruturadas 
+em núcleo politécnico e tecnológico, segundo a seguinte organização:
+I - Núcleo Politécnico: relativo a conhecimentos do Ensino Médio e da educação profis￾sional, traduzidos em conteúdos de estreita articulação com o curso, por eixo tecnoló-
+gico, representando elementos expressivos para a integração curricular, a exemplo de 
+tecnologias de informação e comunicação, cultura, sociedade e trabalho e sustentabi￾lidade, dentre outros;
+II - Núcleo Tecnológico: relativo a conhecimentos específicos do eixo tecnológico, com 
+a atuação profissional e com as regulamentações do exercício da profissão e do CNCT.
+§ 2º Os cursos estarão estruturados com duração máxima de 4 (quatro) períodos letivos (se￾mestrais).
+§ 3º As matrizes curriculares observarão o limite de até 08 (oito) disciplinas por semestre letivo.
+§ 4º As disciplinas formadoras da matriz curricular deverão estar articuladas, fundamentadas 
+na integração curricular numa perspectiva interdisciplinar e orientadas pelos perfis profissionais 
+de conclusão, de forma a ensejar ao(à) educando(a) a formação de uma base de conhecimentos 
+científicos e tecnológicos, bem como a aplicação de conhecimentos teórico-práticos específicos de 
+uma área profissional, contribuindo para uma sólida formação histórico-crítica.
+§ 5º A prática profissional estará prevista na matriz curricular definida no PPC e será desenvol￾vida no decorrer do curso.
+§ 6º Após a integralização de todos os componentes curriculares, inclusive a prática profissio￾nal, o(a) discente receberá o Diploma de Técnico de Nível Médio no respectivo curso.
+Art. 49 Os cursos técnicos de nível médio, na forma subsequente, estarão organizados em 
+uma base de conhecimentos científicos e tecnológicos, devendo contemplar o mínimo de 800, 
+1.000 ou 1.200 horas de disciplinas técnicas, de acordo com o curso, conforme carga horária estabe￾lecida no CNCT.
+§ 1º A integralização dos estudos correspondentes aos conhecimentos científicos e tecnológi￾cos será obtida pela efetivação da carga horária total fixada para cada curso.
+§ 2º Se a oferta do curso sofrer alternância de turnos diurno e noturno, deverá ser considerada, 
+para efeito de distribuição dos semestres na matriz curricular, a estrutura do curso noturno.
+Art. 50 Os(as) discentes que concluíram disciplinas em cursos equivalentes ou superiores, os trans￾feridos ou reingressantes, poderão solicitar aproveitamento de estudos e, consequentemente, dispen￾sa de disciplinas no prazo fixado no calendário acadêmico, conforme dispositivos legais vigentes.
+Art. 51 O acesso aos cursos técnicos na forma subsequente dar-se-á por meio de processo de 
+seleção.
+19
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+SEÇÃO IV
+DOS PROCESSOS REGULATÓRIOS E AVALIATIVOS DAS OFERTAS EDUCACIONAIS
+SUBSEÇÃO I
+DOS CONSELHOS DE CURSO
+Art. 52 O Conselho de Curso é um órgão colegiado que se destina ao acompanhamento do 
+Processo Pedagógico desenvolvido no curso.
+Art. 53 O Conselho de Curso será constituído pelo(a) Coordenador(a) do Curso, por 3 (três) do￾centes(as) da área técnica que ministram aula para o curso, por 4 (quatro) docentes representando 
+as áreas de disciplinas comuns (linguagens, ciências da natureza, matemática e ciências humanas), 
+por 1 (um(a)) representante da área técnico-pedagógica, do cargo pedagogo(a)-área ou técnico(a) 
+em assuntos educacionais com formação em pedagogia, e por 2 (dois(duas)) representantes do 
+corpo discente, observando-se o seguinte:
+§ 1º O Conselho de Curso será presidido pelo(a) Coordenador(a) do Curso;
+§ 2º Os(as) representantes discentes serão escolhidos(as) pelos(as) discentes regularmente 
+matriculados no curso;
+§ 3º Os(as) representantes docentes serão escolhidos(as) por meio de regulamentação do con￾selho de campus.
+§ 4º A composição poderá ser alterada no caso de os(as) membros(as) perderem a condição 
+de representação.
+Art. 54 O Conselho de Curso se reunirá com quórum mínimo composto por maioria simples 
+(50% + 1 da composição do colegiado):
+§ 1º ordinariamente em duas reuniões por período letivo, sendo, necessariamente, uma reu￾nião no início do período letivo, com prazo máximo de 20% do período letivo transcorrido, e outra 
+após a realização das Reuniões do Conselho de Classe Final;
+§ 2º extraordinariamente quando um fato relevante o requerer.
+§ 3º as datas das reuniões indicadas no parágrafo 1º devem constar no calendário acadêmico 
+do campus.
+§ 4º a pauta das reuniões deve ser publicizada nos meios de comunicação institucionais (ob￾servando a legislação vigente no que tange sigilo de informações), com pelo menos 48 horas de 
+antecedência.
+Art. 55 Outros(as) membros(as) da comunidade interna ou externa poderão ser convida￾dos(as), pela presidência, para participar das reuniões do Conselho de Curso, desde que estejam 
+envolvidos(as) ou possam contribuir com o assunto a ser analisado.
+Art. 56 Compete ao Conselho de Curso:
+20
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+I - Assegurar o desenvolvimento do curso em consonância com a missão institucional, 
+zelando pela formação integral do(a) discente;
+II - Avaliar o processo pedagógico do curso tomando como base registros, dados e in￾dicadores acadêmicos;
+III - Elaborar metodologias necessárias ao aperfeiçoamento do curso;
+IV - Sugerir atualização dos espaços de aprendizagem e recursos didáticos visando a 
+atender ao perfil profissional do curso;
+V - Emitir parecer nos processos estudantis relativos a registros e requerimentos aca￾dêmicos;
+VI - Emitir parecer nos processos de solicitação de matrícula para portadores(as) de di￾ploma ou de certificado de qualificação profissional técnica de nível médio;
+VII - Indicar uma comissão para avaliar processos dos(as) discentes que solicitaram 
+aproveitamento de conhecimentos e experiências anteriores e emitir parecer final so￾bre a solicitação;
+VIII - Aprovar as alterações/reformulações no PPC antes de seu encaminhamento para 
+apreciação na Pró-Reitoria de Ensino (PROEN) e no Conselho de Ensino, Pesquisa e 
+Extensão (CONSEPE);
+IX - Analisar o requerimento e emitir parecer sobre o processo de exercício domiciliar.
+Art. 57 Na análise dos processos encaminhados ao Conselho de Curso, será observada a se￾guinte ordem de prioridade para o preenchimento de vagas:
+I - Reintegração de curso;
+II - Mudança de turno;
+III - Transferência interna;
+IV - Matrícula para portador(a) de certificado de qualificação profissional técnica de ní-
+vel médio;
+V - Transferência externa;
+VI - Matrícula para portador(a) de diploma.
+Art. 58 Os pareceres advindos do Conselho de Curso deverão ser encaminhados à Diretoria de 
+Ensino para as deliberações finais.
+Paragráfo único. O(A) interessado(a) poderá interpor recurso da decisão à Diretoria de Ensi￾no, por meio de requerimento, no prazo de 3 (três) dias úteis.
+SUBSEÇÃO II
+DO PROJETO PEDAGÓGICO DE CURSO 
+Art. 59 A solicitação de aprovação e de alteração de PPC no âmbito do IFBA deverá obedecer 
+ao fluxo processual, conforme regulamentação específica expedida pela PROEN.
+21
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 60 Os PPCs deverão ser revistos e/ou alterados mediante avaliações sistemáticas, no má-
+ximo, a cada 5 (cinco) anos, de forma a corrigir defasagens entre o perfil profissional de conclusão 
+do curso, seus objetivos, conteúdos e organização curricular, os quais deverão refletir as exigências 
+decorrentes das transformações científicas, tecnológicas e socioculturais ou quando houver altera-
+ções legais que impactem a estrutura e o funcionamento dos cursos.
+Paragráfo único. As revisões/alterações dos PPCs deverão contemplar, nas ementas, biblio￾grafias básicas ou complementares, objetivos, metodologia e/ou nos conteúdos constantes no item 
+“Planejamento dos Componentes Curriculares”, as legislações vigentes, em especial no que tange 
+às temáticas “História e Cultura Afro-Brasileira” e “História e Cultura Afro-Brasileira e Indígena”.
+SUBSEÇÃO III
+DO PLANEJAMENTO DO ENSINO
+Art. 61 O Plano Educacional Individualizado (PEI) para o(a) Estudante com Necessidades Edu￾cacionais Específicas deverá estar previsto no PPC.
+Paragráfo único. O PEI deverá ser realizado por uma equipe multiprofissional composta, ne￾cessariamente, por docentes vinculados(as) à/ao turma/período letivo desse(a) estudante e docen￾tes de Atendimento Educacional Especializado – AEE, entre outros(as) profissionais.
+Art. 62 Entende-se por Plano de Ensino a antecipação, de forma organizada, de todas as eta￾pas do trabalho docente, a ser concretizada em roteiro no período de um ano ou um semestre leti￾vo, coerente com o PPC, em constante zelo pela aprendizagem dos(as) discentes e construção da 
+sua efetiva cidadania.
+§ 1º É obrigatória a elaboração do Plano de Ensino pelos(as) docentes, sob a orientação da 
+Diretoria de Ensino/Coordenação de Cursos/Áreas e/ou Coordenação Pedagógica, no início do ano/
+semestre letivo.
+§ 2º Nos Planos de Ensino, deverão constar:
+I - Identificação;
+II - Ementa;
+III - Objetivos;
+IV - Conteúdo programático;
+V - Metodologia;
+VI - Avaliação;
+VII - Recuperação das aprendizagens;
+VIII - Referências básica e complementar.
+Art. 63 O(a) docente apresentará ao(à) discente, no início do período letivo, o Plano de Ensino, 
+discutindo-o em sala de aula, abordando, sobretudo, questões relevantes, tais como: o sistema de 
+avaliação, a metodologia de ensino e o cronograma de trabalho.
+22
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 64 Os Planos de Ensino serão elaborados e atualizados anualmente/semestralmente de 
+acordo com a forma de oferta do curso a que se referirem.
+Art. 65 São consideradas atividades didático-pedagógicas de caráter multidisciplinar, cons￾tantes nos Planos de Ensino dos diversos cursos, aquelas que objetivam complementar a aprendi￾zagem e o enriquecimento sociocultural e esportivo dos(as) discentes.
+Art. 66 São consideradas atividades extraclasse, no contexto das atividades escolares: 
+§ 1º Entende-se por atividades escolares as que se realizam na tradicional sala de aula, do￾mesmo modo que em outros locais adequados a trabalhos teóricos e práticos, a leituras, pesquisas 
+ou atividades em grupo, treinamento e demonstrações, contato com o meio ambiente e com as 
+demais atividades humanas de natureza cultural e artística, visando à plenitude da formação de 
+cada discente.
+§ 2º As atividades escolares presenciais se constituem por:
+I - Dia letivo;
+II - Aula;
+III - Atividade de classe;
+IV - Atividade extraclasse;
+§ 3º Entende-se por letivos os dias em que, com a presença obrigatória de estudantes sob 
+orientação de professore(a)s, sejam desenvolvidas atividades regulares de aula e outras programa-
+ções didático-pedagógicas, na escola ou fora dela, que visem à efetiva aprendizagem da(o)s estu￾dantes (CNE/CEB nº 15/2007);
+§ 4º Entende-se aula como uma situação didática em que a construção de conhecimentos 
+do(a)s estudantes é mediada por professore(a)s;
+§ 5º Entende-se atividade de classe como a situação didática em que docentes e discentes 
+encontram-se no mesmo ambiente fisicamente, em interação, não sendo este ambiente, necessa￾riamente, a sala de aula, mas um lugar em que ocorra uma situação didática diretamente mediada 
+por docentes.
+§ 6º Entende-se por atividades extraclasse aquelas em que docentes e discentes não encon￾tram-se no mesmo ambiente, que ocorrem fora dos limites da sala de aula, sob orientação docente, 
+para ser realizada por discentes fora da carga horária da classe, em uma carga horária adicional à 
+carga horária da disciplina prevista no PPC.
+§ 7º As atividades extraclasse não serão consideradas como dia letivo no calendário acadêmi￾co, devem ser registradas na caderneta eletrônica do(a) docente, constando no registro dos conte-
+údos trabalhados, especificando a carga horária e contabilizando-a no cômputo geral do período.
+§ 8º As atividades extraclasse não devem ultrapassar 15% da carga horária do total do compo￾nente curricular, tampouco exceder a seis aulas por atividade.
+23
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+TÍTULO III
+DO DESENVOLVIMENTO DO ENSINO
+CAPÍTULO I
+DO ACOMPANHAMENTO ACADÊMICO DOS(AS) DISCENTES
+Art. 67 As ações de acompanhamento do processo de aprendizagem, da frequência e do de￾sempenho acadêmico dos(as) discentes devem ser desenvolvidas, de forma periódica e sistemati￾zada, sob acompanhamento da Coordenação do Curso, com os(as) docentes, a equipe técnico-pe￾dagógica e o departamento/diretoria de ensino do campus.
+Art. 68 Deverão ser previstas estratégias de acompanhamento da frequência e do desempe￾nho acadêmico dos(as) discentes de todos os cursos do IFBA, com o objetivo de desenvolver ações 
+de intervenção que garantam aos(às) discentes a permanência e o êxito.
+Paragráfo único. As ações de intervenção devem estar direcionadas a:
+I - Implementação de atividades curriculares que fortaleçam o processo de ensino￾aprendizagem e estimulem a permanência dos(as) discentes;
+II - Fomentação de práticas curriculares que fortaleçam o ambiente acadêmico como 
+espaço acolhedor, colaborativo, estimulador da aprendizagem, sobretudo inclusivo, 
+respeitando e valorizando cada sujeito com suas especificidades;
+III - Acompanhamento biopsicossocial que promova a inclusão, envolvendo aspectos 
+da assistência estudantil, da acessibilidade e do desenvolvimento autônomo dos(as) 
+discentes.
+Art. 69 Constituem espaços privilegiados para o planejamento e o desenvolvimento de ações 
+de acompanhamento acadêmico dos(as) discentes:
+I - Atendimentos individuais ou em grupo aos(às) discentes;
+II - Reuniões pedagógicas;
+III - Reuniões de Conselho de Curso; e
+IV - Reuniões de Conselho de Classe.
+Art. 70 Os(as) discentes com deficiências e com outras necessidades educacionais específi￾cas deverão ser acompanhados(as) adicionalmente pela Coordenação de Atendimento às Pessoas 
+com Necessidades Específicas (CAPNE), que será responsável pela solicitação e provimento dos 
+apoios necessários para o desenvolvimento das atividades de ensino-aprendizagem.
+CAPÍTULO II
+DOS REGISTROS ACADÊMICOS
+Art. 71 Entende-se por registro acadêmico os dados e documentos referentes à vida acadêmi￾ca dos(as) discentes vinculados(as) ao IFBA, incluindo:
+24
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+I - Forma de ingresso;
+II - Matrícula, renovação, reabertura e reintegração de matrícula;
+III - Histórico, atestado e boletim acadêmicos;
+IV - Inscrição em disciplinas;
+V - Aproveitamento de estudos/componentes curriculares;
+VI - Certificação de conhecimentos;
+VII - Trancamento de matrícula;
+VIII - Cancelamento de matrícula e componente curricular;
+IX - Atividades de prática profissional; estágio docente ou técnico; prática como com￾ponente curricular (desenvolvimento de projetos e de pesquisa acadêmico-científica 
+e/ou tecnológica, atividades de metodologia do ensino); e atividades acadêmico-cien￾tífico culturais;
+X - Participação em eventos acadêmico-científico-culturais;
+XI - Atividades de iniciação científica e de extensão;
+XII - Atividade de Conclusão de Curso;
+XIII - Atividades complementares;
+XIV - Premiações e condecorações;
+XV - Medidas disciplinares;
+XVI - Outros dados e documentos de natureza similar.
+Art. 72 O registro, no sistema acadêmico, das informações dos conteúdos, das atividades de￾senvolvidas e da frequência de cada aula ministrada, bem como da verificação de aprendizagem 
+de cada componente curricular, deverá ser feito em ambiente eletrônico próprio, pelo(a) profes￾sor(a) da disciplina em questão, nos prazos previstos no calendário acadêmico do campus ao qual 
+se encontra vinculado(a) o(a) discente.
+Paragráfo único. Os demais dados, documentação e informações escolares/acadêmicas e 
+pessoais dos(as) discentes regulares do IFBA deverão ter registro, arquivo e controle no Setor de 
+Registros do respectivo campus, segundo as competências estabelecidas em Regimento do IFBA, 
+sob a responsabilidade de seus(suas) gerentes/coordenadores(as) e supervisão do Departamento 
+ou Diretoria de Ensino em cada campus.
+Art. 73 A caderneta escolar deverá ser em formato eletrônico e devidamente preenchida, com 
+o registro de frequência e desempenho do(a) discente, os conteúdos abordados e a carga horária 
+previstos no PPC para a disciplina, e, ao final do período letivo, a versão impressa e assinada pelos(as) 
+docente(s) deverá ser entregue ao setor de Registros Acadêmicos do campus para arquivamento.
+§ 1º O(A) Coordenador(a) de Curso deverá monitorar e acompanhar a realização do exposto no 
+caput deste artigo.
+25
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 2º Na hipótese da existência de registros incompletos ou insuficientes de conteúdos e/ou 
+carga horária, o(a) docente responsável pela disciplina deverá organizar o desenvolvimento de es￾tratégias de ensino para reposição.
+Art. 74 Os dados e informações na condição física, inclusive a documentação pessoal, dos(as) 
+egressos(as) e de discentes que tiveram a sua matrícula anulada/cancelada ou que evadiram ou 
+abandonaram ficarão sob a responsabilidade do arquivo inativo/passivo, conforme leis específicas, 
+para as devidas consultas.
+Paragráfo único. Este procedimento deverá estar em conformidade com o normativo especí-
+fico quanto ao acervo acadêmico.
+CAPÍTULO III
+DO INTERCÂMBIO DE ESTUDANTES DE OUTRAS INSTITUIÇÕES NACIONAIS E ESTRANGEIRAS
+Art. 75 A matrícula decorrente de convênio entre o IFBA e outras instituições de ensino será 
+concedida a estudantes dessas instituições, nos termos estabelecidos nos convênios, observada 
+resolução específica sobre o tema.
+§ 1º Para a matrícula, exigir-se-á a seguinte documentação:
+I - Ofício de encaminhamento da instituição de origem e/ou documento equivalente 
+da Assessoria de Assuntos Internacionais;
+II - Cópia do documento de identificação;
+III - Histórico escolar atualizado.
+§ 2º Os(as) estudantes serão submetidos às regras estabelecidas nos convênios e pelas Nor￾mas Acadêmicas e Regimento do IFBA.
+Art. 76 Para o(a) estudante estrangeiro, caberá à Assessoria de Assuntos Internacionais:
+I - Formalizar os processos dos(as) estudantes interessados em participar do Plano de 
+Mobilidade Acadêmica - PMA;
+II - Anexar ao processo a documentação do(a) estudante interessado(a) e da instituição 
+de origem e encaminhar para o Conselho de Curso para análise e emissão de parecer 
+quanto à aprovação ou recusa da Proposta de Atividades Acadêmicas apresentada por 
+esse(a) estudante para realizar o programa de intercâmbio no IFBA.
+Paragráfo único. Para cada estudante aceito(a) no IFBA, deverá ser indicado(a), pelo Conse￾lho de Curso a que esse(a) estudante estará vinculado(a), um(a) Orientador(a) Acadêmico(a) que 
+o(a) acompanhará em sua permanência no IFBA.
+Art. 77 A matrícula decorrente de convênio, intercâmbio ou acordo cultural entre o Brasil e ou￾tros países dar-se-á para o desenvolvimento de estudos por tempo determinado, entendido como 
+a permanência do(a) estudante, estando este(a) submetido(a) ao acordo assumido entre as partes.
+Art. 78 Para a matrícula dos(as) estudantes estrangeiros, exigir-se-á a seguinte documentação:
+26
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+I - Ofício de encaminhamento da instituição de origem e/ou documento equivalente 
+encaminhado pela Assessoria de Assuntos Internacionais;
+II - Passaporte; e
+III - Comprovante de situação regular no país.
+Art. 79 Para a matrícula dos(as) estudantes, exigir-se-á a documentação constante no acordo 
+entre as instituições.
+CAPÍTULO IV
+DA ADMISSÃO E DO INGRESSO
+Art. 80 O IFBA, por natureza, tem como diretriz básica o atendimento a todo o público de 
+onde está inserido, independentemente de sua origem socioeconômica, sua convicção política, 
+seu gênero, sua orientação sexual, sua opção religiosa, sua etnia ou qualquer outro aspecto que 
+possa caracterizar preferência de um(a) em detrimento de outro(a).
+Art. 81 A instituição reservará, em todos os cursos técnicos de nível médio, vagas para discen￾tes provenientes da rede pública de ensino, observando outros critérios igualmente importantes 
+como origem étnica, condição socioeconômica e necessidades específicas.
+§ 1º Os critérios para atendimento das reservas de vagas respeitarão a legislação federal em 
+vigência e, na ausência desta, regulamentação própria aprovada pelo CONSUP do IFBA.
+§ 2º Não estão incluídas na rede pública de ensino escolas filantrópicas, cenecistas ou escolas 
+particulares com bolsa de estudos.
+SEÇÃO I
+DA ADMISSÃO
+Art. 82 A admissão aos cursos ofertados pelo IFBA será realizada por meio de processo seleti￾vo de caráter eliminatório e classificatório, respeitada a legislação específica, podendo, no entanto, 
+haver interrupção na oferta, de acordo com a demanda e as condições operacionais da instituição. 
+Paragráfo único. Em quaisquer das situações previstas de admissão de discentes, deverá ser 
+publicado e divulgado edital de processo seletivo constando informações sobre vagas, turnos, cur￾sos e respectivos campi de oferta, demais procedimentos para inscrições, entrega de documenta-
+ção e realização de provas (quando couber), bem como períodos de resultados e de matrículas.
+Art. 83 A admissão de discentes ao primeiro período dos cursos será realizada por meio de 
+processo seletivo, com classificação por meio de critérios específicos.
+Art. 84 A admissão de discentes ao primeiro período dos cursos, caso haja vagas remanescen￾tes, poderá ser feita por processo seletivo realizado por meio de:
+I - Prova específica para classificação em ordem decrescente da pontuação final na 
+prova; 
+II - Análise do histórico acadêmico para definição e compatibilização do período de in￾gresso no curso.
+27
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+CAPÍTULO V
+DA MATRÍCULA
+SEÇÃO I
+DA MATRÍCULA INSTITUCIONAL
+Art. 85 Entende-se por matrícula o ato pelo qual se dá a vinculação do cidadão à Instituição 
+de Ensino, na condição de discente, observados os procedimentos pertinentes constantes nestas 
+Normas Acadêmicas.
+Art. 86 A matrícula institucional nos diversos cursos será efetivada no respectivo campus do 
+IFBA, em data e horário divulgados em site do IFBA.
+Art. 87 A matrícula institucional será obrigatória e concedida ao(à):
+I - Candidato(a) aprovado(a) e convocado(a) em Processo Seletivo (oferecido pelo IFBAe/
+ou por adesão);
+II - Discente que obteve aprovação em seu pedido de transferência;
+III - Discente de outras instituições de ensino, inclusive estrangeiras, observado o esta￾belecido em convênio, intercâmbio ou acordo cultural.
+Paragráfo único. A matrícula institucional poderá ser efetivada pelo(a) próprio(a) candida￾to(a), por seu(sua) responsável legal, no caso de discentes menores de dezoito anos, ou por procu￾rador(a) devidamente constituído(a).
+Art. 88 Fica vedada a matrícula simultânea em dois ou mais cursos técnicos de nível médio no 
+IFBA.
+Art. 89 Perderá o direito à vaga pleiteada no IFBA:
+I - O(a) candidato(a) aprovado(a) e convocado(a) ou o(a) requerente, que obteve aprova-
+ção em um dos pedidos descritos no art. 87, incisos II, III e não efetivar a sua matrícula, 
+conforme consta no art. 91.
+II - O(a) discente que se matriculou e não frequentou os 30 (trinta) primeiros dias de 
+aula do início do período letivo, sem apresentação de justificativa devidamente com￾provada e atestada de:
+a) convocação para o serviço militar obrigatório (ao completar 18 anos);
+b) tratamento prolongado por problemas de saúde pessoal ou de familiares em primeiro 
+grau, quando não couber o atendimento domiciliar especial; ou
+c) gravidez de alto risco ou problemas pós-parto.
+Art. 90 A matrícula institucional dar-se-á mediante a entrega da fotocópia autenticada ou da 
+fotocópia com a apresentação do original dos documentos estabelecidos no Edital do processo 
+seletivo, no ato da matrícula.
+28
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 1º Constatada, em algum tempo, a falsidade ou a irregularidade na documentação exigida 
+para a efetivação de matrícula e/ou fraude para a obtenção da matrícula, a inscrição do(a) discente 
+será cancelada em definitivo, com a perda da respectiva vaga, por meio de ato administrativo da Di￾reção de Ensino, homologado pela Direção-Geral e registrado pelo setor de Registros Acadêmicos, 
+podendo a Instituição adotar outras medidas cabíveis na forma lei.
+§ 2º Efetivada a matrícula, fica caracterizada a imediata adesão do(a) discente ao Regimento 
+Interno do IFBA, ao Código Disciplinar Discente e a esta Norma Acadêmica, vedando-se a invoca-
+ção de desconhecimento a seu favor.
+Art. 91 No período letivo de ingresso(a) no curso, o(a) discente deverá estar matriculado(a) em 
+todas as disciplinas compatíveis com o seu período de referência para qualquer forma de ingresso.
+SEÇÃO II
+DA RENOVAÇÃO DE MATRÍCULA
+Art. 92 Entende-se por renovação de matrícula o processo periódico de registro do(a) discente 
+no Setor de Registros Acadêmicos, realizado de modo online ou presencial, obrigatoriamente nas 
+datas previstas no calendário acadêmico do campus de vinculação do(a) discente.
+Paragráfo único. Necessitarão fazer a renovação de matrícula todos(as) os(as) discentes re￾gularmente matriculados, inclusive aqueles(as) em realização de prática profissional ou estágio 
+supervisionado.
+Art. 93 O(a) discente com direito à renovação de matrícula que deixar de efetivá-la no prazo pre￾visto deverá solicitá-la no setor de registros acadêmicos, em até 20 (vinte) dias corridos desse prazo, 
+com apresentação da(s) devida(s) justificativa(s), sob pena de ser desvinculado(a) da instituição.
+§ 1º O Conselho de Curso julgará e emitirá parecer sobre a solicitação de renovação da matrícula 
+dos(as) discentes(s), considerando: a assiduidade e pontualidade, o cumprimento das tarefas, o tempo 
+máximo para integralização do curso, a existência de vagas e outros aspectos que julgar convenientes.
+§ 2º O parecer do Conselho de Curso será enviado à Diretoria de Ensino, que deliberará e en￾caminhará o(s) processo(s) ao Setor de Registros Acadêmicos, com decisão clara e definitiva, auto￾rizando ou não a renovação de matrícula do(s)/da(s) discente(s).
+§ 3º Caso a conclusão do processo indique a desvinculação do(a) discente, deverá ser precedi￾da de apuração, por meio da qual será dado ao(à) discente o direito à ampla defesa.
+Art. 94 O(a) discente que estiver em débito com a biblioteca não poderá renovar a matrícula 
+até que a situação seja regularizada.
+Art. 95 O(a) discente perderá o direito à renovação de matrícula quando:
+I - Tiver concluído todos os componentes curriculares de seu curso, conforme estabe￾lecido no PPC;
+II - For reprovado(a) por faltas em todas as disciplinas no 1º período acadêmico dos cur￾sos técnicos de nível médio e não possua parecer de equipe multidisciplinar do IFBA 
+que justifique as faltas;
+29
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+III - Deixar de efetivar a renovação da matrícula por um período letivo;
+IV - Ultrapassar prazo máximo de integralização curricular fixado pelo art. 26;
+V - Da aplicação de imposições disciplinares que resultem no desligamento do(a) dis￾cente da Instituição, conforme o Regimento Interno.
+Art. 96 O setor de registro informará ao(à) discente o cancelamento de sua matrícula institu￾cional e as respectivas razões no ato da solicitação de renovação da matrícula.
+SEÇÃO III
+DO TRANCAMENTO DE MATRÍCULA
+Art. 97 Entende-se por trancamento de matrícula a suspensão total dos estudos por um perí-
+odo letivo, a pedido do(a) próprio(a) discente.
+Art. 98 A solicitação de trancamento de matrícula deverá ser feita mediante a entrega de re￾querimento próprio no setor de Protocolo do Campus, direcionada à coordenação do curso pelo(a) 
+discente maior de 18 (dezoito) anos, ou por seu(sua) representante legal ou responsáveis quando 
+menor de 18 (dezoito) anos, em período previsto em calendário acadêmico do campus de vincula-
+ção do(a) discente.
+Paragráfo único. O trancamento de matrícula só terá validade por 1(um) ano/semestre letivo.
+Art. 99 O trancamento total de matrícula não será computado para efeito de contagem de 
+tempo máximo para integralização curricular.
+Art. 100 Caso não haja oferta das disciplinas para o(a) discente ao retornar do período de tran￾camento, a coordenação do curso e diretoria de ensino do campus deverão garantir uma matrícula 
+específica para caracterizar um vínculo do(a) discente no ano/semestre letivos.
+Paragráfo único. Para o(a) discente que estiver na condição tratada no caput deste artigo, 
+o(a) coordenador(a) do curso desenvolverá atividades acadêmicas extracurriculares durante o pe￾ríodo equivalente.
+Art. 101 O trancamento de matrícula para os cursos técnicos de nível médio será autorizado 
+pela coordenação de curso, por apenas um ano ou semestre letivo, somente para o(a) discente que 
+tiver cursado os componentes curriculares do primeiro ano/semestre do urso.
+Paragráfo único. O trancamento de matrícula não será concedido para o primeiro período 
+letivo após a reintegração, transferência interna ou externa.
+Art. 102 Ao retomar às atividades acadêmicas, o(a) discente retomará o período/semestre leti￾vo interrompido por ocasião do trancamento.
+Paragráfo único. Nos cursos – com regime seriado ou semestral –, o(a) discente deverá ser 
+matriculado em todas as disciplinas da série ou semestre.
+30
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 103 O(a) discente com a matrícula trancada, ao retornar e prosseguir seus estudos, estará 
+sujeito(a) às mudanças ocorridas nas matrizes curriculares, nos conteúdos programáticos, no Regi￾mento Interno e nestas Normas Acadêmicas.
+Art. 104 O(a) discente terá direito ao trancamento de matrícula, em qualquer época, por:
+I - Comprovação por atestado médico, fornecido ou homologado pelo Serviço Médico 
+Odontológico do Campus ou de qualquer outra unidade do IFBA, quando houver, ou 
+outros relatórios expedidos por profissionais das áreas biopsicossociais, homologados 
+pelos(as) profissionais do campus;
+II - Tratamento de saúde prolongado de familiares e de parentes por afinidade, desde 
+que seja comprovado que somente esse(a) estudante pode realizar o acompanhamen￾to necessário a esse(a) familiar, situação na qual a comprovação dar-se-á por relatório 
+médico ou relatório do setor multidisciplinar do IFBA, quando não couber o atendi￾mento domiciliar especial;
+III - Convocação para o Serviço Militar obrigatório;
+IV - Gravidez e amamentação comprovadas por atestado médico fornecido ou homo￾logado pelo Serviço Médico do Campus, quando houver, ou de qualquer outra Unidade 
+do IFBA;
+V - Direito assegurado em legislação específica.
+Paragráfo único. Para efeito do disposto no inciso I deste artigo, o(a) discente, ao regressar 
+para a prossecução de seus estudos, ficará condicionado(a) à apresentação de novo parecer, ho￾mologado pelos(as) profissionais competentes do campus ou de qualquer outra Unidade do IFBA, 
+acompanhado de requerimento entregue no setor de Protocolo do campus e encaminhado ao Se￾tor de Registros Acadêmicos, no qual fique comprovado encontrar-se o(a) discente em condições 
+de prosseguir seus estudos.
+SEÇÃO IV
+DA REINTEGRAÇÃO
+Art. 105 O(a) discente que perder o direito à matrícula (cf. art. 95, incisos II , III e IV) poderá for￾malizar o seu pedido de reintegração, por meio de requerimento próprio, com a devida justificativa, 
+dirigido ao Conselho de Curso.
+Art. 106 Caberá ao Conselho do Curso e, no caso de inexistência desse, à Direção de Ensino 
+analisar o requerimento do(a) discente e emitir parecer sobre o processo de reintegração, o qual 
+será encaminhado à Diretoria de Ensino ou Direção-Geral para análise e parecer final.
+§ 1º O atendimento à solicitação de reintegração ao curso será condicionado ao cumprimento 
+dos seguintes requisitos:
+I - A existência de vaga;
+II - Não ter sido negada a renovação de matrícula pelo Conselho de Curso, de acordo 
+com o estabelecido no art. 94 destas Normas Acadêmicas;
+III - Não ter sido desligado(a) da instituição por motivos disciplinares.
+31
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 2º Quando o número de vagas para reintegração for inferior ao número de pedidos, o Con￾selho de Curso selecionará os(as) interessados(as), examinando: as causas para a desvinculação da 
+Instituição, o histórico escolar, a vida acadêmica do(a) discente, tempo de afastamento e outros 
+elementos que julgar convenientes.
+§ 3º O Conselho do Curso aprovará a reintegração somente quando houver tempo disponível 
+para a integralização curricular do(a) discente, conforme determinado no art. 26.
+§ 4º O(a) discente só poderá ser reintegrado(a) mais de uma vez mediante justificativa a ser 
+analisada pelo Conselho do Curso e aprovação da Diretoria de Ensino ou Direção-Geral.
+§ 5º A reintegração não extingue a trajetória acadêmica anterior e seus efeitos.
+§ 6º O(a) discente reintegrado(a) não poderá requerer trancamento total ou parcial de matrí-
+cula, salvo nos casos previstos em Lei.
+§ 7º Não será concedida a reintegração ao curso para o(a) discente desvinculado(a) da Institui-
+ção por mais de 12 meses.
+§ 8º O(a) discente reintegrado(a) estará sujeito(a) às mudanças curriculares, de conteúdo pro￾gramático, no Regimento Interno ou nas Normas Acadêmicas.
+§ 9º Fica dispensada a exigência do disposto nos § 3º e 7º quando o(a) discente solicite cursar 
+apenas o componente curricular estágio, desde que o(a) discente comprove já ter cursado todos os 
+outros componentes curriculares previstos no PPC do curso.
+Art. 107 Indeferido o pedido de reintegração e esgotados os recursos administrativos cabíveis, 
+o(a) discente perderá o direito à vaga.
+SEÇÃO V
+DA MATRÍCULA DO(A) DISCENTE POR TRANSFERÊNCIA INTERNA OU EXTERNA
+Art. 108 A transferência é caracterizada pela transposição da vida acadêmica do(a) discente de 
+determinado curso para outro.
+§ 1º Só será admitida a transferência entre cursos com o mesmo eixo tecnológico.
+§ 2º A transferência interna só será permitida uma vez.
+Art. 109 A transferência pode ocorrer para cursos de campi diferentes da mesma instituição 
+(considerada Transferência Interna) ou para cursos de outra instituição (considerada Transferência 
+Externa).
+§ 1º O processo de solicitação de transferência, em qualquer das condições descritas no caput 
+deste artigo, iniciar-se-á após manifestação do(a) interessado(a), por meio de requerimento no qual 
+expresse a intenção de transferir-se com base nos trâmites legais.
+§ 2º Sendo o(a) discente menor de 18 anos, caberá ao(à) responsável legal fazer a solicitação da 
+transferência em qualquer das condições descritas no caput deste artigo.
+32
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 110 O processo de solicitação de transferência será realizado no período definido no Calen￾dário Acadêmico mediante a apresentação da documentação exigida.
+Paragráfo único. A transferência estará condicionada à existência de vaga na etapa preten￾dida do curso.
+Art. 111 Para a concessão da transferência solicitada para outra instituição, exigir-se-á a decla￾ração de deferimento enviada pela instituição de destino, devendo o(a) discente, na sua vida aca￾dêmica, estar isento(a) de:
+I - Débito(s) com as bibliotecas do IFBA;
+II - Imposição(ões) disciplinar(es) que pode(m) resultar em desligamento do(a) discen￾te da Instituição, conforme o Regimento Interno.
+Art. 112 Compete ao(à) Diretor(a) de Ensino, diante do parecer do Conselho de Curso, oficializar 
+e enviar ao setor de Registros Acadêmicos o quantitativo de vagas a serem oferecidas para matrí-
+cula de transferências e, posteriormente, publicá-lo em edital, junto ao período para a solicitação de 
+transferências já definido no calendário acadêmico.
+Paragráfo único. O número de vagas será publicado a cada ano/semestre letivo.
+Art. 113 A solicitação de matrícula por transferência será encaminhada ao Conselho do Curso, 
+devendo obrigatoriamente estar acompanhada da seguinte documentação:
+I - Histórico devidamente autenticado e assinado pela instituição de origem, no qual 
+conste carga horária e descrição dos símbolos dos conceitos ou notas obtidos, com os 
+valores correspondentes;
+II - PPC de origem aprovado pelos órgãos competentes do sistema de ensino, confor￾me estabelecido em legislação própria vigente;
+III - Declaração da instituição de origem, informando que o(a) candidato(a) encontra-se 
+matriculado ou que possui vínculo e esteja em situação regular;
+IV - Comprovação legal que regulamenta o curso de origem, quanto à autorização para 
+funcionamento por órgão competente;
+V - Cópia e original do Documento de Identidade e CPF.
+Art. 114 Caberá ao Conselho do Curso:
+I - Analisar o requerimento e emitir parecer sobre a solicitação de transferência;
+II - Proceder aos estudos de adaptação curricular dos(as) candidatos(as) seleciona￾dos(as);
+III - Enviar o parecer à Diretoria de Ensino para homologação e posterior encaminha￾mento ao Setor de Registros Acadêmicos, que dará ciência ao(à) discente.
+Art. 115 Para análise e seleção das solicitações de matrícula, serão exigidas:
+I - Existência de vaga no curso pretendido;
+II - Avaliação do mérito acadêmico por meio do histórico escolar.
+33
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 116 Os processos homologados serão enviados ao Setor de Registros Acadêmicos, conten￾do o registro de aproveitamento de estudos, no prazo máximo de 30 (trinta) dias, antes do término 
+do semestre/ano letivo em curso.
+SEÇÃO VI
+DA TRANSFERÊNCIA EX–OFFICIO
+Art. 117 A matrícula obrigatória de discente, decorrente de transferências de servidores(as) pú-
+blicos(as) ou seus(suas) dependentes, em razão de mudança do local de trabalho, no interesse da 
+administração pública, dar-se-á na forma da legislação em vigor.
+Art. 118 A transferência ex officio dar-se-á conforme previsto na legislação em vigor, e as solicita-
+ções deverão ser encaminhadas ao Conselho do Curso, acompanhadas da seguinte documentação:
+I - Cópia da publicação no Diário Oficial ou órgão próprio do ato administrativo do com￾petente setor de pessoal ou de recursos humanos da instituição ou entidade que deter￾minou a remoção ou transferência ex officio;
+II - Declaração de matrícula ou vínculo com a instituição de origem no período letivo 
+em que solicitou a transferência;
+III - Comprovante de relação de dependência com o(a) servidor(a) (certidão de casa￾mento, declaração de união estável, guarda judicial, certidão de nascimento, entre ou￾tros), quando a situação exigir;
+IV - Histórico devidamente autenticado e assinado pela instituição de origem, no qual 
+conste: carga horária; descrição dos símbolos das notas ou conceitos obtidos, com os 
+valores correspondentes;
+V - PPC de origem, aprovado pelos órgãos competentes do sistema de ensino, confor￾me estabelecido em legislação própria vigente;
+VI - Cópia da Carteira de Identidade.
+Paragráfo único. As solicitações de transferência de que trata o caput deste artigo serão acei￾tas para prosseguimento dos estudos nos eixos tecnológicos oferecidos no IFBA.
+Art. 119 Caberá ao Conselho do Curso:
+I - Analisar o requerimento e emitir parecer sobre a solicitação de transferência;
+II - Proceder aos estudos de adaptação curricular dos(as) candidatos(as) seleciona￾dos(as);
+III - Enviar o parecer à Diretoria de Ensino para homologação e posterior encaminha￾mento ao Setor de Registros Acadêmicos, que dará ciência ao(à) discente.
+Paragráfo único. Os processos homologados deverão seguir os mesmos trâmites dispostos 
+no art. 116 destas Normas.
+Art. 120 Atendidas as exigências dispostas nesta seção, a matrícula será efetuada somente 
+quando for atendida a frequência mínima obrigatória no semestre ou ano letivo de ingresso. Caso 
+contrário, a referida inscrição será postergada para o semestre ou ano letivo subsequente.
+34
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+SEÇÃO VII
+DA MUDANÇA DE TURNO
+Art. 121 As solicitações para a mudança de turno ocorrerão em prazo estabelecido no Calendá-
+rio Acadêmico do respectivo campus do IFBA.
+Paragráfo único. As solicitações feitas fora do período disposto no calendário acadêmico do 
+campus do IFBA deverão ser encaminhadas ao Conselho do Curso.
+Art. 122 A mudança de turno fica condicionada à existência de vaga na turma pleiteada.
+Art. 123 Havendo mais pedidos do que vagas disponíveis, a solicitação será concedida de acor￾do com a ordem de prioridade dos incisos a seguir, mediante comprovação formal:
+I - Relação de emprego;
+II - Relação de estágio curricular;
+III - Matrícula em curso de educação formal em outras instituições de ensino;
+IV - Outras atividades educacionais, formais ou informais.
+Paragráfo único. Só serão concedidos pedidos de mudança de turno para o mesmo campus 
+do IFBA.
+Art. 124 A solicitação para mudança de turno será encaminhada ao Conselho de Curso para 
+análise e emissão de parecer, e o requerente deverá:
+I - Preencher formulário próprio especificando o turno e a turma pretendidos;
+II - Anexar os documentos comprobatórios de uma das situações indicadas no art. 123, 
+caso o(a) discente deseje análise prioritária da sua solicitação;
+Paragráfo único. Após emissão do parecer pelo Conselho do Curso, a solicitação para a trans￾ferência de turno será encaminhada ao setor de Registros Acadêmicos, que realizará ajustes neces￾sários no sistema acadêmico.
+SEÇÃO VIII
+DA MUDANÇA E DA EXTINÇÃO DE MATRIZ CURRICULAR
+Art. 125 Entende-se por mudança de matriz curricular o processo simultâneo de extinção de 
+uma matriz curricular e de oferta de uma nova matriz curricular em um curso técnico de nível mé-
+dio, em qualquer de suas formas.
+Paragráfo único. Justificam o processo de mudança de matriz curricular:
+I - Alteração na distribuição dos componentes curriculares em relação às etapas do curso;
+II - Alteração na carga horária de qualquer dos componentes curriculares da matriz 
+curricular;
+III - Inclusão ou exclusão de componente curricular na matriz curricular;
+35
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+IV - Ampliação ou redução do número de etapas da matriz curricular de um curso.
+Art. 126 Entende-se por extinção de matriz curricular o encerramento de oferta de determi￾nada configuração de matriz curricular de um curso técnico de nível médio, em qualquer de suas 
+formas, ainda que não implique, necessariamente, o encerramento da oferta desse mesmo curso. 
+Paragráfo único. Justificam o processo de extinção de matriz curricular:
+I - A conclusão de todas as etapas do processo de mudança de matriz curricular;
+II - O encerramento da oferta de um curso;
+III - A ausência de estudantes vinculados à matriz a ser extinta.
+Art. 127 A tramitação e os prazos para homologação dos Projetos de Mudança ou Extinção de 
+Matriz Curricular obedecerão à seguinte sequência, vinculando-se as ações aos prazos específicos 
+adiante estabelecidos:
+I - Conselho de Curso:
+a) Acolher ou elaborar o Projeto de Mudança ou Extinção de Matriz Curricular;
+b) Emitir parecer sobre o respectivo projeto;
+c) Em caso de acolhimento de projeto, dar ciência do processo SEI público às autoras ou
+autores;
+d) Encaminhar o processo à Direção de Ensino do campus;
+e) Quando necessário, realizar ou solicitar das autoras ou autores a realização dos ajustes
+apontados pelos pareceres da Comissão de Análise Permanente, da Direção de Ensino ou
+do Conselho de campus.
+Prazo: até 6 (seis) meses após recebimento do Projeto de Mudança.
+II - Direção de Ensino ou equivalente:
+a) Acolher o projeto;
+b) Analisar e deliberar sobre o projeto.
+Prazo: até 1 (um) mês após envio pela Coordenação de Curso.
+III - Comissão de Análise Permanente (CAP) Local:
+a) Acolher o projeto;
+b) Analisar e elaborar parecer sobre o projeto.
+Prazo: até 3 (três) meses após envio pela Direção de Ensino.
+IV - Conselho de Campus:
+a) Acolher o projeto;
+b) Analisar e elaborar parecer sobre o projeto;
+c) Incluir o projeto em pauta para deliberação.
+Prazo: O Projeto deve ser incluído em pauta até a próxima reunião do Conselho de Cam￾pus, a contar da data de recebimento.
+36
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+V - Comissão de Análise Permanente (CAP) Geral:
+a) Acolher e encaminhar o projeto.
+Prazo: até 1 (um) mês após envio pelo Campus.
+VI - Plenária do CONSEPE:
+a) Analisar e deliberar sobre o projeto.
+Prazo: A análise e deliberação deverá ocorrer no ano da proposição da mudança/extinção.
+Art. 128 Os projetos de mudança e extinção de matriz curricular devem ser apreciados pela 
+plenária do CONSEPE, que será responsável por homologar a solicitação de mudança de matriz 
+curricular e deferimento ou indeferimento da mudança ou extinção da matriz curricular.
+Art. 129 Os projetos de mudança de matriz curricular, ao serem submetidos à Comissão de 
+Análise Permanente (CAP) Geral, devem apresentar:
+I - Solicitação com justificativa acadêmica, pedagógica e administrativa;
+II - Parecer favorável do Conselho de Curso;
+III - Parecer favorável da CAP Local do campus;
+IV - Parecer favorável do Conselho do Campus;
+V - Plano de ajuste de matrícula para os estudantes que optarem por migrar para a 
+nova matriz curricular;
+VI - Quadro de Transição, indicando as equivalências das etapas do curso entre as ma￾trizes curriculares em transição.
+VII - Plano de Garantia (condições de permanência do estudante na nova matriz, a 
+exemplo de carga horária docente, espaço físico, alimentação etc.) da oferta do curso 
+em sua matriz original aos estudantes que optarem por não migrar para a nova matriz 
+curricular durante a etapa de transição curricular.
+VIII - Plano de Transição Curricular, que deve ser elaborado pela coordenação de Curso 
+em conjunto com o Conselho de Curso e Diretoria de Ensino ou equivalente no Campus 
+e conter as seguintes informações do processo:
+a) prazo para extinção da matriz curricular antiga;
+b) data de implantação da nova matriz curricular;
+c) prazo para solicitação de migração curricular;
+d) outras informações que se fizerem necessárias.
+Paragráfo único. Não serão apreciadas solicitações de Mudança de Matriz Curricular que não 
+estejam acompanhadas dos itens descritos anteriormente.
+Art. 130 A implementação da Mudança de Matriz Curricular deferida pelo CONSEPE será con￾duzida sob a responsabilidade da Diretoria de Ensino do campus que deu origem à solicitação.
+Art. 131 A implementação da Mudança de Matriz Curricular dará início ao processo de Transi-
+ção de Matriz Curricular, que compreende a simultânea implementação da nova matriz e extinção 
+da matriz curricular anterior.
+37
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+I - O processo de Transição de Matriz Curricular terá duração igual ou superior ao tem￾po mínimo para integralização do respectivo curso.
+II - Durante o processo de Transição de Matriz Curricular, o curso deixará de ofertar a 
+matriz curricular a ser extinta e passará a ofertar a nova matriz curricular iniciando pela 
+primeira etapa do curso. As etapas seguintes serão incluídas, uma a uma, a cada novo 
+ciclo letivo.
+III - Durante o processo de Transição de Matriz Curricular, os estudantes matriculados 
+no curso poderão fazer opção por migração para nova matriz ou podem permanecer 
+na matriz curricular original.
+IV - Durante o processo de Transição de Matriz Curricular, os estudantes que optarem 
+pela migração curricular para nova matriz curricular deverão preencher um Termo de 
+Ciência expressando o acordo de migração. O Termo de Ciência deverá ser devidamen￾te preenchido e assinado pelo estudante ou por seu responsável legal e entregue no 
+ato da Renovação de Matrícula. Não poderá ser revertido.
+V - Estudantes que, durante o processo de Transição de Matriz Curricular, optarem por 
+não migrar para a nova matriz curricular, terão direito a permanecerem matriculados 
+na matriz curricular a ser extinta somente enquanto houver oferta de turma na etapa 
+do curso pleiteada pelo estudante.
+VI - Estudantes que, durante o período de Transição de Matriz Curricular, forem rein￾tegrados ou que renovarem matrícula em etapa do curso ainda com oferta da matriz 
+curricular a ser extinta, deverão ser consultados sobre possibilidade de migração para a 
+nova matriz curricular, mediante Termo de Ciência.
+VII - Estudantes que, durante o período de Transição de Matriz Curricular, estiverem 
+com matrículas trancadas, deverão ser informados sobre o processo de transição de 
+matriz por meio do e-mail institucional.
+VIII - Estudantes que, durante o período de Transição de Matriz Curricular, forem rein￾tegrados ou que renovarem matrícula em etapa do curso não mais contemplada pela 
+oferta da matriz curricular a ser extinta, deverão ser informados sobre a impossibilidade 
+de matrícula na sua matriz curricular de origem e sobre sua automática migração para 
+a nova matriz curricular, conforme Quadro de Transição, mediante Termo de Ciência.
+Art. 132 O processo de Extinção de Matriz Curricular estará concluído quando não houver mais 
+matrícula ativa vinculada à matriz curricular a ser extinta.
+SEÇÃO IX
+DO(A) PORTADOR(A) DE DIPLOMA OU CERTIFICADO DE QUALIFICAÇÃO PROFISSIONAL PARA 
+OS CURSOS TÉCNICOS DE NÍVEL MÉDIO
+Art. 133 As solicitações para matrícula de discente portador(a) de diploma de curso técnico de 
+nível médio ou de certificado de qualificação profissional técnica de nível médio serão realizadas 
+em prazo estabelecido no Calendário Acadêmico específico de cada campus do IFBA.
+38
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 134 O atendimento à matrícula para portadores(as) de diploma ou certificado de qualifi￾cação profissional técnica de nível médio será condicionado aos requisitos a seguir:
+I - Existência de vaga no curso pretendido;
+II - O(a) candidato(a) ser portador(a) de certificado de qualificação profissional técnica 
+de nível médio ou de diploma de técnico de nível médio;
+III - A qualificação pretendida estar inserida no mesmo eixo tecnológico, de acordo com 
+o CNCT do curso do diploma apresentado.
+Art. 135 A solicitação para matrícula ficará condicionada à apresentação dos seguintes docu￾mentos devidamente autenticados e assinados pela direção da instituição de origem:
+I - Certificado de qualificação profissional técnica de nível médio ou diploma de técni￾co de nível médio;
+II - Histórico escolar atualizado que discrimine os componentes curriculares cursados, 
+os resultados das avaliações e cargas horárias cumpridas;
+III - O PPC.
+Paragráfo único. Após a aprovação da solicitação, o(a) discente deverá apresentar os docu￾mentos necessários para efetuar sua matrícula institucional.
+Art. 136 Caberá ao Conselho do Curso emitir parecer sobre o processo de matrícula como por￾tador(a) de diploma, o qual será encaminhado à Diretoria de Ensino para análise e parecer final, 
+sendo posteriormente encaminhado ao setor de Registros Escolares.
+Art. 137 O(a) discente realizará, quando necessário, adaptação de componentes curriculares 
+constantes no PPC no qual solicita matrícula.
+§ 1º Caberá ao Conselho de Curso emitir parecer quanto às adaptações a serem realizadas.
+§ 2º O(a) discente só poderá cursar determinada etapa do curso, realizando adaptações de com￾ponentes curriculares constantes na etapa anterior, se for autorizado(a) pelo Conselho de Curso.
+CAPÍTULO VI
+DO APROVEITAMENTO DE ESTUDOS E DA CERTIFICAÇÃO DE CONHECIMENTOS 
+Art. 138 Entende-se por aproveitamento de estudos o processo de reconhecimento de disci￾plinas ou etapas cursadas com aprovação do(a) discente regularmente matriculado(a)no próprio 
+IFBA ou em instituições de ensino superior e de ensino da EPTNM, nacionais ou estrangeiras (cre￾denciadas pelo MEC, oficiais ou reconhecidas), feito pelos órgãos competentes do IFBA, quando 
+solicitado pelo(a) discente para obtenção de habilitação diversa.
+Art. 139 Para discentes dos cursos da EPTNM, a solicitação do aproveitamento de estudos de￾verá estar diretamente relacionada com o perfil profissional do(a) egresso(a) da habilitação preten￾dida, de acordo com os dispositivos legais vigentes.
+Paragráfo único. Não será concedido aproveitamento de estudos do Ensino Médio para os 
+cursos da EPTNM na forma integrada ao Ensino Médio.
+39
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 140 Nos cursos subsequentes e concomitantes, a regulamentação do aproveitamento de 
+estudos deve observar os seguintes aspectos/etapas:
+§ 1º Caberá ao conselho de curso o encaminhamento do pedido ao(s) docente(s) especialis￾ta(s) da(s) disciplina(s), competência(s) ou etapa(s) objeto(s) de aproveitamento, que realizará(ão) 
+a análise de equivalência entre matrizes curriculares e carga horária, que deverão equivaler a, no 
+mínimo, 75% da matriz e da carga horária pretendidas.
+§ 2º O estudo da equivalência da(s) disciplina(s), competência(s) ou etapa(s) será feito obser￾vando-se a compatibilidade de carga horária; conteúdo programático ou competências e habilida￾des e área do conhecimento.
+§ 3º Após o conselho de curso analisar o parecer do(s) especialista(s), emitirá um parecer con￾clusivo sobre o pleito, apresentando a devida justificativa para o deferimento ou indeferimento.
+§ 4º A coordenação do curso ou área deverá encaminhar o resultado do processo ao setor de 
+registros acadêmicos, que será responsável por dar ciência ao estudante sobre o parecer emitido 
+pelo conselho de curso.
+Art. 141 Os(as) discentes poderão ter seus saberes certificados no âmbito dos programas vi￾gentes de certificação de conhecimentos e saberes profissionais aos quais o IFBA estiver integrado.
+§ 1º A Certificação de que trata o caput é concebida como um conjunto de ações que objetiva 
+acolher o(a) trabalhador(a), reconhecer seus saberes, validá-los e complementálos, buscando elevar 
+a escolaridade por meio de um itinerário formativo que oriente e possibilite ao(à) trabalhador(a) 
+galgar todos os níveis de formação profissional e tecnológica.
+§ 2º Os(as) discentes dos cursos de formação profissional ofertados na modalidade de Edu￾cação de Jovens e Adultos terão direito à certificação de conhecimentos e saberes por meio dos 
+programas de certificação de que trata o caput.
+§ 3º O processo de Certificação de Saberes Profissionais dar-se-á no primeiro período do cur￾so e será realizado por meio de avaliação teórica ou teórico-prática, conforme as características do 
+componente curricular.
+CAPÍTULO VII
+DO ATENDIMENTO DOMICILIAR 
+Art. 142 O atendimento domiciliar é um recurso que envolve a família e a instituição. Isso as￾segura ao(à) discente dos cursos presenciais e a distância realizar atividades acadêmicas em do￾micílio, quando houver impedimento de frequência às aulas presenciais, sem prejuízo na sua vida 
+acadêmica.
+Paragráfo único. Os(as) discentes dos cursos e disciplinas ofertados a distância não serão dis￾pensados das atividades e avaliações realizadas no ambiente virtual de aprendizagem.
+Art. 143 Terá direito ao atendimento domiciliar o(a) discente que necessitar ausentar-se das 
+aulas presenciais por um período superior a 15 (quinze) dias devido a:
+I - Possuir doença infectocontagiosa com o afastamento comprovado por atestado 
+médico;
+40
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+II - Necessitar de tratamento de saúde com o afastamento comprovado por atestado 
+médico ou odontológico fornecido ou homologado pelo Serviço Médico do campus, 
+quando houver, ou de qualquer outra Unidade do IFBA;
+III - Necessitar acompanhar familiares e/ou parentes por afinidade com problemas de 
+saúde desde que seja comprovado, com o parecer do setor multidisciplinar do IFBA, 
+que somente esse(a) estudante pode realizar o acompanhamento necessário a esse(a) 
+familiar;
+IV - Gravidez e amamentação comprovadas por atestado médico fornecido ou homo￾logado pelo Serviço Médico do campus, quando houver, ou de qualquer outra Unidade 
+do IFBA;
+§ 1º O atendimento domiciliar será efetivado mediante relatório médico reconhecido pelo Ser￾viço Médico e Odontológico de um dos campi do IFBA.
+§ 2º Nos casos dos incisos I a III, o tempo de atendimento domiciliar poderá ser de até 60 (ses￾senta) dias, em requerimento inicial, e ampliado por igual período, mediante novo requerimento, 
+com apresentação e homologação de novo atestado pelo Serviço Médico e Odontológico de um 
+dos campi do IFBA.
+§ 3º Caso o(a) discente necessite ultrapassar o tempo máximo de afastamento, a Coordenação 
+do Curso deverá orientá-lo(a) a realizar o trancamento total da matrícula.
+§ 4º No caso do inciso IV, o tempo de atendimento domiciliar poderá ser de até 120 (cento e 
+vinte) dias, conforme legislação própria e mediante a apresentação e homologação de atestado 
+pelo Serviço Médico e Odontológico de um dos campi do IFBA.
+§ 5º O(a) discente terá sua frequência computada durante o período em que estiver em aten￾dimento domiciliar.
+§ 6º O(a) discente poderá ter um prazo diferenciado para cumprimento das atividades duran￾te o período em que estiver em atendimento domiciliar.
+Art. 144 Compete ao(à) discente, a seu(sua) responsável ou representante legal:
+I - Preencher requerimento e anexar o atestado médico e/ou parecer do serviço social;
+II - Dar entrada no processo no Setor de Registos Acadêmicos do campus; e
+III - Responsabilizar-se por receber e devolver as atividades elaboradas pelos(as) docen￾tes, com periodicidade estipulada pelo(a) docente. 
+Art. 145 Caberá ao Colegiado/Coordenação do Curso:
+I - Analisar e emitir parecer sobre a solicitação;
+II - Enviar o parecer à Diretoria de Ensino para homologação e posterior encaminha￾mento ao Setor de Registros Acadêmicos, que dará ciência ao(à) discente.
+Art. 146 Cabe à Coordenação do Curso ao qual o(a) discente está vinculado(a):
+I - Prestar orientações acerca do atendimento domiciliar ao(à) discente, seus(suas) res￾ponsáveis ou representantes legais;
+41
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+II - Comunicar a situação do(a) discente aos(às) docentes e envolvê-los(as) no planeja￾mento, realização e acompanhamento das atividades acadêmicas;
+III - Viabilizar a manutenção do contato com o(a) discente, responsável ou representan￾te legal para o encaminhamento e recebimento das atividades.
+Paragráfo único. O fluxo processual para atendimento ao(a) discente deverá ser estabelecido 
+internamente em cada campus.
+CAPÍTULO VIII
+DA AVALIAÇÃO DA APRENDIZAGEM
+Art. 147 A avaliação da aprendizagem deve ter como referencial a Missão Institucional do IFBA, 
+assim como os princípios, diretrizes e objetivos expressos no PPC.
+Art. 148 A avaliação do processo de ensino-aprendizagem é global, de caráter formativo e per￾manente e envolve todas as dimensões, espaços e sujeitos escolares, devendo ser contínua e cumu￾lativa, com prevalência dos aspectos qualitativos sobre os quantitativos, bem como dos resultados 
+ao longo do processo sobre os de eventuais provas finais, conforme preconiza a Lei de Diretrizes e 
+Bases da Educação Brasileira – LDB (LEI Nº 9.394, de 20 de dezembro de 1996).
+Paragráfo único. A avaliação qualitativa inclui diagnóstico e reorientação permanente no 
+processo de ensino-aprendizagem, buscando o desenvolvimento integral do(a) educando(a).
+Art. 149 A avaliação da aprendizagem deve respeitar as diferenças e especificidades indivi￾duais dos(as) discentes com deficiência e com outras necessidades educacionais específicas, con￾tribuindo para o efetivo desenvolvimento do seu percurso educativo, e darse-á em conformidade 
+com os dispositivos legais institucionais vigentes.
+CAPÍTULO IX
+DO DESEMPENHO ACADÊMICO
+Art. 150 A avaliação do desempenho acadêmico deverá ter como referência os parâmetros 
+orientadores de práticas avaliativas qualitativas, a saber:
+I - Domínio cognitivo – capacidade de relacionar o novo conhecimento com o conheci￾mento já adquirido;
+II - Cumprimento e qualidade das tarefas – execução de tarefas com requisitos previa￾mente estabelecidos no prazo determinado com propriedade, empenho, iniciativa, dis￾posição e interesse;
+III - Capacidade de produzir em equipe – aporte pessoal com disposição, organização, 
+liderança, cooperação e interação na atividade em grupo, no desenvolvimento de habi￾lidades, hábitos, conhecimentos e valores;
+IV - Autonomia – capacidade de tomar decisões e propor alternativas para a solução de 
+problemas, bem como de possuir iniciativa e compreensão do próprio desenvolvimento.
+42
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 151 Em cada instrumento de avaliação, os parâmetros orientadores de práticas avaliativas 
+qualitativas serão considerados em conjunto, quando aplicáveis, na composição da nota.
+Art. 152 A verificação do desempenho acadêmico será feita de forma diversificada, contem￾plando diferentes habilidades, de acordo com a peculiaridade de cada processo educativo e com o 
+nível de aquisição de conhecimento dos(as) estudantes, contendo, entre outros:
+I - Atividades individuais e em grupo, escritas ou orais, tais como: provas e testes, pes￾quisa bibliográfica e/ou de campo, demonstração prática, relatórios, seminários etc.;
+II - Elaboração e execução de projetos científicos, artísticos ou culturais;
+III - Elaboração e execução de projetos interdisciplinares e integradores.
+§ 1º Para o regime seriado anual, os componentes curriculares com carga horária de até uma 
+1(uma) hora-aula semanal, haverá 2 (duas) avaliações; nos demais casos, de carga horária semanal 
+maior, haverá 3 (três) avaliações com instrumentos avaliativos diferentes.
+§ 2º Para os cursos do regime semestral ou seriado semestral, serão utilizados, por componen￾te curricular, 3 (três) instrumentos de avaliação diferentes.
+§ 3º O planejamento de avaliações será elaborado conjuntamente pelo corpo docente e a Co￾ordenação de Curso, sob ciência da Direção de Ensino, e divulgado no início da unidade didática, 
+em consonância com os planos de ensino.
+§ 4º Em caso de alterações nas datas programadas, a data de aplicação de cada instrumento 
+avaliativo deverá ser divulgada pelo(a) docente, tanto para a Coordenação de Curso quanto para 
+o(a) discente, com antecedência mínima de 3 (três) dias úteis, respeitando-se igual período para a 
+sua aplicação.
+§ 5º Observar-se-á a realização de, no máximo, 2 (duas) atividades avaliativas presenciais por 
+dia em cada turma, devendo, para isso, ser estabelecido acompanhamento de agendamento das 
+atividades avaliativas.
+§ 6º Após os registros de notas e outras informações pelo(a) docente, as avaliações serão dis￾cutidas e devolvidas aos(às) discentes.
+§ 7º Compete ao(à) docente devolver as avaliações aos(às) discentes, no mínimo, 7 (sete) dias 
+antes de eventuais atividades de recuperação da aprendizagem ou outra atividade avaliativa e pro￾mover, pelo menos, um momento de revisão dos conteúdos avaliados durante o horário das aulas 
+e/ou atendimento ao(à) discente.
+Art. 153 Será facultado o direito de segunda chamada ao(à) discente que faltar a qualquer ava￾liação ou não tenha executado o trabalho escolar, desde que o requeira no prazo de 48 (quarenta e 
+oito) horas úteis, após o término do prazo de afastamento, sob condição de apresentar documentos 
+comprobatórios em uma das seguintes situações:
+I - Problemas de saúde e/ou psicossociais;
+II - Obrigações com o Serviço Militar;
+III - Pelo exercício do voto (um dia anterior e um dia posterior à data da eleição, se coin￾cidente com a da realização da prova);
+43
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+IV - Convocação pelo Poder Judiciário ou pela Justiça Eleitoral;
+V - Participação, autorizada pela Instituição, em atividades desportivas, culturais, de en￾sino, pesquisa ou extensão;
+VI - Acompanhamento de parentes (respeitando os diversos arranjos familiares) em 
+caso de doença;
+VII - Falecimento de familiar (respeitando os diversos arranjos familiares) ou de paren￾tes de até segundo grau, contanto que a avaliação tenha sido realizada durante o perí-
+odo de até oito dias corridos após a ocorrência do falecimento;
+VIII - Outras situações asseguradas por legislação específica;
+IX - Participação em processo seletivo de instituição de ensino superior;
+X - Exame de direção veicular.
+§ 1º O(a) discente ou seu(sua) responsável ou representante legal será obrigado(a) a preencher 
+o requerimento próprio, anexando o(s) documento(s) comprobatório(s), no Setor de Registros Aca￾dêmicos do campus.
+§ 2º O requerimento e os documentos comprobatórios serão encaminhados ao Setor de Re￾gistros Acadêmicos, que os enviará à Coordenação do Curso.
+§ 3º Caberá à Coordenação do Curso emitir parecer a respeito da validade dos documentos 
+apresentados pelo(a) discente para a realização da segunda chamada e encaminhá-lo ao Setor de 
+Registros Acadêmicos, que terá a incumbência de dar ciência ao(à) discente.
+§ 4º A avaliação de segunda chamada deverá ser feita pelo(a) próprio(a) docente que ministra 
+a disciplina, em horário previamente comunicado ao(à) interessado(a).
+§ 5º Em casos de força maior, caberá à Equipe Multidisciplinar avaliar o caso e emitir parecer 
+acerca do direito do(a) estudante à segunda chamada.
+Art. 154 O desempenho acadêmico do(a) discente será registrado na caderneta eletrônica. 
+§ 1º A caderneta eletrônica é um instrumento de registro dos conteúdos ministrados pelos(as) 
+docentes, da frequência e do desempenho dos(as) discentes e de situações referentes ao acompa￾nhamento acadêmico do(a) discente durante a etapa do curso. 
+§ 2º O desempenho do(a) discente em cada unidade didática será registrado por meio de 
+nota, compreendida entre 0,0 (zero) e 10,0 (dez), e resultante de 3 (três) instrumentos de avaliação 
+de diferentes naturezas.
+§ 3º O(a) discente que não realizar as atividades de avaliação terá como registro o código NA 
+(Não Avaliado), que corresponderá a 0,0 (zero).
+§ 4º Para o regime anual, a nota final do(a) discente na disciplina cursada será a média aritmé-
+tica das notas das unidades didáticas.
+§ 5º Para o regime semestral, a nota final do(a) discente na disciplina cursada corresponderá 
+à nota do período letivo.
+44
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 155 No regime anual, o(a) docente registrará na caderneta eletrônica a nota final dos(as) 
+discentes na disciplina cursada, ao final de cada unidade didática, conforme estabelecido no calen￾dário acadêmico.
+Art. 156 No regime semestral, o(a) docente deverá registrar na caderneta eletrônica a nota fi￾nal dos(as) discentes na disciplina cursada, ao final de cada período letivo, conforme estabelecido 
+no Calendário Acadêmico.
+SEÇÃO I
+DO CÁLCULO DA MÉDIA DO COMPONENTE CURRICULAR
+Art. 157 Nos cursos com regime semestral e seriado semestral, será considerado(a) aprova￾do(a) na disciplina o(a) discente que, ao final do semestre, não tenha sido reprovado(a) por faltas e 
+tenha obtido média da disciplina igual ou superior a 6,0 (seis).
+§ 1º A média da disciplina (MD) será determinada a partir do cálculo da média aritmética de 
+notas obtidas em avaliações realizadas pelo(a) estudante ao longo do semestre/período letivo ou de 
+nota obtida em avaliação de recuperação das aprendizagens.
+§ 2º A partir dos critérios avaliativos previamente estabelecidos, o(a) docente atribuirá, para 
+cada atividade avaliativa realizada, uma nota Nn (n = 1, 2 ou 3) de 0,0 (zero) a 10,0 (dez).
+§ 3º O cálculo da média aritmética semestral será realizado considerando o número de avalia-
+ções aplicadas, em consonância com o que está especificado no art. 144 e de acordo com a seguin￾te equação:
+MS = N 1 +N 2 + N 3
+ 3
+na qual:
+N1 = nota do 1° instrumento avaliativo
+N2 = nota do 2° instrumento avaliativo
+N3 = nota do 3° instrumento avaliativo
+MS = média aritmética semestral
+§ 4º O(a) estudante que obtiver rendimento que represente menos de 60% do valor das ativi￾dades avaliativas terá direito à recuperação da aprendizagem correspondente ao(s) componente(s) 
+curricular(es) avaliado(s) durante o processo de aprendizagem.
+§ 5º Para registro das recuperações da aprendizagem, o(a) professor(a) deverá realizar, no mí-
+nimo, uma avaliação até o fechamento do semestre.
+§ 6º Para a definição da nota do(a) estudante no semestre, deverá prevalecer o maior rendi￾mento obtido entre a(s) avaliação(ões) regular(es) e a(s) avaliação(ões) da recuperação da aprendi￾zagem.
+§ 7º Os estudos de recuperação da aprendizagem serão realizados durante o processo peda￾gógico, incluindo o horário de atendimento ao(à) estudante definido no horário do(a) professor(a).
+§ 8º O(a) docente realizará atividades orientadas à(s) dificuldade(s) do(a) estudante ou grupo 
+de estudantes, de acordo com a peculiaridade de cada disciplina, contendo, entre outros:
+45
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+I - tividades individuais e/ou em grupo, como: pesquisa bibliográfica, demonstração 
+prática, seminários, relatório, portfólio, provas escritas ou orais, pesquisa de campo, pro￾dução de textos, entre outros;
+II - Produção científica, artística ou cultural;
+III - Oficinas.
+§ 9º Todos(as) os(as) professores deverão desenvolver atividades para recuperação da apren￾dizagem.
+§ 10º A recuperação da aprendizagem deverá estar contemplada no plano de disciplina e de 
+aula.
+Art. 158 Nos cursos com regime seriado anual, será considerado(a) aprovado(a) na disciplina 
+o(a) discente que, ao final do ano letivo, não for reprovado(a) por falta e obtiver média final da dis￾ciplina igual ou superior a 6,0 (seis).
+§ 1º A Média Final Anual da disciplina (MF) será calculada de acordo com a equação a seguir:
+MF = MDU1 + MDU2 + MDU3
+ 3
+§ 2º A Média da Disciplina na unidade didática (MDU) será determinada a partir da média arit￾mética (entre as Notas N1, N2 e/ou N3) alcançada a partir da realização das atividades avaliativas de 
+cada unidade didática, em consonância com o que está especificado no art. 144 e de acordo com 
+as seguintes equações:
+MDU = N 1 + N 2 ou MDU = N 1 + N 2 + N 3
+ 2 3
+nas quais:
+N1 = nota do 1° instrumento avaliativo da disciplina na unidade didática correspondente
+N2 = nota do 2° instrumento avaliativo da disciplina na unidade didática correspondente
+N3 = nota do 3° instrumento avaliativo da disciplina na unidade didática correspondente
+MDU = média aritmética da disciplina na unidade didática correspondente
+§ 3º A partir dos critérios avaliativos previamente estabelecidos, o(a) docente atribuirá, para 
+cada atividade avaliativa realizada ao longo da unidade didática, uma nota Nn (n = 1, 2 ou 3) de 0,0 
+(zero) a 10,0 (dez).
+§ 4º O(a) estudante que obtiver rendimento que seja menor que 60% do valor das atividades 
+avaliativas terá direito à recuperação da aprendizagem correspondente ao(s) componente(s) curri￾cular(es) avaliado(s) durante o processo de aprendizagem.
+§ 5º Para registro das recuperações da aprendizagem, o(a) professor(a) deverá realizar, no mí-
+nimo, uma avaliação até o fechamento da unidade didática.
+§ 6º Para a definição da nota do(a) estudante na unidade didática, deverá prevalecer o maior 
+rendimento obtido entre a(s) avaliação(ões) regular(es) e a(s) avaliação(ões) da recuperação da 
+aprendizagem.
+46
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 7º Os estudos de recuperação da aprendizagem serão realizados durante o processo peda￾gógico, incluindo o horário de atendimento ao(à) estudante definido no horário do(a) professor(a).
+§ 8º O(a) docente realizará atividades orientadas à(s) dificuldade(s) do(a) estudante ou grupo 
+de estudantes, de acordo com a peculiaridade de cada disciplina, contendo, entre outros:
+I - Atividades individuais e/ou em grupo, como: pesquisa bibliográfica, demonstração 
+prática, seminários, relatório, portfólio, provas escritas ou orais, pesquisa de campo, pro￾dução de textos, entre outros;
+II - Produção científica, artística ou cultural;
+III - Oficinas.
+§ 9º Todos(as) os(as) professores deverão desenvolver atividades para recuperação da apren￾dizagem.
+§ 10º A recuperação da aprendizagem deverá estar contemplada no plano de disciplina e de aula.
+SEÇÃO II
+DOS CRITÉRIOS DE APROVAÇÃO
+Art. 159 Será considerado(a) aprovado(a) na etapa do curso o(a) discente que tiver nota igual 
+ou superior a 6,0 (seis) em todas as disciplinas e possuir frequência igual ou superior a 75% (setenta 
+e cinco por cento) do total de horas desenvolvidas na etapa do curso (ano ou semestre).
+SEÇÃO III
+DOS PROCEDIMENTOS PARA REVISÃO DE PONTUAÇÃO DE ATIVIDADE AVALIATIVA
+Art. 160 A solicitação de revisão das atividades avaliativas deverá ser direcionada ao Departa￾mento/Coordenação de Área e, na inexistência destes, à Coordenação do Curso em questão, por 
+meio do Setor de Registros Acadêmicos, até 48 (quarenta e oito) horas após a publicação do resul￾tado. Em primeira instância, a revisão deverá ser realizada pelo(a) próprio(a) docente da disciplina.
+Paragráfo único. Mantendo-se a divergência, o(a) discente poderá recorrer em segunda ins￾tância, observando-se os procedimentos previstos no caput deste artigo, cabendo à chefia do De￾partamento/Coordenação de Área e, na inexistência desses, à Coordenação do Curso indicar uma 
+comissão composta por 2 (dois/duas) docentes da área e 1 (um/a) pedagogo(a), excluindo o(a) pro￾fessor(a) envolvido, para emissão de parecer final.
+CAPÍTULO X
+DO CONSELHO DE CLASSE
+Art. 161 O Conselho de Classe é instância avaliativa, composta por diferentes profissionais en￾volvidos(as) no processo de ensino-aprendizagem, com a finalidade de promover discussão e refle￾xão sobre a aprendizagem dos(as) discentes, atuação dos(as) docentes, os resultados acadêmicos, 
+as estratégias de ensino empregadas, a adequação da organização curricular e outros aspectos 
+referentes a esse processo.
+47
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Paragráfo único. A condução técnico-pedagógica do Conselho de Classe será de responsa￾bilidade das Coordenações de Cursos ou Diretoria de Ensino do campus, cuja finalidade será de 
+efetuar a apreciação qualitativa do processo pedagógico desenvolvido no respectivo período letivo, 
+observando os seguintes aspectos: 
+I - Domínio cognitivo – capacidade de relacionar o novo conhecimento com o conheci￾mento já adquirido;
+II - Cumprimento e qualidade das tarefas – execução de tarefas com requisitos previa￾mente estabelecidos no prazo determinado com propriedade, empenho, iniciativa, dis￾posição e interesse;
+III - Capacidade de trabalhar em equipe – aporte pessoal com disposição, organização, 
+liderança, cooperação e interação na atividade em grupo, no desenvolvimento de habi￾lidades, hábitos, conhecimentos e valores;
+IV - Autonomia – capacidade de tomar decisões e propor alternativas para a solução de 
+problemas, bem como de possuir iniciativa e compreensão do próprio desenvolvimento.
+V - Metodológicos – referentes à adequação das metodologias de ensino aos objetivos 
+de aprendizagem propostos.
+SEÇÃO I
+DAS COMPETÊNCIAS
+Art. 162 Compete ao Conselho de Classe em quaisquer das suas reuniões:
+I - Avaliar contínua e sistematicamente a dinâmica do processo pedagógico;
+II - Verificar o desempenho acadêmico de cada discente por meio de análise do seu 
+aproveitamento, de sua assiduidade e das suas possibilidades de crescimento e supe￾ração das dificuldades;
+III - Aperfeiçoar o processo ensino-aprendizagem por meio da contínua revisão dos méto￾dos, das técnicas de ensino e de avaliação, face às exigências das necessidades apontadas;
+IV - Identificar discentes com dificuldades de aprendizagem e definir meios de superá-las;
+V - Encaminhar discentes à orientação especializada quando necessário; 
+VI - Orientar os(as) docentes a avaliarem e redimensionarem sua atuação no processo 
+educativo, por meio das análises dos resultados obtidos pela turma em cada disciplina, 
+incentivando a troca de ideias e o intercâmbio de experiências;
+VII - Estabelecer reuniões extraordinárias para o encaminhamento de questões espe￾cíficas;
+VIII - Solicitar pronunciamento do Conselho de Curso quando necessário.
+Art. 163 Os Conselhos de Classe terão a seguinte composição:
+I - Diretor(a) de ensino ou representante, a critério próprio;
+II - Coordenador(a) do curso;
+III - Todos(as) os(as) docentes da turma;
+48
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+IV - Pedagoga(o) ou técnica(o) em assuntos educacionais com formação em Pedagogia;
+V - 2 (dois/duas) representantes discentes da turma acompanhados(as) de relato for￾mal ou ata de discussão;
+VI - De acordo com as demandas existentes, o Conselho deverá ter um(a) representante 
+da Coordenação de Apoio a Pessoas com Necessidades Educacionais Específicas - CAPNE.
+VII - Um(a) membro(a) da equipe multidisciplinar, além da(o) pedagoga(o), represen￾tando a equipe.
+Paragráfo único. Nos Conselhos de Classe, terão direito a voto apenas a coordenação de cur￾so, as(os) docentes da turma e um(a) membro(a) da equipe multidisciplinar (este último represen￾tando as(os) profissionais discriminadas(os) nos incisos IV, VI e VII) que estiverem presentes.
+Art. 164 Os Conselhos de Classe serão desenvolvidos em duas modalidades, a saber:
+I - Conselho de Classe Diagnóstico e Prognóstico – para diagnosticar e prognosticar o 
+processo pedagógico em desenvolvimento;
+II - Conselho de Classe Final – para avaliar, respectivamente, em dois momentos suces￾sivos, o processo pedagógico desenvolvido durante o ano/semestre letivo e o desempe￾nho do(a) discente ao final deste processo.
+Art. 165 A ação avaliativa do Conselho de Classe fará encaminhamentos em função do desen￾volvimento e aperfeiçoamento do processo ensino-aprendizagem.
+§ 1º Os(as) docentes deverão manter suas cadernetas eletrônicas atualizadas com registros de 
+aulas e levantamento de frequência e preparar, previamente, o seu relatório de avaliação do pro￾cesso de ensino-aprendizagem da turma, que será apresentado nas reuniões, abrangendo dados 
+relativos à disciplina (habilidade, atitudes e conhecimentos desenvolvidos pelos(as) discentes, me￾todologia, condições de trabalho, desempenho dos(as) discentes, materiais instrucionais e serviço 
+de apoio) e ao que se fizer necessário.
+§ 2º O(a) docente que, por motivos superiores, não puder comparecer à reunião do Conselho 
+de Classe estará incumbido(a) de encaminhar ao(à) Coordenador(a) do Curso o relatório de sua 
+avaliação feita com a turma, acompanhado da justificativa de sua ausência por escrito, por meio de 
+canal institucional, os quais posteriormente serão encaminhados à Diretoria de Ensino do campus.
+§ 3º Caberá ao(à) relator(a), escolhido(a) entre os(as) membros(as) do Conselho de Classe, ela￾borar a ata da reunião, que será lida e assinada ao final de cada Conselho.
+Art. 166 As reuniões de Conselho de Classe Diagnóstico e Prognóstico, para funcionamento, 
+exigirão a participação mínima de 50% (cinquenta por cento) dos(as) docentes mais o(a) Coordena￾dor(a) do Curso. As reuniões terão os seguintes procedimentos:
+I - Relato da turma, pelos(as) seus(suas) representantes, considerando as condições da 
+aprendizagem;
+II - Relato de cada docente quanto ao desenvolvimento do seu trabalho pedagógico 
+e ao desempenho da turma. Apresentação do prognóstico do plano de trabalho a ser 
+realizado, para superar eventuais dificuldades dos(as) discentes;
+49
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+III - Relato do(a) Coordenador(a) do Curso quanto ao desenvolvimento do curso e da 
+turma e encaminhamentos propostos e adotados;
+IV - Relato de um(a) representante da área técnico-pedagógica quanto ao acompanha￾mento do processo pedagógico;
+V - Relato de um(a) representante da equipe multidisciplinar;
+VI - Relato de um(a) representante da CAPNE quando necessário;
+VII - Análise apresentada pelos(as) docentes a respeito da situação acadêmica e com￾portamental de cada discente da turma;
+VIII - Sistematização de processos de intervenção para superação das dificuldades 
+dos(as) discentes, envolvendo ações sob a responsabilidade de:
+a) professores(as) cujos(as) discentes estejam em situação de dificuldade na aprendiza￾gem e/ou baixo desempenho acadêmico;
+b) coordenador(a) de curso, em situações de intervenção disciplinar com toda a turma, 
+grupos específicos e/ou discentes individualmente;
+c) coordenador(a) de curso e diretor(a) de ensino, em aspectos referentes à infraestrutura￾geral e dos cursos;
+d) equipes multidisciplinares, nas seguintes questões: dificuldades de aprendizagem, 
+situação socioeconômica e familiar dos(as) discentes, questões psicológicas, nutricionais 
+e relativas ao atendimento aos(às) discentes com deficiência e necessidades específicas 
+que impactam no processo de aprendizagem.
+IX - Registro, em ata, dos relatos e das determinações estabelecidas.
+§ 1º A representação discente participará do processo somente até a etapa correspondente ao 
+inciso IV deste artigo.
+§ 2º Após a realização do(s) Conselho(s) de Classe Diagnóstico e Prognóstico, o(a) presidente 
+do Conselho deverá encaminhar cópia da ata à Direção de Ensino e à área técnico-pedagógica.
+Art. 167 As reuniões do Conselho de Classe Final adotarão os seguintes procedimentos:
+I - No primeiro momento:
+a) relato da turma, pelos(as) seus(suas) representantes, considerando as condições da 
+aprendizagem;
+b) relato de cada professor(a) quanto ao trabalho pedagógico desenvolvido e às interven-
+ções realizadas durante o ano letivo/semestre, com a finalidade de superar as dificuldades 
+encontradas pelos(as) discentes;
+II - No segundo momento:
+a) relato de cada docente quanto ao desempenho de cada discente;
+b) deliberação, a partir de votação, quanto à condição final de cada discente;
+c) registro dos resultados finais dos(as) discentes na planilha de resultados.
+§ 1º A representação discente participará apenas do 1º momento do Conselho de Classe Final.
+50
+51
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+§ 2º Para o regime anual/semestral, caberá ao Setor de Registros Acadêmicos encaminhar, 
+ao(à) Presidente do Conselho, a planilha de resultados com o registro das notas finais das discipli￾nas até o primeiro dia útil anterior à realização da reunião do Conselho de Classe Final.
+§ 3º Nas reuniões do Conselho de Classe Final, as cadernetas eletrônicas da turma, devida￾mente preenchidas, deverão ser entregues às Coordenações de Curso nas versões impressas e assi￾nadas, as quais serão arquivadas, posteriormente, pelos Setores de Registros Acadêmicos.
+§ 4º No Conselho de Classe Final, serão efetuados os registros dos resultados finais dos(as) dis￾centes na planilha de resultados.
+Art. 168 Farão jus à avaliação no Conselho de Classe Final, os(as) discentes que simultaneamente:
+I - Possuam frequência igual ou superior a 75% (setenta e cinco por cento) do total de 
+horas desenvolvidas na etapa do curso;
+II - Não tenham obtido aprovação nas disciplinas ofertadas no respectivo ano/semestre, 
+conforme art. 151 destas Normas;
+III - Estejam reprovados(as) com média igual ou superior a 4 (quatro), conforme os cri￾térios do quadro abaixo:
+Quantidade de disciplinas 
+ou componentes curriculares 
+cursados na etapa
+Número máximo de disciplinas ou componentes 
+curriculares com reprovação na etapa
+(com média igual ou superior a 4)
+até 10 3
+de 11 a 15 5
+acima de 15 6
+IV - Tenham registro de acompanhamento pedagógico e biopsicossocial, pelos setores 
+do IFBA, durante o período letivo;
+V - Sejam pessoas com deficiência e/ou outras necessidades educacionais específicas.
+§ 1º Os(as) discentes aprovados(as) pelo Conselho de Classe terão suas notas finais, nas disci￾plinas em que foram reprovados(as), substituídas pelo valor 6,0 (seis).
+§ 2º As ausências justificadas, com base no art. 145, não serão computadas para fins de repro￾vação no cálculo de 75% de frequência do(a) discente.
+§ 3º Qualquer caso extraordinário apresentado durante o conselho deverá ser avaliado pelo 
+Conselho de Classe, considerando a anuência de 2/3 (dois terços) dos(as) conselheiros e conselhei￾ras presentes.
+Art. 169 Para os cursos que funcionam em regime anual, devem ser realizadas duas reuniões 
+de Conselho de Classe Diagnóstico e Prognóstico (por unidade didática letiva) e uma reunião de 
+Conselho de Classe Final (ao final da última unidade didática).
+Art. 170 Para os cursos que funcionam em regime semestral e seriado semestral, é obrigatório, 
+no mínimo, que se faça uma reunião de Conselho de Classe Diagnóstico e Prognóstico e uma reu￾nião de Conselho de Classe Final.
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 171 As reuniões de Conselho de Classe serão convocadas pela Diretoria de Ensino e estarão 
+determinadas no calendário acadêmico.
+Art. 172 O efetivo mínimo de docentes para funcionamento das reuniões de Conselho de Clas￾se Final é de 50% (cinquenta por cento) mais o(a) coordenador(a) do curso.
+§ 1º Cada membro(a) do Conselho de Classe Final terá direito a apenas um voto, ainda que le￾cione mais de uma disciplina.
+§ 2º Em caso de empate na votação sobre o resultado final de um(a) discente, competirá ao(à) 
+coordenador(a) do curso emitir o voto de desempate.
+§ 3º Caso o(a) coordenador(a) do curso seja docente do(a) turma/discente avaliado(a), se hou￾ver empate, o(a) discente será considerado(a) aprovado(a).
+Art. 173 Após a realização do Conselho de Classe Final, o(a) presidente do Conselho deverá:
+I - Encaminhar a Planilha de Resultados Finais ao Setor de Registros Acadêmicos, em 
+formato digital e impressa, no prazo máximo de 03 (três) dias úteis, junto à cópia da ata 
+do conselho.
+II - Encaminhar cópia da ata com a Planilha de Resultados Finais à área técnicopeda￾gógica.
+Art. 174 O setor de registros acadêmicos divulgará a Planilha de Resultados Finais em data 
+estabelecida no calendário acadêmico.
+SEÇÃO II
+DAS DETERMINAÇÕES
+Art. 175 Os cronogramas e os locais de reuniões do Conselho de Classe deverão ser amplamen￾te divulgados entre os(as) membros(as) do Conselho.
+Art. 176 Caberá ao Conselho de Classe, em todas as suas reuniões, garantir, na avaliação, a pre￾dominância dos aspectos qualitativos sobre os aspectos quantitativos.
+Art. 177 Caberá recurso à decisão do Conselho de Classe Final pelo(a) discente por meio de 
+requerimento à Coordenação de Curso, no prazo de quarenta e oito horas após a publicação dos 
+resultados do Conselho de Classe Final.
+Paragráfo único. O Conselho de Curso reunir-se-á para tratar dos pedidos de recurso devida￾mente justificados.
+Art. 178 Os casos omissos serão avaliados pela Diretoria de Ensino do campus.
+52
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+CAPÍTULO XI
+DA PRÁTICA PROFISSIONAL
+Art. 179 O IFBA, na organização curricular dos cursos técnicos em todas as formas e modalida￾des, contemplará a realização de Práticas Profissionais.
+Art. 180 A Prática Profissional será realizada de acordo com o previsto no PPC em que o(a) dis￾cente esteja matriculado(a) e desenvolver-se-á de duas formas, combinadas ou não:
+I - Intrínseca ao currículo, desenvolvida em ambientes de aprendizagem;
+II - Estágio profissional supervisionado, em situação real de trabalho.
+SEÇÃO I
+DA PRÁTICA PROFISSIONAL INTRÍNSECA AO CURRÍCULO
+Art. 181 A prática profissional configura-se como um componente curricular integrante do 
+processo formativo estudantil, processando-se por meio das disciplinas específicas da formação 
+profissional ou não.
+Paragráfo único. Em se tratando de formação técnica de nível médio, a prática profissional 
+deve ser inerente a uma metodologia de trabalho pedagógico que contextualize e integre todo o 
+aprendizado do ponto de vista da formação para o trabalho.
+Art. 182 A prática profissional deve ser prevista na organização curricular e articulará saberes 
+científicos e tecnológicos, tendo a pesquisa como princípio educativo e integrando as cargas horá-
+rias mínimas de cada habilitação profissional.
+Paragráfo único. A prática na Educação Profissional compreende diferentes situações de vi￾vência, aprendizagem e trabalho, como atividades específicas em ambientes como laboratórios, 
+oficinas, empresas pedagógicas, ateliês e outros, bem como investigação sobre atividades profis￾sionais, projetos de pesquisa e/ou intervenção, visitas técnicas, simulações, observações e outras.
+Art. 183 A Prática Profissional Articuladora (PPA), enquanto atividade intrínseca ao currículo, 
+é o componente curricular que deverá estar previsto no PPC, na Matriz Curricular do Curso, e levar 
+em conta a aplicação dos conhecimentos adquiridos durante o curso.
+Paragráfo único. A organização dos projetos e atividades vinculados à PPA observará as con￾dições estabelecidas em documentos institucionais específicos.
+SEÇÃO II
+DO ESTÁGIO TÉCNICO SUPERVISIONADO NO ENSINO TÉCNICO
+Art. 184 O estágio profissional supervisionado caracteriza-se como prática profissional em si￾tuação real de trabalho e é assumido como ato educativo do IFBA:
+I - O estágio profissional, sendo necessário à natureza do itinerário formativo ou exigido 
+pela natureza da ocupação, deve ser incluído no PPC como obrigatório ou não obriga-
+53
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+tório, sendo realizado em empresas e/ou outras organizações públicas e privadas, con￾forme legislação vigente e diretrizes específicas editadas pelo CNE;
+II - O plano de realização do estágio profissional supervisionado deve ser explicitado na 
+organização curricular e no PPC porque é ato educativo de responsabilidade da insti￾tuição educacional;
+III - A carga horária das atividades de estágio profissional supervisionado será estabele￾cida pelo CNE ou prevista no CNCT para a duração do respectivo curso técnico de nível 
+médio ou correspondente qualificação ou especialização profissional, salvo em cursos 
+ofertados na forma integrada na modalidade EJA, que obedece a regras próprias;
+IV - O estágio profissional supervisionado poderá ser realizado apenas a partir de 50% 
+da duração do curso, conforme previsto no PPC, garantidas ao(à) discente orientação e 
+supervisão de estágio pelo(a) docente responsável;
+Art. 185 Após a conclusão das disciplinas ou competências, o(a) discente terá o direito à reno￾vação de matrícula para a realização de estágio obrigatório pelo tempo máximo de um ano ou dois 
+semestres letivos.
+Paragráfo único. Pessoas com necessidades específicas (PNE) e/ou com deficiência (PcD) te￾rão o tempo máximo para integralização do estágio obrigatório dobrado.
+CAPÍTULO XII
+DA ATIVIDADE DE CONCLUSÃO DE CURSO
+Art. 186 A Atividade de Conclusão de Curso (ACC) tem como finalidade desenvolver no(a) dis￾cente a capacidade de análise, síntese, aplicação e aprimoramento dos conhecimentos construídos 
+durante o curso.
+§ 1º Serão consideradas Atividades de Conclusão de Curso as desenvolvidas no âmbito do en￾sino, da pesquisa e da extensão que resultem em:
+I - Produções textuais: monografias, relatórios, pesquisas bibliográficas, artigos e resu￾mos, compatíveis com a última etapa da Educação Básica;
+II - Produções de esquemas representativos da realidade, como mapas, plantas, ma￾quetes e protótipos, acompanhados de um memorial descritivo, compatíveis com a 
+última etapa da Educação Básica;
+III - Desenvolvimento de tecnologias que auxiliem na realização de trabalhos vincula￾dos à habilitação profissional, compatíveis com a última etapa da Educação Básica.
+§ 2º A opção pela inserção do ACC como componente curricular é definida no PPC de cada curso.
+Art. 187 Os(as) estudantes com necessidades específicas devem realizar a Atividade de Con￾clusão de Curso com apoio escolar acadêmico, de modo que as barreiras atitudinais, de comunica-
+ção e informação sejam eliminadas durante o desenvolvimento de seu respectivo ACC, de acordo 
+com suas necessidades e potencialidades, em sua língua nativa, como a LIBRAS, ou escrita ade￾quada, como o Braile, cabendo aos campi a responsabilidade pela sua tradução de acordo com o 
+assegurado em dispositivos legais vigentes
+54
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+Art. 188 As normas da Associação Brasileira de Normas Técnicas (ABNT) deverão ser observa￾das na elaboração da Atividade de Conclusão de Curso, para a estruturação e redação, além das 
+seguintes regras:
+I - A Atividade de Conclusão do Curso será redigida em língua portuguesa;
+II - A ACC versará sobre um tema pertinente ao curso. A verificação da pertinência do 
+tema ficará a critério do(a) docente da disciplina;
+III - A escolha do(a) orientador(a) do ACC – para cada discente – será feita consensual￾mente entre o(a) discente, o(a) professor(a) encarregado(a) da disciplina e o(a) orienta￾dor(a) escolhido(a);
+IV - Poderá ser escolhido(a), de comum acordo entre o(a) discente, o(a) docente encar￾regado(a) da disciplina e o(a) orientador(a) escolhido, um(a) coorientador(a) que atue 
+em uma ou mais das grandes áreas de afinidades do curso;
+V - Para efeito de avaliação, a ACC deverá ser apresentada, podendo ser adotadas as 
+seguintes formas:
+a) em eventos científicos (internos ou externos), na modalidade de comunicação oral ou 
+pôster: assim sendo, o(a) discente deverá entregar à banca examinadora o certificado de 
+apresentação, junto ao que foi produzido;
+b) para a banca examinadora: cabendo ao(à) discente a entrega da produção.
+VI - Caso a ACC não seja aprovada, a banca examinadora decidirá sobre a possibilidade 
+de reapresentação ou não do trabalho, em prazo estabelecido pela própria banca. Nes￾sa situação, haverá apenas uma nova avaliação da ACC.
+Art. 189 O campus tem o compromisso de realizar pelo menos um Seminário Interdisciplinar 
+durante o ano letivo no qual os(as) discentes apresentem suas ACCs e outras manifestações técni￾co-científico-culturais.
+55
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+TÍTULO IV
+DAS DISPOSIÇÕES GERAIS
+Art. 190 O IFBA deverá garantir os requisitos necessários para o acesso e a participação dos(as) 
+discentes com deficiência e outras necessidades educacionais específicas no desenvolvimento das 
+atividades acadêmicas.
+Art. 191 Não será concedido ao(à) discente frequentar as aulas de qualquer turma na qual não 
+esteja regularmente matriculado(a), exceto em casos especiais analisados pelo Conselho de Curso.
+Art. 192 Nos Cursos da EPTNM Integrados ao Ensino Médio, será facultada a prática de Educa-
+ção Física:
+I - Ao(à) discente de curso diurno com mais de 30 (trinta) anos de idade;
+II - Ao(à) discente que comprove exercer atividades profissionais em jornada igual ou 
+superior a 6 (seis) horas diárias;
+III - Ao(à) discente que estiver prestando serviço militar inicial ou que, em outra situa-
+ção, comprove estar obrigado(a) à prática de Educação Física na Organização Militar 
+em que serve;
+IV - À discente que tenha prole, amparada pelos dispositivos legais vigentes.
+Art. 193 Não será considerado concluído o curso, nem haverá expedição de diploma para o(a) 
+discente enquanto sua matrícula depender de decisão judicial, inclusive em grau de recurso.
+Art. 194 No caso de solicitações de transferência para estabelecimento congênere, caberá ao 
+Setor de Registros Acadêmicos expedir a documentação pertinente, cancelando automaticamen￾te a matrícula do(a) discente no IFBA.
+Art. 195 Os documentos relativos à vida acadêmica do(a) discente só terão validade quando 
+expedidos pelo Setor de Registros Acadêmicos dos respectivos campi, devidamente assinados.
+Art. 196 As Jornadas Pedagógicas serão instituídas com, pelo menos, uma edição anual, pre￾cedendo o início do ano letivo, sendo realizadas em cada campus, como espaço privilegiado do 
+debate e planejamento acadêmico e com a presença obrigatória do corpo docente.
+Art. 197 Serão instituídos os Plantões Pedagógicos com responsáveis, docentes, pedagogos(as) 
+e profissionais das áreas biopsicossociais, por unidade didática, para os cursos integrados, como 
+espaço fundamental para o acompanhamento dos(as) discentes, bem como para o compartilha￾mento de informações e dados acerca da vida e rotina dos(as) discentes.
+Art. 198 Os aspectos referentes à mobilidade estudantil interna e externa são tratados em re￾gulamento próprio.
+Art. 199 Os aspectos referentes à Prestação Alternativa por Motivo de Crença Religiosa serão 
+tratados em regulamento próprio.
+Art. 200 Para execução das normas previstas neste documento, orienta-se a composição da 
+equipe multidisciplinar estritamente formada pelos profissionais das áreas a seguir: serviço social, 
+56
+Normas Acadêmicas da Educação Profissional Técnica de Nível Médio do IFBA
+pedagogia, psicologia, saúde, nutrição, Atendimento Educacional Especializado – AEE, técnico em 
+assuntos educacionais e assistente de alunos.
+Art. 201 Os casos omissos serão dirimidos pelo Conselho de Ensino, Pesquisa e Extensão (CON￾SEPE) do IFBA.
+57
