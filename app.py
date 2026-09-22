@@ -18,7 +18,7 @@ Apesar de consultar a base de conhecimento (PPCs, normas e regulamentos), possuo
 # Conectar a chave
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google
+# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google (USANDO DICIONÁRIO)
 @st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
 def preparar_documentos():
     arquivos_locais = glob.glob("*.pdf") + glob.glob("*.txt")
@@ -49,8 +49,8 @@ def preparar_documentos():
 # Iniciar o processamento dos ficheiros
 documentos_disponiveis = preparar_documentos()
 
-# Configurar o modelo (Usando o 1.5-flash para resolver a Falha 429 de excesso de requisições)
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Configurar o modelo (MANTIDO O GEMINI 3 FLASH PREVIEW CONFORME O SEU GOOGLE AI STUDIO)
+model = genai.GenerativeModel('gemini-3-flash-preview')
 
 # Histórico do chat
 if "messages" not in st.session_state:
@@ -78,7 +78,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # 1. Verifica se a IA estava à espera da resposta sobre qual é o curso
+    # Verifica se a IA estava à espera da resposta sobre qual é o curso
     if st.session_state.esperando_curso:
         pergunta_completa = f"O aluno perguntou anteriormente: '{st.session_state.pergunta_pendente}'. Agora ele complementou informando o curso: '{prompt}'."
         st.session_state.esperando_curso = False
@@ -198,6 +198,6 @@ Dúvida do aluno: {pergunta_completa}"""
                         
                 except Exception as e:
                     if "ResourceExhausted" in str(e):
-                        st.warning("O sistema atingiu o limite gratuito de acessos por minuto. Por favor, aguarde 60 segundos e pergunte novamente.")
+                        st.warning("O sistema atingiu o limite gratuito de acessos por minuto. Por favor, aguarde alguns instantes e pergunte novamente.")
                     else:
                         st.error(f"Ocorreu uma falha técnica durante a consulta: {e}")
