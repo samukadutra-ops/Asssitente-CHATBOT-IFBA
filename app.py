@@ -59,18 +59,110 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-if prompt := st.chat_input("Ex: Qual é a carga horária de Informática?"):
+# ==============================================================================
+# MEMÓRIA DE CURTO PRAZO PARA PERGUNTAS INCOMPLETAS
+# ==============================================================================
+if "esperando_curso" not in st.session_state:
+    st.session_state.esperando_curso = False
+if "pergunta_pendente" not in st.session_state:
+    st.session_state.pergunta_pendente = ""
+
+# ==============================================================================
+# INTERAÇÃO DO CHAT E ROTEAMENTO INTELIGENTE
+# ==============================================================================
+if prompt := st.chat_input("Digite a sua dúvida sobre o IFBA Campus Brumado..."):
+    
+    # Exibe a mensagem do usuário na tela
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
+    # 1. Verifica se estávamos à espera que o aluno dissesse o curso
+    if st.session_state.esperando_curso:
+        # Junta a pergunta anterior com o curso que ele acabou de digitar
+        pergunta_completa = f"{st.session_state.pergunta_pendente}. (Curso especificado pelo aluno: {prompt})"
+        st.session_state.esperando_curso = False
+        st.session_state.pergunta_pendente = ""
+    else:
+        pergunta_completa = prompt
+
+    p_lower = pergunta_completa.lower()
+    arquivos_alvo = []
+    precisa_perguntar_curso = False
+
+    # ==========================================================================
+    # REGRAS DE TRIAGEM (Adicione os nomes EXATOS dos seus arquivos aqui)
+    # ==========================================================================
+    
+    # REGRA 1: Datas, Feriados e Calendário -> Vai APENAS no Calendário
+    if any(tag in p_lower for tag in ["data", "feriado", "unidade", "calendário", "calendario", "recesso", "aula"]):
+        arquivos_alvo.append("calendario_integrado_2026.txt")
+
+    # REGRA 2: Matrícula Médio Integrado -> Vai nas Normas e no Calendário
+    if "matrícula" in p_lower or "matricula" in p_lower:
+        arquivos_alvo.append("normas_academicas.txt")
+        if "integrado" in p_lower and "calendario_integrado_2026.txt" not in arquivos_alvo:
+            arquivos_alvo.append("calendario_integrado_2026.txt")
+
+    # REGRA 3: Estágio, Matriz, Disciplinas -> Precisa do PPC e das Normas
+    if any(tag in p_lower for tag in ["estágio", "estagio", "matriz", "carga horária", "disciplina", "ppc"]):
+        if "normas_academicas.txt" not in arquivos_alvo:
+            arquivos_alvo.append("normas_academicas.txt")
+        
+        # Tenta identificar o curso na pergunta
+        if "informática" in p_lower or "informatica" in p_lower:
+            arquivos_alvo.append("ppc_informatica.pdf")
+        elif "edificações" in p_lower or "edificacoes" in p_lower:
+            arquivos_alvo.append("ppc_edificacoes.pdf")
+        elif "mineração" in p_lower or "mineracao" in p_lower:
+            arquivos_alvo.append("ppc_mineracao.pdf")
+        else:
+            # Se não encontrar nenhum curso na frase, liga o alerta para perguntar
+            precisa_perguntar_curso = True
+
+    # ==========================================================================
+    # EXECUÇÃO DAS REGRAS
+    # ==========================================================================
     with st.chat_message("assistant"):
-        instrucao = "És o Assistente Académico oficial do IFBA Campus Brumado. Responde APENAS com base nos documentos em anexo. Se não souberes a resposta, orienta o aluno a contactar a coordenação."
         
-        # Junta a instrução, TODOS os ficheiros PDF em anexo e a pergunta do utilizador
-        conteudo_completo = [instrucao] + documentos_base + [prompt]
-        
-        resposta = model.generate_content(conteudo_completo)
-        st.markdown(resposta.text)
-        
-    st.session_state.messages.append({"role": "assistant", "content": resposta.text})
+        # AÇÃO A: O aluno não disse o curso. O bot pergunta e NÃO gasta tokens.
+        if precisa_perguntar_curso:
+            st.session_state.esperando_curso = True
+            st.session_state.pergunta_pendente = pergunta_completa
+            resposta_curso = "Para consultar a matriz, o estágio ou a carga horária correta, preciso saber: **Qual é o seu curso e nível?** (Ex: Informática Integrado, Edificações Subsequente, etc.)"
+            st.markdown(resposta_curso)
+            st.session_state.messages.append({"role": "assistant", "content": resposta_curso})
+            
+        # AÇÃO B: Assunto não identificado. Informa o balcão de atendimento.
+        elif len(arquivos_alvo) == 0:
+            resposta_padrao = "No momento, não disponho desta informação na minha base de regulamentos. Para orientações específicas sobre este assunto, por favor, contacte a **Secretaria de Registos Acadêmicos** ou a **Coordenação do seu Curso** no campus."
+            st.markdown(resposta_padrao)
+            st.session_state.messages.append({"role": "assistant", "content": resposta_padrao})
+
+        # AÇÃO C: Tudo certo! Envia apenas os arquivos filtrados para o Gemini.
+        else:
+            with st.spinner(f"Consultando os arquivos: {', '.join(arquivos_alvo)}..."):
+                try:
+                    conteudo_para_gemini = []
+                    
+                    # Puxa da memória apenas os arquivos que a triagem escolheu
+                    for nome_arquivo in arquivos_alvo:
+                        doc_obj = documentos_disponiveis.get(nome_arquivo)
+                        if doc_obj:
+                            conteudo_para_gemini.append(doc_obj)
+                        else:
+                            st.warning(f"O arquivo {nome_arquivo} não foi encontrado na base.")
+                    
+                    # Junta os arquivos com a pergunta do aluno
+                    conteudo_para_gemini.append(f"Responda estritamente com base nos documentos fornecidos:\n\n{pergunta_completa}")
+                    
+                    # Chama a inteligência artificial
+                    resposta = model.generate_content(conteudo_para_gemini)
+                    st.markdown(resposta.text)
+                    st.session_state.messages.append({"role": "assistant", "content": resposta.text})
+                    
+                except Exception as e:
+                    if "ResourceExhausted" in str(e):
+                        st.warning("O sistema está com muitos acessos simultâneos. Por favor, aguarde cerca de 1 minuto e tente novamente.")
+                    else:
+                        st.error(f"Ocorreu um erro técnico: {e}")
