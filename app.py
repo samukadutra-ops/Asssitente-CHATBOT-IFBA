@@ -18,11 +18,11 @@ Apesar de consultar a base de conhecimento (PPCs, normas e regulamentos), possuo
 # Conectar a chave
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google (AGORA USANDO DICIONÁRIO)
+# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google
 @st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
 def preparar_documentos():
     arquivos_locais = glob.glob("*.pdf") + glob.glob("*.txt")
-    arquivos_prontos = {} # <-- Dicionário para buscar pelo nome
+    arquivos_prontos = {}
     
     # Verifica o que já foi enviado para a nuvem para não duplicar
     arquivos_na_nuvem = {f.display_name: f for f in genai.list_files()}
@@ -49,8 +49,8 @@ def preparar_documentos():
 # Iniciar o processamento dos ficheiros
 documentos_disponiveis = preparar_documentos()
 
-# Configurar o modelo correto (Conforme solicitado)
-model = genai.GenerativeModel('gemini-3-flash-preview')
+# Configurar o modelo (Usando o 1.5-flash para resolver a Falha 429 de excesso de requisições)
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Histórico do chat
 if "messages" not in st.session_state:
@@ -61,7 +61,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # ==============================================================================
-# 🧠 MEMÓRIA DE CURTO PRAZO (Evita gastar tokens com perguntas incompletas)
+# MEMÓRIA DE CURTO PRAZO
 # ==============================================================================
 if "esperando_curso" not in st.session_state:
     st.session_state.esperando_curso = False
@@ -69,7 +69,7 @@ if "pergunta_pendente" not in st.session_state:
     st.session_state.pergunta_pendente = ""
 
 # ==============================================================================
-# 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO INFALÍVEL
+# INTERAÇÃO DO CHAT E ROTEAMENTO INFALÍVEL
 # ==============================================================================
 if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadeira, o que acontece?"):
     
@@ -91,7 +91,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
     precisa_perguntar_curso = False
 
     # ==========================================================================
-    # 🎯 REGRAS DE TRIAGEM COM RADICAIS (Bypass para qualquer conjugação)
+    # REGRAS DE TRIAGEM COM RADICAIS
     # ==========================================================================
     
     # REGRA 1: Recuperação, Avaliação e Pareceres do MEC
@@ -107,7 +107,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
         arquivos_alvo.append("Calendário Acadêmico técnico integrado ensino médio informática edificações.txt")
 
     # REGRA 3: Regulamento Discente (Comportamento, Convivência e Punições)
-  tags_comportamento = ["advert", "agred", "agress", "bebid", "bebeu", "alcool", "álcool", "arma", "faca", "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "maconha", "fum", "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", "namor", "beij", "sexo", "mau uso", "cadeira", "carteira", "mesa", "patrimônio"]
+    tags_comportamento = ["advert", "agred", "agress", "bebid", "bebeu", "alcool", "álcool", "arma", "faca", "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "maconha", "fum", "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", "namor", "beij", "sexo", "mau uso", "cadeira", "carteira", "mesa", "patrimônio"]
     if any(tag in p_lower for tag in tags_comportamento):
         arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
 
@@ -121,11 +121,10 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
     # REGRA 5: Normas Acadêmicas Gerais (Médio/Técnico)
     tags_normas = ["falt", "tranc", "destranc", "norma", "regulament", "atestad", "justific", "transfer", "dependênc", "dependenc", "avaliac", "avaliaç", "média", "media", "reintegr", "rendimento", "domiciliar", "eja", "fic", "integrad", "subsequent", "concomitant", "chamada", "renova", "turno", "matutin", "vespertin", "noturn"]
     if any(tag in p_lower for tag in tags_normas):
-        # Evita mandar a do médio se a dúvida for estritamente do superior
         if not any(ts in p_lower for ts in ["superior", "graduaç", "graduac", "bacharel"]):
             arquivos_alvo.append("Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt")
 
-    # REGRA 6: Projetos Pedagógicos de Curso (PPCs) - Foco Estrutural e Matriz
+    # REGRA 6: Projetos Pedagógicos de Curso (PPCs)
     tags_ppc = ["estág", "estag", "tcc", "monografia", "carga hor", "matriz", "currícul", "curricul", "acex", "extens", "complementar", "acc", "barema", "ppa", "integraliza", "egress", "diplom", "certific", "colegiado", "nde", "núcleo", "nucleo", "disciplin"]
     if any(tag in p_lower for tag in tags_ppc):
         curso_identificado = False
@@ -148,10 +147,8 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
             arquivos_alvo = []
 
     # ==========================================================================
-    # 🛡️ SALVAGUARDA ABSOLUTA (Prioridade em caso de dúvida genérica)
+    # SALVAGUARDA ABSOLUTA (Prioridade em caso de dúvida genérica)
     # ==========================================================================
-    # Se nenhuma tag disparou, ele NÃO VAI NEGAR RESPOSTA.
-    # Ele carrega os 4 documentos normativos base e faz a leitura.
     if len(arquivos_alvo) == 0 and not precisa_perguntar_curso:
         arquivos_alvo = [
             "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt",
@@ -164,7 +161,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
     arquivos_alvo = list(set(arquivos_alvo))
 
     # ==========================================================================
-    # 🚀 EXECUÇÃO: ENVIO PARA A INTELIGÊNCIA ARTIFICIAL
+    # EXECUÇÃO: ENVIO PARA A INTELIGÊNCIA ARTIFICIAL
     # ==========================================================================
     with st.chat_message("assistant"):
         
@@ -188,7 +185,6 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadei
                             st.warning(f"O documento '{nome_arquivo}' não foi encontrado no servidor. Verifique os nomes no GitHub.")
                     
                     if conteudo_para_gemini:
-                        # PROMPT INQUEBRÁVEL: Proíbe o assistente de se negar a responder
                         prompt_sistema = f"""Você é o assistente virtual oficial do IFBA Campus Brumado. Sua missão é responder à dúvida do aluno de forma clara, educada e embasada nos documentos anexados. 
 JAMAIS se negue a responder se o assunto constar nos textos. Se a resposta exigir interpretação de múltiplas regras (ex: recuperação, avaliação), cruze as informações dos documentos (como o Parecer do MEC e as Normas Acadêmicas) e ofereça a melhor orientação institucional possível, citando os setores responsáveis quando necessário.
 
