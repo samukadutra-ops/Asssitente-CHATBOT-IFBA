@@ -28,7 +28,6 @@ def carregar_bases_locais():
             with open(arq, "r", encoding="utf-8") as f:
                 bases[arq] = f.read()
         except Exception as e:
-            # Tenta com outra codificação caso o utf-8 dê erro
             try:
                 with open(arq, "r", encoding="latin-1") as f:
                     bases[arq] = f.read()
@@ -38,8 +37,8 @@ def carregar_bases_locais():
 
 documentos_texto = carregar_bases_locais()
 
-# Configuração do modelo (utilizando gemini-3-flash-preview)
-model = genai.GenerativeModel('gemini-3-flash-preview')
+# Configuração do modelo estável com cota muito superior
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Histórico do chat
 if "messages" not in st.session_state:
@@ -52,7 +51,7 @@ for message in st.session_state.messages:
 # ==============================================================================
 # 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO POR PALAVRAS-CHAVE LOCAL
 # ==============================================================================
-if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para trancamento?"):
+if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se quebrar uma cadeira?"):
     
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -78,7 +77,7 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para
         "direit", "disciplin", "droga", "fum", "cigarro", "fard", "uniform", "fraud", "colar", 
         "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", 
         "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", 
-        "namor", "beij", "cadeira", "patrimôni", "patrimoni"
+        "namor", "beij", "cadeira", "patrimôni", "patrimoni", "mau uso"
     ]
     if any(tag in p_lower for tag in tags_discente):
         if "REGULAMENTO DISCENTE.txt" in documentos_texto:
@@ -87,9 +86,10 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para
     # 3. Ensino Superior
     tags_superior = ["superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", "cap", "exame final", "revalid", "ouvinte"]
     if any(tag in p_lower for tag in tags_superior):
-        nome_arq_sup = "Normas Acadêmicas do Ensino Superior do IFBA - RESOLUCAO_N._23_DE_2019_.txt"
-        if nome_arq_sup in documentos_texto:
-            textos_selecionados += "\n\n--- NORMAS ACADÊMICAS DO ENSINO SUPERIOR ---\n" + documentos_texto[nome_arq_sup]
+        # Procura pelo arquivo de normas superiores no dicionário
+        for nome_arq, conteudo in documentos_texto.items():
+            if "superior" in nome_arq.lower():
+                textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
     # 4. Ensino Médio / Técnico
     tags_medio = [
@@ -100,19 +100,19 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para
     ]
     if any(tag in p_lower for tag in tags_medio):
         if not any(ts in p_lower for ts in ["superior", "graduaç", "graduac", "bacharel"]):
-            nome_arq_med = "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt"
-            if nome_arq_med in documentos_texto:
-                textos_selecionados += "\n\n--- NORMAS ACADÊMICAS DO ENSINO MÉDIO/TÉCNICO ---\n" + documentos_texto[nome_arq_med]
+            for nome_arq, conteudo in documentos_texto.items():
+                if "resolucao_154" in nome_arq.lower() or ("normas" in nome_arq.lower() and "superior" not in nome_arq.lower()):
+                    textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
     # ==========================================================================
-    # 🛡️ SALVAGUARDA ABSOLUTA (Se nenhuma tag exata bater, envia as normas gerais)
+    # 🛡️ SALVAGUARDA ABSOLUTA
     # ==========================================================================
     if len(textos_selecionados.strip()) == 0:
         for nome_arq, conteudo in documentos_texto.items():
             textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
     # ==========================================================================
-    # 🚀 EXECUÇÃO DA CONSULTA PURAMENTE EM TEXTO COM O GEMINI
+    # 🚀 EXECUÇÃO DA CONSULTA COM GEMINI 1.5 FLASH
     # ==========================================================================
     with st.chat_message("assistant"):
         with st.spinner("A analisar os regulamentos..."):
