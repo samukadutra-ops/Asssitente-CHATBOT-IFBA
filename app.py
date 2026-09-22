@@ -1,9 +1,9 @@
 import streamlit as st
 import google.generativeai as genai
 import glob
-import time
+import os
 
-# Configuração visual e nova descrição do chatbot
+# Configuração visual
 st.set_page_config(page_title="Assistente de Normas - IFBA", page_icon="🎓")
 st.title("Assistente Virtual de Normas Acadêmicas e Disciplinares - IFBA 🎓")
 
@@ -15,37 +15,30 @@ Consulte a base de conhecimento oficial (Normas Acadêmicas do Ensino Médio/Sup
 **As minhas respostas não substituem a leitura dos documentos oficiais nem as orientações dos servidores e setores do IFBA-Campus Brumado.**
 """)
 
-# Conectar a chave
+# Conectar a chave da API
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função para carregar os ficheiros `.txt` exatos da nuvem
-@st.cache_resource(show_spinner="A memorizar os documentos oficiais de normas e disciplina...")
-def preparar_documentos():
-    arquivos_locais = glob.glob("*.txt")
-    arquivos_prontos = {}
-    
-    arquivos_na_nuvem = {f.display_name: f for f in genai.list_files()}
-    
-    for caminho in arquivos_locais:
-        if caminho in arquivos_na_nuvem:
-            arquivo = arquivos_na_nuvem[caminho]
-        else:
-            arquivo = genai.upload_file(path=caminho, display_name=caminho)
-            
-        while arquivo.state.name == "PROCESSING":
-            time.sleep(2)
-            arquivo = genai.get_file(arquivo.name)
-            
-        if arquivo.state.name == "ACTIVE":
-            arquivos_prontos[caminho] = arquivo
-        else:
-            st.error(f"Atenção: O ficheiro '{caminho}' está corrompido ou ilegível.")
-            
-    return arquivos_prontos
+# Função para carregar todo o texto dos arquivos .txt locais de forma leve
+@st.cache_resource(show_spinner="A carregar os regulamentos locais...")
+def carregar_bases_locais():
+    bases = {}
+    arquivos = glob.glob("*.txt")
+    for arq in arquivos:
+        try:
+            with open(arq, "r", encoding="utf-8") as f:
+                bases[arq] = f.read()
+        except Exception as e:
+            # Tenta com outra codificação caso o utf-8 dê erro
+            try:
+                with open(arq, "r", encoding="latin-1") as f:
+                    bases[arq] = f.read()
+            except Exception as ex:
+                st.error(f"Erro ao ler o arquivo {arq}: {ex}")
+    return bases
 
-documentos_disponiveis = preparar_documentos()
+documentos_texto = carregar_bases_locais()
 
-# Configuração do modelo do AI Studio
+# Configuração do modelo (utilizando gemini-3-flash-preview)
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
 # Histórico do chat
@@ -57,7 +50,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # ==============================================================================
-# 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO INTELIGENTE POR FICHEIRO
+# 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO POR PALAVRAS-CHAVE LOCAL
 # ==============================================================================
 if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para trancamento?"):
     
@@ -66,91 +59,77 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? Qual a regra para
         st.markdown(prompt)
 
     p_lower = prompt.lower()
-    arquivos_alvo = []
+    textos_selecionados = ""
 
     # ==========================================================================
-    # 🎯 MAPEAMENTO DE PALAVRAS-CHAVE PARA OS FICHEIROS EXATOS
+    # 🎯 SELEÇÃO INTELIGENTE DE TEXTO BASEADA NOS FICHEIROS .TXT LOCAIS
     # ==========================================================================
     
-    # 1. RECUPERAÇÃO E AVALIAÇÃO -> "Nota sobre estudos de recuperação.txt"
-    tags_recuperacao = [
-        "recuper", "reavali", "baixo rendimento", "estudos paralelos", 
-        "recuperação paralela", "recuperação contínua", "frequência de estudos"
-    ]
+    # 1. Recuperação e Avaliação
+    tags_recuperacao = ["recuper", "reavali", "baixo rendimento", "estudos paralelos", "paralela", "contínua", "continua", "frequência", "frequencia"]
     if any(tag in p_lower for tag in tags_recuperacao):
-        arquivos_alvo.append("Nota sobre estudos de recuperação.txt")
+        if "Nota sobre estudos de recuperação.txt" in documentos_texto:
+            textos_selecionados += "\n\n--- NOTA SOBRE ESTUDOS DE RECUPERAÇÃO ---\n" + documentos_texto["Nota sobre estudos de recuperação.txt"]
 
-    # 2. COMPORTAMENTO, DISCIPLINA E PUNIÇÕES -> "REGULAMENTO DISCENTE.txt"
+    # 2. Comportamento e Disciplina
     tags_discente = [
-        "advert", "agred", "agress", "bebid", "alcool", "álcool", "arma", 
-        "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", 
-        "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "fum", 
-        "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", 
-        "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", 
-        "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", 
-        "roub", "furt", "namor", "beij", "cadeira", "patrimôni", "patrimoni"
+        "advert", "agred", "agress", "bebid", "alcool", "álcool", "arma", "assed", "asséd", 
+        "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", 
+        "direit", "disciplin", "droga", "fum", "cigarro", "fard", "uniform", "fraud", "colar", 
+        "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", 
+        "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", 
+        "namor", "beij", "cadeira", "patrimôni", "patrimoni"
     ]
     if any(tag in p_lower for tag in tags_discente):
-        arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
+        if "REGULAMENTO DISCENTE.txt" in documentos_texto:
+            textos_selecionados += "\n\n--- REGULAMENTO DISCENTE ---\n" + documentos_texto["REGULAMENTO DISCENTE.txt"]
 
-    # 3. ENSINO SUPERIOR (Graduação) -> "Normas Acadêmicas do Ensino Superior do IFBA..."
-    tags_superior = [
-        "superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", 
-        "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", 
-        "cap", "exame final", "revalid", "ouvinte", "estudante especial", "colegiado superior"
-    ]
+    # 3. Ensino Superior
+    tags_superior = ["superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", "cap", "exame final", "revalid", "ouvinte"]
     if any(tag in p_lower for tag in tags_superior):
-        arquivos_alvo.append("Normas Academicas do Ensino Superior do IFBA - RESOLUCAO_N._23_DE_2019_.txt")
+        nome_arq_sup = "Normas Acadêmicas do Ensino Superior do IFBA - RESOLUCAO_N._23_DE_2019_.txt"
+        if nome_arq_sup in documentos_texto:
+            textos_selecionados += "\n\n--- NORMAS ACADÊMICAS DO ENSINO SUPERIOR ---\n" + documentos_texto[nome_arq_sup]
 
-    # 4. ENSINO MÉDIO / TÉCNICO -> "Normas_Academicas_atualizada_Resolucao_154..."
+    # 4. Ensino Médio / Técnico
     tags_medio = [
-        "matrícul", "matricul", "falt", "tranc", "destranc", "atestad", "justific", 
-        "transfer", "dependênc", "dependenc", "avaliac", "avaliaç", "média", "media", 
-        "reintegr", "rendimento", "domiciliar", "eja", "fic", "integrad", "subsequent", 
-        "concomitant", "chamada", "renova", "turno", "matutin", "vespertin", "noturn", 
-        "conselho de classe", "conselho de curso", "estágio", "estagio"
+        "matrícul", "matricul", "falt", "tranc", "destranc", "atestad", "justific", "transfer", 
+        "dependênc", "dependenc", "avaliac", "avaliaç", "média", "media", "reintegr", "rendimento", 
+        "domiciliar", "eja", "fic", "integrad", "subsequent", "concomitant", "chamada", "renova", 
+        "turno", "matutin", "vespertin", "noturn", "conselho de classe", "conselho de curso", "estágio", "estagio"
     ]
     if any(tag in p_lower for tag in tags_medio):
         if not any(ts in p_lower for ts in ["superior", "graduaç", "graduac", "bacharel"]):
-            arquivos_alvo.append("Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt")
+            nome_arq_med = "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt"
+            if nome_arq_med in documentos_texto:
+                textos_selecionados += "\n\n--- NORMAS ACADÊMICAS DO ENSINO MÉDIO/TÉCNICO ---\n" + documentos_texto[nome_arq_med]
 
     # ==========================================================================
-    # 🛡️ SALVAGUARDA ABSOLUTA (Se nenhuma tag exata bater, usa as normas gerais)
+    # 🛡️ SALVAGUARDA ABSOLUTA (Se nenhuma tag exata bater, envia as normas gerais)
     # ==========================================================================
-    if len(arquivos_alvo) == 0:
-        arquivos_alvo = [
-            "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt",
-            "REGULAMENTO DISCENTE.txt"
-        ]
-
-    arquivos_alvo = list(set(arquivos_alvo))
+    if len(textos_selecionados.strip()) == 0:
+        for nome_arq, conteudo in documentos_texto.items():
+            textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
     # ==========================================================================
-    # 🚀 EXECUÇÃO DA CONSULTA COM O GEMINI
+    # 🚀 EXECUÇÃO DA CONSULTA PURAMENTE EM TEXTO COM O GEMINI
     # ==========================================================================
     with st.chat_message("assistant"):
-        with st.spinner("A consultar os documentos de normas institucionais..."):
+        with st.spinner("A analisar os regulamentos..."):
             try:
-                conteudo_para_gemini = []
-                
-                for nome_arquivo in arquivos_alvo:
-                    doc_obj = documentos_disponiveis.get(nome_arquivo)
-                    if doc_obj:
-                        conteudo_para_gemini.append(doc_obj)
-                
-                if conteudo_para_gemini:
-                    prompt_sistema = f"""Você é o assistente virtual oficial de normas acadêmicas e disciplinares do IFBA Campus Brumado. 
-Responda à dúvida do utilizador com base estrita nos documentos normativos anexados. 
-Se a pergunta for genérica ou incompleta, responda com base no regulamento e oriente o utilizador a fornecer mais detalhes (como o curso ou o procedimento específico). Nunca recuse responder se o tema constar nos textos.
+                prompt_sistema = f"""Você é o assistente virtual oficial de normas acadêmicas e disciplinares do IFBA Campus Brumado. 
+Responda à dúvida do utilizador com base estrita nos regulamentos fornecidos abaixo. 
+JAMAIS se negue a responder se o assunto constar nos textos. Se a pergunta for genérica ou incompleta, responda com base nos regulamentos e oriente o utilizador a fornecer mais detalhes.
 
-Dúvida: {prompt}"""
-                    
-                    conteudo_para_gemini.append(prompt_sistema)
-                    
-                    resposta = model.generate_content(conteudo_para_gemini)
-                    st.markdown(resposta.text)
-                    st.session_state.messages.append({"role": "assistant", "content": resposta.text})
-                    
+REGULAMENTOS DE REFERÊNCIA:
+{textos_selecionados}
+
+Dúvida do utilizador: {prompt}"""
+                
+                resposta = model.generate_content(prompt_sistema)
+                st.markdown(resposta.text)
+                st.session_state.messages.append({"role": "assistant", "content": resposta.text})
+                
             except Exception as e:
                 if "ResourceExhausted" in str(e):
                     st.warning("O sistema atingiu o limite de consultas por minuto. Aguarde um instante e tente novamente.")
