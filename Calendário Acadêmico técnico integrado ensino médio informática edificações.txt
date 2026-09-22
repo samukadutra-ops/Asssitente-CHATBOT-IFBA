@@ -1,0 +1,84 @@
+﻿A extração anterior não apresentava inconsistências ou erros nas datas, eventos ou prazos; a interpretação da estrutura do documento estava rigorosamente correta. Para esta versão de nível profissional, o formato abaixo foi otimizado com descrições ainda mais diretas e contextuais (agrupando siglas e termos equivalentes) para garantir que o sistema de Busca Inteligente (RAG) do assistente localize a informação instantaneamente sem falhas de interpretação.
+
+Pode copiar todo o bloco abaixo e guardar como `calendario_integrado_2026.txt` (em UTF-8) no repositório.
+
+```text
+=== CALENDÁRIO ACADÊMICO 2026 / CURSOS DE NÍVEL INTEGRADO - IFBA CAMPUS BRUMADO ===[cite: 5]
+
+--- 1. ESTRUTURA GERAL DO ANO LETIVO ---
+- O 1º Semestre Letivo tem início em 09/03/2026 e término em 17/06/2026[cite: 5].
+- O 2º Semestre Letivo tem início em 07/07/2026 e término em 12/02/2027[cite: 5].
+- O início do Período Letivo Seguinte (2027) está marcado para 01/03/2027[cite: 5].
+- O total de dias letivos no ano de 2026 é de 206 dias[cite: 5].
+- O 1º Semestre possui 131 dias letivos[cite: 5].
+- O 2º Semestre possui 75 dias letivos dentro do ano civil de 2026[cite: 5].
+- A distribuição dos dias da semana letivos ao longo do ano é: 37 segundas, 42 terças, 39 quartas, 38 quintas, 34 sextas e 16 sábados[cite: 5].
+
+--- 2. DIVISÃO DAS UNIDADES LETIVAS E CONSELHOS DE CLASSE ---
+- Unidade I: Começa em 09/03/2026 e termina em 17/06/2026[cite: 5]. O prazo final para entrega de resultados e ajustes no diário é 06/07/2026[cite: 5]. O Conselho de Classe Diagnóstico e Prognóstico da 1ª Unidade ocorre de 07/07/2026 a 09/07/2026[cite: 5].
+- Unidade II: Começa em 06/07/2026 e termina em 20/10/2026[cite: 5]. O prazo final para entrega de resultados e ajustes no diário é 20/10/2026[cite: 5]. O Conselho de Classe Diagnóstico e Prognóstico da 2ª Unidade ocorre de 03/11/2026 a 05/11/2026[cite: 5].
+- Unidade III: Começa em 21/10/2026 e termina em 12/02/2027[cite: 5]. O prazo final para entrega de resultados e ajustes no diário é 12/02/2027[cite: 5]. O Conselho de Classe Final ocorre de 15/02/2027 a 17/02/2027[cite: 5].
+- Recursos: O prazo para interposição de recurso à decisão final do Conselho de Classe é 18 e 19/02/2027[cite: 5]. O prazo para resposta aos recursos é 22/02/2027[cite: 5].
+
+--- 3. MATRÍCULAS, TRANCAMENTOS E TRANSFERÊNCIAS ---
+- A matrícula institucional dos candidatos aprovados em Processo Seletivo ocorre de 19/01/2026 a 23/01/2026[cite: 5].
+- A renovação de matrícula online para estudantes remanescentes ocorre de 03/03/2026 a 06/03/2026[cite: 5].
+- Solicitações de Mudança de Turno podem ser feitas de 09/03/2026 a 09/05/2026[cite: 5].
+- O período limite para Trancamento de Matrícula (que não pode ultrapassar 25% das aulas do semestre) encerra em 04/05/2026[cite: 5].
+- Solicitações para Transferência (Interna e Externa) e Portador de Diploma ocorrem de 25/02/2026 a 28/02/2026[cite: 5]. A matrícula destes aprovados ocorre em 05 e 06/03/2026[cite: 5].
+- O período para solicitação de Reintegração ao Curso encerra em 13/04/2026[cite: 5].
+- A atualização da caracterização socioeconômica discente no SUAP deve ser feita até 08/05/2026[cite: 5].
+
+--- 4. EVENTOS ACADÊMICOS E REUNIÕES COM PAIS ---
+- O Acolhimento e integração do estudante ao campus ocorre em 09 e 10/03/2026[cite: 5].
+- A 1ª Reunião de Pais e Mestres ocorre em 13/03/2026[cite: 5].
+- A 2ª Reunião de Pais e Mestres ocorre em 17/07/2026[cite: 5].
+- A 3ª Reunião de Pais e Mestres ocorre em 13/11/2026[cite: 5].
+- As eleições para Representante de Turma acontecem em 17/03/2026[cite: 5].
+- A cerimônia de formatura referente aos concluintes de 2025 ocorre em 27 e 28/03/2026[cite: 5]. A data limite para coordenações enviarem a relação de estudantes aptos a colar grau é 21/03/2026[cite: 5].
+- O Abril Indígena é celebrado em 14 e 15/04/2026[cite: 5].
+- Os Jogos Interclasse acontecem de 25 a 27/05/2026[cite: 5].
+- A Festa Junina do campus ocorre em 16/06/2026[cite: 5].
+- O Julho das Pretas é marcado para 25/07/2026[cite: 5].
+- A Semana Nacional de Ciência e Tecnologia (SNCT) acontece em 28 e 29/10/2026[cite: 5].
+- O Seminário de Educação Inclusiva do IFBA (SEIIF) ocorre em 01 e 02/10/2026[cite: 5].
+- A Semana da Consciência Negra é celebrada em 18 e 19/11/2026[cite: 5].
+- A III Mostra de TCC ocorre em 16 e 17/12/2026[cite: 5].
+
+--- 5. ROTINAS DOCENTES E ADMINISTRATIVAS ---
+- Férias docentes (1ª parcela) ocorrem de 02 a 21/01/2026[cite: 5].
+- Férias docentes (2ª parcela) ocorrem de 18/06/2026 a 07/07/2026[cite: 5].
+- Férias docentes (3ª parcela) ocorrem de 16/09/2026 a 21/09/2026[cite: 5].
+- A Jornada Pedagógica acontece de 03 a 06/03/2026[cite: 5].
+- Reuniões Pedagógicas estão agendadas para: 09/04/2026, 06/05/2026, 04/08/2026, 01/09/2026 e 02/12/2026[cite: 5].
+- Os prazos de entrega do RIT são: 07/04/2026 (para 2025.1 e 2025.2) e 03/11/2026 (para 2026.1)[cite: 5].
+- Os prazos de entrega do PIT são: 22/04/2026 (para 2026.1) e 23/11/2026 (para 2026.2)[cite: 5].
+- O prazo para entrega de projeto de PPA é 07/04/2026[cite: 5]. A apresentação final do PPA é 15/12/2026[cite: 5].
+- A publicação dos Editais de Assistência Estudantil (PAAE, Universais e Complementares) do primeiro trimestre ocorre em 04/05/2026[cite: 5].
+- O prazo para apresentação da proposta do calendário acadêmico 2027 é 30/09/2026[cite: 5].
+- A distribuição dos componentes curriculares para o próximo período letivo entre os docentes ocorre em 17/07/2026[cite: 5].
+- A elaboração dos horários de aulas do próximo semestre ocorre em 03/11/2026, com aprovação e publicação em 08/12/2026[cite: 5]. O prazo para entrega dos planos de ensino correspondentes é 15/12/2026[cite: 5].
+
+--- 6. FERIADOS NACIONAIS, ESTADUAIS E MUNICIPAIS (DIAS NÃO LETIVOS) ---
+- 01/01/2026: Confraternização Universal[cite: 5].
+- 20/01/2026: São Sebastião[cite: 5].
+- 17/02/2026: Carnaval[cite: 5].
+- 18/02/2026: Quarta-feira de Cinzas[cite: 5].
+- 03/04/2026: Paixão de Cristo[cite: 5].
+- 21/04/2026: Tiradentes[cite: 5].
+- 01/05/2026: Dia do Trabalho[cite: 5].
+- 04/06/2026: Corpus Christi[cite: 5].
+- 11/06/2026: Aniversário de Brumado[cite: 5].
+- 24/06/2026: São João[cite: 5].
+- 02/07/2026: Independência da Bahia[cite: 5].
+- 06/08/2026: Bom Jesus[cite: 5].
+- 07/09/2026: Independência do Brasil[cite: 5].
+- 12/10/2026: Nossa Senhora Aparecida[cite: 5].
+- 30/10/2026: Dia do Servidor Público[cite: 5].
+- 02/11/2026: Finados[cite: 5].
+- 15/11/2026: Proclamação da República[cite: 5].
+- 20/11/2026: Dia Nacional da Consciência Negra[cite: 5].
+- 25/12/2026: Natal[cite: 5].
+- 09/02/2027: Carnaval de 2027[cite: 5].
+
+```
