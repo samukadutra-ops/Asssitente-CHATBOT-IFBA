@@ -1,6 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 import glob
+import time
 
 # Configuração visual
 st.set_page_config(page_title="Assistente IFBA", page_icon="🎓")
@@ -13,14 +14,15 @@ st.warning("""
 Apesar de consultar a base de conhecimento (PPCs, normas e regulamentos), possuo limitações e posso cometer erros de interpretação. 
 **As minhas respostas não substituem a leitura dos documentos oficiais nem as orientações dos servidores e setores do IFBA-Campus Brumado.**
 """)
+
 # Conectar a chave
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google
+# Função para enviar os PDFs e Textos (.txt) para a nuvem da Google (AGORA USANDO DICIONÁRIO)
 @st.cache_resource(show_spinner="A memorizar todos os documentos oficiais do IFBA. Isto demora um pouco na primeira vez...")
 def preparar_documentos():
     arquivos_locais = glob.glob("*.pdf") + glob.glob("*.txt")
-    arquivos_prontos = []
+    arquivos_prontos = {} # <-- Dicionário para buscar pelo nome
     
     # Verifica o que já foi enviado para a nuvem para não duplicar
     arquivos_na_nuvem = {f.display_name: f for f in genai.list_files()}
@@ -38,20 +40,19 @@ def preparar_documentos():
             
         # SÓ ADICIONA O DOCUMENTO SE A LEITURA FOI UM SUCESSO
         if arquivo.state.name == "ACTIVE":
-            arquivos_prontos.append(arquivo)
+            arquivos_prontos[caminho] = arquivo
         else:
-            # Se o PDF estiver corrompido, ele avisa na tela e ignora
             st.error(f"Atenção: O ficheiro '{caminho}' está corrompido ou tem um formato ilegível e foi ignorado.")
             
     return arquivos_prontos
 
 # Iniciar o processamento dos ficheiros
-documentos_base = preparar_documentos()
+documentos_disponiveis = preparar_documentos()
 
-# Configurar o modelo 
+# Configurar o modelo correto (Conforme solicitado)
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
-# Memória do chat
+# Histórico do chat
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -59,17 +60,6 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# ==============================================================================
-# MEMÓRIA DE CURTO PRAZO PARA PERGUNTAS INCOMPLETAS
-# ==============================================================================
-if "esperando_curso" not in st.session_state:
-    st.session_state.esperando_curso = False
-if "pergunta_pendente" not in st.session_state:
-    st.session_state.pergunta_pendente = ""
-
-# ==============================================================================
-# INTERAÇÃO DO CHAT E ROTEAMENTO INTELIGENTE
-# ==============================================================================
 # ==============================================================================
 # 🧠 MEMÓRIA DE CURTO PRAZO (Evita gastar tokens com perguntas incompletas)
 # ==============================================================================
@@ -79,9 +69,9 @@ if "pergunta_pendente" not in st.session_state:
     st.session_state.pergunta_pendente = ""
 
 # ==============================================================================
-# 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO INTELIGENTE (O "Poupador de Tokens")
+# 🤖 INTERAÇÃO DO CHAT E ROTEAMENTO INFALÍVEL
 # ==============================================================================
-if prompt := st.chat_input("Ex: Quando começam as aulas? ou Como funciona o estágio de Informática?"):
+if prompt := st.chat_input("Ex: Como funciona a recuperação? Quebrei uma cadeira, o que acontece?"):
     
     # Exibe a pergunta do aluno na tela
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -101,41 +91,43 @@ if prompt := st.chat_input("Ex: Quando começam as aulas? ou Como funciona o est
     precisa_perguntar_curso = False
 
     # ==========================================================================
-    # 🎯 REGRAS DE TRIAGEM COM TAGS MAXIMIZADAS
+    # 🎯 REGRAS DE TRIAGEM COM RADICAIS (Bypass para qualquer conjugação)
     # ==========================================================================
     
-    # REGRA 1: Calendário e Datas
-    tags_calendario = ["data", "feriado", "unidade", "calendário", "calendario", "recesso", "aula", "início", "término", "prazo", "férias", "ferias", "sábado letivo", "sabado letivo", "dia letivo", "conselho de classe", "reunião de pais", "formatura", "snct", "jogos interclasse", "quando"]
-    if any(tag in p_lower for tag in tags_calendario):
-        arquivos_alvo.append("Calendário Acadêmico técnico integrado ensino médio informática edificações.txt")
-
-    # REGRA 2: Normas do Ensino Superior
-    tags_superior = ["superior", "graduação", "graduacao", "faculdade", "bacharelado", "licenciatura", "enade", "jubilamento", "tcc superior"]
-    if any(tag in p_lower for tag in tags_superior):
-        arquivos_alvo.append("Normas Academicas do Ensino Superior do IFBA - RESOLUCAO_N._23_DE_2019_.txt")
-        arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
-
-    # REGRA 3: Normas Gerais, Discentes e Matrícula (Ensino Médio/Técnico Padrão)
-    tags_normas = ["matrícula", "matricula", "falta", "trancamento", "norma", "regulamento", "atestado", "justificativa", "transferência", "transferencia", "dependência", "dependencia", "direitos", "deveres", "punição", "advertência", "avaliação", "nota", "média", "media", "frequência", "frequencia", "reintegração", "rendimento"]
-    if any(tag in p_lower for tag in tags_normas):
-        arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
-        # Se não for especificamente superior, puxa as normas do médio por padrão
-        if "superior" not in p_lower and "graduação" not in p_lower:
-            arquivos_alvo.append("Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt")
-
-    # REGRA 4: Recuperação e Parecer CNE
-    tags_recuperacao = ["recuperação", "recuperacao", "prova final", "exame final", "parecer", "cne"]
+    # REGRA 1: Recuperação, Avaliação e Pareceres do MEC
+    tags_recuperacao = ["recuper", "reavali", "nota", "ldb", "parecer", "cne", "ceb", "800 horas", "200 dias", "supletiv", "reprov", "baixo rendimento", "prova"]
     if any(tag in p_lower for tag in tags_recuperacao):
         arquivos_alvo.append("Nota sobre estudos de recuperação.txt")
         arquivos_alvo.append("Parecer CNE nº 12-1997.txt")
+        arquivos_alvo.append("Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt")
+
+    # REGRA 2: Calendário e Datas
+    tags_calendario = ["data", "feriad", "unidad", "calend", "recess", "aula", "iníci", "inici", "términ", "termin", "prazo", "féri", "feri", "sábad", "sabad", "reunião", "reuniao", "formatura"]
+    if any(tag in p_lower for tag in tags_calendario):
+        arquivos_alvo.append("Calendário Acadêmico técnico integrado ensino médio informática edificações.txt")
+
+    # REGRA 3: Regulamento Discente (Comportamento, Convivência e Punições)
+    tags_comportamento = ["advert", "agred", "agress", "bebid", "bebeu", "alcool", "álcool", "arma", "faca", "assed", "asséd", "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", "direit", "disciplin", "droga", "maconha", "fum", "cigarro", "fard", "uniform", "fraud", "colar", "colou", "plagi", "infrac", "infraç", "puni", "quebr", "estrag", "responsabilidad", "suspens", "tca", "trote", "vandalism", "brig", "xing", "ofend", "ofens", "roub", "furt", "namor", "beij", "sexo"]
+    if any(tag in p_lower for tag in tags_comportamento):
+        arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
+
+    # REGRA 4: Normas Acadêmicas do Ensino Superior
+    tags_superior = ["superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", "cap", "exame final", "revalid", "pré-req", "pre-req", "choque", "ouvinte", "especial"]
+    if any(tag in p_lower for tag in tags_superior):
+        arquivos_alvo.append("Normas Academicas do Ensino Superior do IFBA - RESOLUCAO_N._23_DE_2019_.txt")
         if "REGULAMENTO DISCENTE.txt" not in arquivos_alvo:
             arquivos_alvo.append("REGULAMENTO DISCENTE.txt")
 
-    # REGRA 5: Estágio, Matrizes Curriculares e PPCs (Exige saber o curso!)
-    tags_ppc = ["estágio", "estagio", "matriz", "carga horária", "carga horaria", "disciplina", "ppc", "curso", "ementa", "pré-requisito", "pre-requisito", "horas complementares", "atividades complementares", "perfil do egresso", "laboratório"]
+    # REGRA 5: Normas Acadêmicas Gerais (Médio/Técnico)
+    tags_normas = ["falt", "tranc", "destranc", "norma", "regulament", "atestad", "justific", "transfer", "dependênc", "dependenc", "avaliac", "avaliaç", "média", "media", "reintegr", "rendimento", "domiciliar", "eja", "fic", "integrad", "subsequent", "concomitant", "chamada", "renova", "turno", "matutin", "vespertin", "noturn"]
+    if any(tag in p_lower for tag in tags_normas):
+        # Evita mandar a do médio se a dúvida for estritamente do superior
+        if not any(ts in p_lower for ts in ["superior", "graduaç", "graduac", "bacharel"]):
+            arquivos_alvo.append("Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt")
+
+    # REGRA 6: Projetos Pedagógicos de Curso (PPCs) - Foco Estrutural e Matriz
+    tags_ppc = ["estág", "estag", "tcc", "monografia", "carga hor", "matriz", "currícul", "curricul", "acex", "extens", "complementar", "acc", "barema", "ppa", "integraliza", "egress", "diplom", "certific", "colegiado", "nde", "núcleo", "nucleo", "disciplin"]
     if any(tag in p_lower for tag in tags_ppc):
-        
-        # Tenta identificar qual é o curso na pergunta
         curso_identificado = False
         
         if "informática" in p_lower or "informatica" in p_lower:
@@ -146,41 +138,45 @@ if prompt := st.chat_input("Ex: Quando começam as aulas? ou Como funciona o est
             arquivos_alvo.append("PPC Edificações - forma INTEGRADA.pdf")
             curso_identificado = True
             
-        if "minas" in p_lower or "mineração" in p_lower or "mineracao" in p_lower:
+        if "minas" in p_lower or "mineração" in p_lower or "mineracao" in p_lower or "engenharia" in p_lower:
             arquivos_alvo.append("PPC_Engenharia_de_Minas__2023_.pdf")
             curso_identificado = True
             
-        # Se ele perguntou sobre algo da matriz/estágio, mas NÃO disse o curso:
+        # Trava: se falou de PPC mas não disse o curso, pergunta na tela
         if not curso_identificado:
             precisa_perguntar_curso = True
-            # Limpa os arquivos alvo para não enviar nada para a IA ainda
             arquivos_alvo = []
+
+    # ==========================================================================
+    # 🛡️ SALVAGUARDA ABSOLUTA (Prioridade em caso de dúvida genérica)
+    # ==========================================================================
+    # Se nenhuma tag disparou, ele NÃO VAI NEGAR RESPOSTA.
+    # Ele carrega os 4 documentos normativos base e faz a leitura.
+    if len(arquivos_alvo) == 0 and not precisa_perguntar_curso:
+        arquivos_alvo = [
+            "Normas_Academicas_atualizada_Resolucao_154__de_12_de_dezembro_de_2024.txt",
+            "REGULAMENTO DISCENTE.txt",
+            "Nota sobre estudos de recuperação.txt",
+            "Parecer CNE nº 12-1997.txt"
+        ]
+
+    # Remove arquivos duplicados
+    arquivos_alvo = list(set(arquivos_alvo))
 
     # ==========================================================================
     # 🚀 EXECUÇÃO: ENVIO PARA A INTELIGÊNCIA ARTIFICIAL
     # ==========================================================================
     with st.chat_message("assistant"):
         
-        # CASO 1: O aluno perguntou sobre disciplinas, mas esqueceu de dizer o curso.
         if precisa_perguntar_curso:
             st.session_state.esperando_curso = True
             st.session_state.pergunta_pendente = pergunta_completa
-            resposta_curso = "Para que eu possa consultar as normas de estágio, disciplinas ou carga horária corretas, preciso saber: **Qual é o seu curso e o nível?** (Ex: Informática Integrado, Edificações Integrado, Engenharia de Minas...)"
+            resposta_curso = "Para consultar a matriz, carga horária ou diretrizes corretas, preciso saber: **Qual é o seu curso e nível?** (Ex: Informática Integrado, Edificações Integrado, Engenharia de Minas...)"
             st.markdown(resposta_curso)
             st.session_state.messages.append({"role": "assistant", "content": resposta_curso})
             
-        # CASO 2: A pergunta não bateu com nenhuma tag. Aciona o aviso institucional.
-        elif len(arquivos_alvo) == 0:
-            resposta_padrao = "No momento, não identifiquei essa informação na minha base de regulamentos oficiais (Calendários, PPCs e Normas Acadêmicas). Para orientações específicas, por favor, contate a **Secretaria de Registros Acadêmicos**, a **Coordenação do seu Curso** ou a **Coordenação Pedagógica** do Campus Brumado."
-            st.markdown(resposta_padrao)
-            st.session_state.messages.append({"role": "assistant", "content": resposta_padrao})
-
-        # CASO 3: Tudo perfeito! Pega APENAS os arquivos selecionados e faz a leitura.
         else:
-            # Remove arquivos duplicados da lista, caso alguma regra tenha sobreposto
-            arquivos_alvo = list(set(arquivos_alvo))
-            
-            with st.spinner("Consultando os regulamentos institucionais pertinentes..."):
+            with st.spinner("A consultar os regulamentos institucionais pertinentes..."):
                 try:
                     conteudo_para_gemini = []
                     
@@ -189,11 +185,15 @@ if prompt := st.chat_input("Ex: Quando começam as aulas? ou Como funciona o est
                         if doc_obj:
                             conteudo_para_gemini.append(doc_obj)
                         else:
-                            st.warning(f"O documento '{nome_arquivo}' não foi encontrado na nuvem. Verifique o GitHub.")
+                            st.warning(f"O documento '{nome_arquivo}' não foi encontrado no servidor. Verifique os nomes no GitHub.")
                     
-                    # Se encontrou os arquivos, junta com o prompt e envia!
                     if conteudo_para_gemini:
-                        prompt_sistema = f"Você é o assistente virtual do IFBA Campus Brumado. Responda à dúvida do aluno de forma clara, educada e direta, baseando-se ESTRITAMENTE nos documentos em anexo.\n\nDúvida do aluno: {pergunta_completa}"
+                        # PROMPT INQUEBRÁVEL: Proíbe o assistente de se negar a responder
+                        prompt_sistema = f"""Você é o assistente virtual oficial do IFBA Campus Brumado. Sua missão é responder à dúvida do aluno de forma clara, educada e embasada nos documentos anexados. 
+JAMAIS se negue a responder se o assunto constar nos textos. Se a resposta exigir interpretação de múltiplas regras (ex: recuperação, avaliação), cruze as informações dos documentos (como o Parecer do MEC e as Normas Acadêmicas) e ofereça a melhor orientação institucional possível, citando os setores responsáveis quando necessário.
+
+Dúvida do aluno: {pergunta_completa}"""
+                        
                         conteudo_para_gemini.append(prompt_sistema)
                         
                         resposta = model.generate_content(conteudo_para_gemini)
@@ -202,6 +202,6 @@ if prompt := st.chat_input("Ex: Quando começam as aulas? ou Como funciona o est
                         
                 except Exception as e:
                     if "ResourceExhausted" in str(e):
-                        st.warning("O sistema está recebendo muitas requisições simultâneas. Por favor, aguarde cerca de 1 minuto e faça sua pergunta novamente.")
+                        st.warning("O sistema atingiu o limite gratuito de acessos por minuto. Por favor, aguarde 60 segundos e pergunte novamente.")
                     else:
-                        st.error("Ocorreu uma instabilidade na conexão com a base de dados. Tente novamente.")
+                        st.error(f"Ocorreu uma falha técnica durante a consulta: {e}")
