@@ -3,7 +3,7 @@ import google.generativeai as genai
 import glob
 import os
 
-# Configuração visual
+# Configuração visual e descrição focada em normas acadêmicas e disciplinares
 st.set_page_config(page_title="Assistente de Normas - IFBA", page_icon="🎓")
 st.title("Assistente Virtual de Normas Acadêmicas e Disciplinares - IFBA 🎓")
 
@@ -37,8 +37,8 @@ def carregar_bases_locais():
 
 documentos_texto = carregar_bases_locais()
 
-# Configuração do modelo estável com cota muito superior
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Configuração do modelo compatível com o SDK oficial
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Histórico do chat
 if "messages" not in st.session_state:
@@ -86,7 +86,6 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se
     # 3. Ensino Superior
     tags_superior = ["superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", "cap", "exame final", "revalid", "ouvinte"]
     if any(tag in p_lower for tag in tags_superior):
-        # Procura pelo arquivo de normas superiores no dicionário
         for nome_arq, conteudo in documentos_texto.items():
             if "superior" in nome_arq.lower():
                 textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
@@ -111,15 +110,16 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se
         for nome_arq, conteudo in documentos_texto.items():
             textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
+    # Se a pergunta estiver muito vaga ou incompleta, o prompt orienta o modelo a pedir detalhes
     # ==========================================================================
-    # 🚀 EXECUÇÃO DA CONSULTA COM GEMINI 1.5 FLASH
+    # 🚀 EXECUÇÃO DA CONSULTA COM O GEMINI
     # ==========================================================================
     with st.chat_message("assistant"):
         with st.spinner("A analisar os regulamentos..."):
             try:
                 prompt_sistema = f"""Você é o assistente virtual oficial de normas acadêmicas e disciplinares do IFBA Campus Brumado. 
 Responda à dúvida do utilizador com base estrita nos regulamentos fornecidos abaixo. 
-JAMAIS se negue a responder se o assunto constar nos textos. Se a pergunta for genérica ou incompleta, responda com base nos regulamentos e oriente o utilizador a fornecer mais detalhes.
+JAMAIS se negue a responder se o assunto constar nos textos. Se a pergunta do utilizador for muito vaga, incompleta ou genérica (por exemplo, apenas uma palavra sem contexto), responda com base nos regulamentos e oriente o utilizador a fornecer mais detalhes (como o curso ou a situação específica).
 
 REGULAMENTOS DE REFERÊNCIA:
 {textos_selecionados}
