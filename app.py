@@ -37,8 +37,8 @@ def carregar_bases_locais():
 
 documentos_texto = carregar_bases_locais()
 
-# Configuração do modelo compatível com o SDK oficial
-model = genai.GenerativeModel('gemini-2.5-flash')
+# Configuração do modelo Gemini 3 Flash Preview do Google AI Studio
+model = genai.GenerativeModel('gemini-3-flash-preview')
 
 # Histórico do chat
 if "messages" not in st.session_state:
@@ -64,13 +64,13 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se
     # 🎯 SELEÇÃO INTELIGENTE DE TEXTO BASEADA NOS FICHEIROS .TXT LOCAIS
     # ==========================================================================
     
-    # 1. Recuperação e Avaliação
+    # 1. Recuperação e Avaliação -> Direciona para a Nota de Recuperação
     tags_recuperacao = ["recuper", "reavali", "baixo rendimento", "estudos paralelos", "paralela", "contínua", "continua", "frequência", "frequencia"]
     if any(tag in p_lower for tag in tags_recuperacao):
         if "Nota sobre estudos de recuperação.txt" in documentos_texto:
             textos_selecionados += "\n\n--- NOTA SOBRE ESTUDOS DE RECUPERAÇÃO ---\n" + documentos_texto["Nota sobre estudos de recuperação.txt"]
 
-    # 2. Comportamento e Disciplina
+    # 2. Comportamento e Disciplina -> Direciona para o Regulamento Discente
     tags_discente = [
         "advert", "agred", "agress", "bebid", "alcool", "álcool", "arma", "assed", "asséd", 
         "bully", "comportament", "condut", "dano", "depred", "desacat", "desrespeit", "dever", 
@@ -83,14 +83,14 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se
         if "REGULAMENTO DISCENTE.txt" in documentos_texto:
             textos_selecionados += "\n\n--- REGULAMENTO DISCENTE ---\n" + documentos_texto["REGULAMENTO DISCENTE.txt"]
 
-    # 3. Ensino Superior
+    # 3. Ensino Superior -> Direciona para as Normas do Superior
     tags_superior = ["superior", "graduaç", "graduac", "bacharel", "licenciatura", "tecnólog", "tecnolog", "enade", "jubil", "crédit", "credit", "coeficiente", "cre", "cap", "exame final", "revalid", "ouvinte"]
     if any(tag in p_lower for tag in tags_superior):
         for nome_arq, conteudo in documentos_texto.items():
             if "superior" in nome_arq.lower():
                 textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
-    # 4. Ensino Médio / Técnico
+    # 4. Ensino Médio / Técnico -> Direciona para as Normas Acadêmicas do Médio
     tags_medio = [
         "matrícul", "matricul", "falt", "tranc", "destranc", "atestad", "justific", "transfer", 
         "dependênc", "dependenc", "avaliac", "avaliaç", "média", "media", "reintegr", "rendimento", 
@@ -110,9 +110,8 @@ if prompt := st.chat_input("Ex: Como funciona a recuperação? O que acontece se
         for nome_arq, conteudo in documentos_texto.items():
             textos_selecionados += f"\n\n--- {nome_arq} ---\n" + conteudo
 
-    # Se a pergunta estiver muito vaga ou incompleta, o prompt orienta o modelo a pedir detalhes
     # ==========================================================================
-    # 🚀 EXECUÇÃO DA CONSULTA COM O GEMINI
+    # 🚀 EXECUÇÃO DA CONSULTA COM O GEMINI 3 FLASH PREVIEW
     # ==========================================================================
     with st.chat_message("assistant"):
         with st.spinner("A analisar os regulamentos..."):
@@ -132,6 +131,6 @@ Dúvida do utilizador: {prompt}"""
                 
             except Exception as e:
                 if "ResourceExhausted" in str(e):
-                    st.warning("O sistema atingiu o limite de consultas por minuto. Aguarde um instante e tente novamente.")
+                    st.warning("O sistema atingiu o limite de consultas por minuto da API. Aguarde um instante e tente novamente.")
                 else:
                     st.error(f"Ocorreu um erro técnico: {e}")
